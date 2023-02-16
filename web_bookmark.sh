@@ -1,6 +1,7 @@
 #!/bin/zsh
 
 
+
 # Google Search ################################################################
 
 
@@ -60,6 +61,42 @@ function icl() {
 
 url="https://www.icloud.com"
 
+echo $url
+
+exec google-chrome --new-window "$url" & disown 
+
+exit
+
+}
+
+
+function gith() {
+
+url=https://github.com/rsl07?tab=repositories
+echo $url
+
+exec google-chrome --new-window "$url" & disown 
+
+exit
+
+}
+
+
+function gitl() {
+
+url=https://gitlab.pam-retd.fr/
+echo $url
+
+exec google-chrome --new-window "$url" & disown 
+
+exit
+
+}
+
+
+function mail() {
+
+url=https://outlook.office.com/mail/inbox/
 echo $url
 
 exec google-chrome --new-window "$url" & disown 

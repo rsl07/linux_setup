@@ -23,7 +23,7 @@ git push github_rsl07
 # Subl User Config Save
 
 echo
-echo going for ST config :
+echo Sublime Text config save :
 
 cd $ST_USER
 git add *
