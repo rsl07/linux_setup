@@ -24,15 +24,29 @@ then
 
 else 
 
+	search=$(xrandr | grep "HDMI-1 connected")
+
+	echo $search
+
 	# Check if screen connected 
-	if xrandr | grep -q "HDMI-1 connected"
+	if [[ "$search" != "" ]]
     then
 
-    	#set up dual screen home 
-		terminator --geometry=960x200+2400+360 -T "rsl launcher" -p "launcher"
-	
+    	if echo $search | grep -q "primary"
+    	then
+
+    		# monocreen on hdmi
+    		terminator --geometry=960x200+480+360 -T "rsl launcher" -p "launcher"
+
+
+    	else
+
+	    	#set up dual screen home 
+			terminator --geometry=960x200+2400+360 -T "rsl launcher" -p "launcher"
+		
+		fi
 	else
-		# monoscreen
+		# monoscreen on main
 		terminator --geometry=960x200+480+360 -T "rsl launcher" -p "launcher"
 
 	fi
