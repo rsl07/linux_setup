@@ -27,7 +27,7 @@ url="https://www.google.com/search?client=firefox-b-e&q="$search
 
 echo $url
 
-google-chrome --new-window "$url" & disown 
+firefox --new-window "$url" & disown 
 
 # wait for window to open
 sleep 0.5
@@ -63,7 +63,7 @@ url="https://www.icloud.com"
 
 echo $url
 
-exec google-chrome --new-window "$url" & disown 
+exec firefox --new-window "$url" & disown 
 
 exit
 
@@ -75,7 +75,7 @@ function gith() {
 url=https://github.com/rsl07?tab=repositories
 echo $url
 
-exec google-chrome --new-window "$url" & disown 
+exec firefox --new-window "$url" & disown 
 
 exit
 
@@ -87,7 +87,7 @@ function gitl() {
 url=https://gitlab.pam-retd.fr/
 echo $url
 
-exec google-chrome --new-window "$url" & disown 
+exec firefox --new-window "$url" & disown 
 
 exit
 
@@ -99,7 +99,7 @@ function mail() {
 url=https://outlook.office.com/mail/inbox/
 echo $url
 
-exec google-chrome --new-window "$url" & disown 
+exec firefox --new-window "$url" & disown 
 
 exit
 
@@ -111,7 +111,19 @@ function veol() {
 url=https://www.myelectricnetwork.fr/group/guest/
 echo $url
 
-exec google-chrome --new-window "$url" & disown 
+exec firefox --new-window "$url" & disown 
+
+exit
+
+}
+
+function pgi() {
+
+url="https://pgi-ssl.edf.fr/gta/OpenhrCore/logon.jsp?Domaine=null"
+
+echo $url
+
+exec firefox --new-window "$url" & disown 
 
 exit
 
