@@ -104,3 +104,15 @@ exec google-chrome --new-window "$url" & disown
 exit
 
 }
+
+
+function veol() {
+
+url=https://www.myelectricnetwork.fr/group/guest/
+echo $url
+
+exec google-chrome --new-window "$url" & disown 
+
+exit
+
+}

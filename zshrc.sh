@@ -9,7 +9,6 @@ source $HOME/config/linux/cdd.sh
 
 ############################# ENVIRONMENT ######################################
 
-conda activate py_lionel
 
 export DATA=$HOME/data
 export CONF=$HOME/conf
@@ -17,15 +16,23 @@ export LINUX=$HOME/config/linux
 
 export MANPATH=/usr/local/man:$MANPATH
 
-export LIONEL=$HOME/code/lionel
-export CHARLES=$HOME/code/charles
-
 export ST_PACK=$HOME/.config/sublime-text-3/Packages
 export ST_USER=$ST_PACK/User
 
 
+# Python Env -------------------------------------------------------------------
+
+conda activate py_lionel
+
+export LIONEL=$HOME/code/lionel
+export CHARLES=$HOME/code/charles
+
 export PYTHON_PATH=$LIONEL:$LIONEL/test:$LIONEL/module:$PYTHON_PATH
 export PYTHON_PATH=$LIONEL/module/func:$CHARLES:$PYTHONPATH
+
+export PYTHONWARNINGS="ignore"
+
+
 
 export PATH=$PATH:/home/rsl/.local/bin:$LIONEL:$CHARLES
 
@@ -45,6 +52,7 @@ alias cnf="cd $HOME/config"
 alias lat="cd $HOME/code/latex"
 alias phd="cd $HOME/code/latex/phd"
 alias lin='cd $HOME/config/linux'
+alias doc='cd ~/Documents'
 
 
 alias spk='cd $ST_PACK'
@@ -71,6 +79,7 @@ alias save_github=". $LINUX/save_github.sh"
 
 
 
+alias subl='subl -n' 
 alias src='subl $HOME/.zshrc'
 
 alias tr1="tree -L 1";alias tr2="tree -L 2";alias tr3="tree -L 3"
@@ -79,6 +88,7 @@ alias lcl='rm *.aux *.dvi *.fdb_latexmk *.fls *.log'
 
 alias p="python -i;"
 
+alias lionel="python /home/rsl/code/lionel/lionel.py"
 
 
 
