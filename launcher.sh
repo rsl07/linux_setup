@@ -30,7 +30,7 @@ else
     then
 
     	#dual screen
-    	terminator --geometry=960x200+2400+1080 -T "rsl launcher" -p "launcher"
+    	terminator --geometry=960x200+2400+360 -T "rsl launcher" -p "launcher"
 
 
 	else
