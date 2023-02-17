@@ -7,7 +7,7 @@ echo linux config save :
 
 cd $HOME/config/linux/
 
-rm zshrc.sh rc0.sh
+rm zshrc.sh zrc0.sh
 
 cp $HOME/.zshrc zshrc.sh
 cp $HOME/.zrc0 zrc0.sh
