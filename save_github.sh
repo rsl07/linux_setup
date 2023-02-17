@@ -10,7 +10,7 @@ cd $HOME/config/linux/
 rm zshrc.sh rc0.sh
 
 cp $HOME/.zshrc zshrc.sh
-cp $HOME/.rc0 rc0.sh
+cp $HOME/.zrc0 zrc0.sh
 
 echo .zshrc and .rc0 from home loaded into linux config file 
 echo 

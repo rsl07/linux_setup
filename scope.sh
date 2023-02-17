@@ -13,5 +13,5 @@ export SCOPE=(
 	/home/d51680/.config/sublime-text-3/Packages/User
 			 )
 
-export EXCLUDE_SCOPE='.bin\|.pyc\|anaconda\|__pycache__\|charles\|.swp\|save'
+export EXCLUDE_SCOPE='.bin\|.pyc\|anaconda\|__pycache__\|charles\|.swp'
 
