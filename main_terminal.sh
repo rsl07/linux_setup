@@ -17,7 +17,7 @@ then
 
 	    echo "main terminal opened"
 	    
-	    wmctrl -a "main terminal"w
+	    wmctrl -a "main terminal"
 	fi
 
 else 

@@ -18,6 +18,7 @@ then
 else
 	
 	cd $dir
+	ls
 
 fi
 

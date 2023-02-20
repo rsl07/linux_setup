@@ -31,7 +31,6 @@ export CONDA_ENV=/home/d51680/logiciel/anaconda/envs
 export PYTHONWARNINGS="ignore"
 
 
-
 export PATH="/sbin":"/home/d51680/code/lionel":$PATH
 
 
@@ -40,21 +39,20 @@ export PATH="/sbin":"/home/d51680/code/lionel":$PATH
 
 # directory navigation ---------------------------------------------------------
 
-alias dsk="cd ~/Desktop"
-alias ddl="cd ~/Downloads"
+alias dsk="cd ~/Bureau"
+alias ddl="cd ~/Téléchargements"
 alias li='cd $LIONEL'
 alias ch='cd $CHARLES'
 alias tl="cd $LIONEL/test"
 
 alias cnf="cd $HOME/config"
-alias lat="cd $HOME/code/latex"
-alias phd="cd $HOME/code/latex/phd"
+alias phd="cd $HOME/code/manuscript"
 alias lin='cd $HOME/config/linux'
 alias doc='cd ~/Documents'
 
 
-alias spk='cd $ST_PACK'
-alias sus='cd $ST_USER'
+alias spk='cd $ST_PACK; ls'
+alias sus='cd $ST_USER; ls'
 
 
 # file manager -----------------------------------------------------------------
@@ -62,7 +60,7 @@ alias sus='cd $ST_USER'
 alias f=". $HOME/config/linux/file.sh"
 alias d=". $HOME/config/linux/directory.sh"
 
-alias of=". $HOME/config/linux/open_file.sh"
+alias of=". $HOME/config/linux/open_fil.sh"
 alias od=". $HOME/config/linux/open_dir.sh"
 
 alias wsp="$HOME/config/linux/workspace.sh"
@@ -75,7 +73,7 @@ alias x=". $HOME/config/linux/execute.sh"
 
 alias save_github=". $LINUX/save_github.sh"
 
-alias subl='subl -n' 
+alias subl='subl' 
 alias src='subl $HOME/.zshrc'
 alias rc="nano $HOME/.bashrc"
 
@@ -83,9 +81,7 @@ alias tr1="tree -L 1";alias tr2="tree -L 2";alias tr3="tree -L 3"
 
 alias lcl='phd; rm *.aux *.dvi *.fdb_latexmk *.fls *.log *.out *.toc *.bbl *.' 						
 
-alias p="python -i;"
-
-alias lionel="python /home/rsl/code/lionel/lionel.py"
+alias lionel="python $HOME/code/lionel/lionel.py"
 
 
 

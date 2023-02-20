@@ -10,7 +10,7 @@ export SCOPE=(
 
 	$HOME/Documents $HOME/Bureau $HOME/Photos     
 
-	/home/d51680/.config/sublime-text-3/Packages/User
+	# /home/d51680/.config/sublime-text-3/Packages/User
 			 )
 
 export EXCLUDE_SCOPE='.bin\|.pyc\|anaconda\|__pycache__\|charles\|.swp'
