@@ -71,7 +71,7 @@ alias x=". $HOME/config/linux/execute.sh"
 
 # command ----------------------------------------------------------------------
 
-alias save_github=". $LINUX/save_github.sh"
+alias ghsave_config=". $LINUX/ghsave_config.sh"
 
 alias subl='subl' 
 alias src='subl $HOME/.zshrc'

@@ -52,11 +52,14 @@ else
 		xdotool windowsize $id_ws 100% 100%
 
 
-		id_unt=$(xdotool search --name "untitled -")
+		if xdotool search --name "untitled -" | grep -q 
+		then 
 
-		xdotool windowclose $id_unt
+			id_unt=$(xdotool search --name "untitled -")
 
+			xdotool windowclose $id_unt
 
+		fi
 
 
 	fi
