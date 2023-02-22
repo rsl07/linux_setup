@@ -73,7 +73,7 @@ alias x=". $HOME/Config/linux/execute.sh"
 
 alias ghsave_config=". $LINUX/ghsave_config.sh"
 
-alias subl='subl' 
+alias subl='subl -n' 
 alias src='subl $HOME/.zshrc'
 alias rc="nano $HOME/.bashrc"
 
