@@ -1,6 +1,6 @@
 #!/bin/zsh 
 
-file=$(. $HOME/config/linux/finder.sh "$@")
+file=$(. $HOME/Config/linux/finder.sh "$@")
 
 
 if echo $file | grep -qv " " 

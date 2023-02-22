@@ -24,16 +24,25 @@ then
 
 else 
 
-	search=$(xrandr | grep "+1920+")
+	N_scr=$(xrandr | grep " connected" | wc -l)
 
-	if [[ "$search" != "" ]]
+	echo $N_scr
+	
+	if [[ $N_scr == 3 ]]
+	then 
+    	terminator --geometry=960x200+2400+1460  -T "rsl launcher" -p "launcher"
+
+
+	elif [[ $N_scr == 2 ]]
     then
 
     	#dual screen
-    	terminator --geometry=960x200+2400+360 -T "rsl launcher" -p "launcher"
+    	terminator --geometry=960x200+2400+360  -T "rsl launcher" -p "launcher"
 
 
-	else
+	elif [[ $N_scr == 1 ]]
+	then
+
 		# monoscreen
 		terminator --geometry=960x200+480+360 -T "rsl launcher" -p "launcher"
 

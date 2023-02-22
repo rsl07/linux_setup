@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-DIR_WS=$HOME/config/subl/
+DIR_WS=$HOME/Config/subl/
 setopt extendedglob
 
 

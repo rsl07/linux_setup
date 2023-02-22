@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source $HOME/config/linux/scope.sh
+source $HOME/Config/linux/scope.sh
 
 
 

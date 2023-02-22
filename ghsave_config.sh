@@ -5,7 +5,7 @@
 
 echo linux config save :
 
-cd $HOME/config/linux/
+cd $HOME/Config/linux/
 
 rm zshrc.sh zrc0.sh
 

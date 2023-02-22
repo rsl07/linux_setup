@@ -1,6 +1,6 @@
 #/bin/bash
 
-file=$(. $HOME/config/linux/file.sh "$@")
+file=$(. $HOME/Config/linux/file.sh "$@")
 
 if [[ "$file" == "" ]]
 then
@@ -16,7 +16,9 @@ else
 
 	else
 
-		xdg-open $file 
+		xdg-open $file && disown
+
+		exit
 
 	fi
 

@@ -3,7 +3,7 @@
 function cdd() {
 
 
-dir=$(. $HOME/config/linux/directory.sh $@)
+dir=$(. $HOME/Config/linux/directory.sh $@)
 
 if [[ "$dir" == "" ]]
 then

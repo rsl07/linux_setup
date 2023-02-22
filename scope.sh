@@ -6,7 +6,7 @@
 #Starting points of find command 
 export SCOPE=(
 
-	$HOME/code $HOME/config $HOME/data $HOME/Téléchargements
+	$HOME/Code $HOME/Config $HOME/Data $HOME/Téléchargements
 
 	$HOME/Documents $HOME/Bureau $HOME/Photos     
 
