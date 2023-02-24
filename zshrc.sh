@@ -67,7 +67,7 @@ alias wsp="$HOME/Config/linux/workspace.sh"
 
 alias x=". $HOME/Config/linux/execute.sh"
 
-
+alias xdg="xdg-open"
 
 # command ----------------------------------------------------------------------
 

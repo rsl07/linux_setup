@@ -11,7 +11,7 @@ then
 
 		echo "terminal opened but focus"
 
-		xdotool windowclose $id_terminal
+		xdotool windowminimize $id_terminal
 
 	else
 
