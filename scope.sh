@@ -1,4 +1,4 @@
-#!/bin/zsh
+	#!/bin/zsh
 
 # setopt extendedglob
 
@@ -8,7 +8,9 @@ export SCOPE=(
 
 	$HOME/Code $HOME/Config $HOME/Data $HOME/Téléchargements
 
-	$HOME/Documents $HOME/Bureau $HOME/Photos     
+	$HOME/Documents $HOME/Bureau $HOME/Photos
+
+	$HOME/Projets $HOME/Litterature
 
 	# /home/d51680/.config/sublime-text-3/Packages/User
 			 )

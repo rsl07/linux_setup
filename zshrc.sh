@@ -41,6 +41,15 @@ export PATH="/sbin":"/home/d51680/Code/lionel":$PATH
 
 alias dsk="cd ~/Bureau"
 alias ddl="cd ~/Téléchargements"
+alias cod="cd ~/Code"
+alias lit="cd ~/Litterature"
+alias pro="cd ~/Projet"
+alias dat="cd ~/Data"
+alias med="cd /media/d51680/"
+alias usb="cd /media/d51680/usb_rsl"
+
+alias bib="cd ~/Litterature/bib_phd"
+
 alias li='cd $LIONEL'
 alias ch='cd $CHARLES'
 alias tl="cd $LIONEL/test"
@@ -53,6 +62,8 @@ alias doc='cd ~/Documents'
 
 alias spk='cd $ST_PACK; ls'
 alias sus='cd $ST_USER; ls'
+
+alias du="du -hsc"
 
 
 # file manager -----------------------------------------------------------------
@@ -71,7 +82,7 @@ alias xdg="xdg-open"
 
 # command ----------------------------------------------------------------------
 
-alias ghsave_config=". $LINUX/ghsave_config.sh"
+alias gh-save_config=". $LINUX/gh-save_config.sh"
 
 alias subl='subl -n' 
 alias src='subl $HOME/.zshrc'
