@@ -30,7 +30,7 @@ then
 
 	mv $LOG $USB/log_save	
 
-	rsync -av --delete Documents Litterature Photos Projets Archive $USB/save_d51680/ >&1 | tee $USB/log_save/save_$time.txt
+	rsync -av --delete Documents Litterature Photos Projets Archive Presentation $USB/save_d51680/ >&1 | tee $USB/log_save/save_$time.txt
 
 	mv $USB/log_save $LOG 
 

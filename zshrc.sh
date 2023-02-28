@@ -47,8 +47,9 @@ alias pro="cd ~/Projet"
 alias dat="cd ~/Data"
 alias med="cd /media/d51680/"
 alias usb="cd /media/d51680/usb_rsl"
+alias red="cd ~/Projets/redaction"
 
-alias bib="cd ~/Litterature/bib_phd"
+alias bib="cd ~/Litterature/biblio"
 
 alias li='cd $LIONEL'
 alias ch='cd $CHARLES'
@@ -83,6 +84,8 @@ alias xdg="xdg-open"
 # command ----------------------------------------------------------------------
 
 alias gh-save_config=". $LINUX/gh-save_config.sh"
+alias usb-save_doc=". $LINUX/usb-save_doc.sh"
+
 
 alias subl='subl -n' 
 alias src='subl $HOME/.zshrc'
@@ -90,7 +93,7 @@ alias rc="nano $HOME/.bashrc"
 
 alias tr1="tree -L 1";alias tr2="tree -L 2";alias tr3="tree -L 3"
 
-alias lcl='phd; rm *.aux *.dvi *.fdb_latexmk *.fls *.log *.out *.toc *.bbl *.' 						
+alias lcl='phd; rm ./*.aux *.fdb_latexmk *.fls *.log *.out *.toc *.bbl *.' 						
 
 alias lionel="python $HOME/Code/lionel/lionel.py"
 

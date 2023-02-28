@@ -55,7 +55,7 @@ exit
 
 
 
-function icl() {
+function icloud() {
 
 url="https://www.icloud.com"
 
@@ -68,7 +68,7 @@ exit
 }
 
 
-function gith() {
+function github() {
 
 url=https://github.com/rsl07?tab=repositories
 echo $url
@@ -80,7 +80,7 @@ exit
 }
 
 
-function gitl() {
+function gitlab() {
 
 url=https://gitlab.pam-retd.fr/
 echo $url
@@ -126,6 +126,19 @@ exec firefox --new-window "$url" & disown
 exit
 
 }
+
+function whatsapp() {
+
+url="https://web.whatsapp.com/"
+
+echo $url
+
+exec firefox --new-window "$url" & disown 
+
+exit
+
+}
+
 
 
 function calendar() {
