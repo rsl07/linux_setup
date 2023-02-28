@@ -49,6 +49,7 @@ alias med="cd /media/d51680/"
 alias usb="cd /media/d51680/usb_rsl"
 alias red="cd ~/Projets/redaction"
 
+
 alias bib="cd ~/Litterature/biblio"
 
 alias li='cd $LIONEL'
@@ -72,7 +73,7 @@ alias du="du -hsc"
 alias f=". $HOME/Config/linux/file.sh"
 alias d=". $HOME/Config/linux/directory.sh"
 
-alias of=". $HOME/Config/linux/open_fil.sh"
+alias of=". $HOME/Config/linux/open_file.sh"
 alias od=". $HOME/Config/linux/open_dir.sh"
 
 alias wsp="$HOME/Config/linux/workspace.sh"
