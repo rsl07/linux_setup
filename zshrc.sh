@@ -15,6 +15,12 @@ export LINUX=$HOME/Config/linux
 export ST_PACK=$HOME/.config/sublime-text-3/Packages
 export ST_USER=$ST_PACK/User
 
+export BIB=$HOME/Litterature/phd/bib
+export REDAC=$HOME/Projets/redaction/
+
+export PHD=$HOME/Code/manuscript
+export FIG=$HOME/Code/manuscript/figures
+export MVP=$HOME/Photos/mvp
 
 # Python Env -------------------------------------------------------------------
 
@@ -48,25 +54,30 @@ alias dat="cd ~/Data"
 alias med="cd /media/d51680/"
 alias usb="cd /media/d51680/usb_rsl"
 alias red="cd ~/Projets/redaction"
-
-
-alias bib="cd ~/Litterature/biblio"
+alias lec="cd ~/Litterature/lecture"
+alias cnf="cd ~/Config"
+alias pix="cd ~/Photos"
 
 alias li='cd $LIONEL'
 alias ch='cd $CHARLES'
 alias tl="cd $LIONEL/test"
 
-alias cnf="cd $HOME/Config"
-alias phd="cd $HOME/Code/manuscript"
-alias lin='cd $HOME/Config/linux'
-alias doc='cd ~/Documents'
+alias phd="cd $PHD; ls"
+alias mvp="cd ~/Photos/mvp; ls"
+alias fig="cd $FIG; ls"
 
 
+alias bib="cd ~/Litterature/phd/bib; ls"
+alias lin='cd $HOME/Config/linux; ls'
+alias doc='cd ~/Documents; ls'
 alias spk='cd $ST_PACK; ls'
 alias sus='cd $ST_USER; ls'
+alias prz='cd Presentation; ls'
 
 alias du="du -hsc"
 
+
+alias manu="xdg-open $PHD/master.pdf"
 
 # file manager -----------------------------------------------------------------
 
@@ -87,14 +98,12 @@ alias xdg="xdg-open"
 alias gh-save_config=". $LINUX/gh-save_config.sh"
 alias usb-save_doc=". $LINUX/usb-save_doc.sh"
 
-
-alias subl='subl -n' 
 alias src='subl $HOME/.zshrc'
 alias rc="nano $HOME/.bashrc"
 
 alias tr1="tree -L 1";alias tr2="tree -L 2";alias tr3="tree -L 3"
 
-alias lcl='phd; rm ./*.aux *.fdb_latexmk *.fls *.log *.out *.toc *.bbl *.' 						
+alias lcl='phd; rm *.gz *.aux *.fdb_latexmk *.fls *.log *.out *.toc *.bbl *.blg *.lof *.lot' 						
 
 alias lionel="python $HOME/Code/lionel/lionel.py"
 

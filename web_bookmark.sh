@@ -140,6 +140,19 @@ exit
 }
 
 
+function ccas() {
+
+url="https://www.ccas.fr/"
+
+echo $url
+
+exec firefox --new-window "$url" & disown 
+
+exit
+
+}
+
+
 
 function calendar() {
 
@@ -147,14 +160,35 @@ url="https://outlook.office.com/calendar/view/month"
 
 echo $url
 
-exec google-chrome --new-window "$url" & disown 
+exec firefox --new-window "$url" & disown 
 
 exit
 
 }
 
+function grammarly() {
 
-# Linguee Search
+url="https://app.grammarly.com/"
+
+echo $url
+
+exec firefox --new-window "$url" & disown 
+
+exit
+
+}
+
+function overleaf() {
+
+url="https://fr.overleaf.com/project"
+
+echo $url
+
+exec firefox --new-window "$url" & disown 
+
+exit
+
+}
 
 
 function linguee() {

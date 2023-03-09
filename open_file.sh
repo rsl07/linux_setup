@@ -2,6 +2,7 @@
 
 file=$(. $HOME/Config/linux/file.sh "$@")
 
+
 if [[ "$file" == "" ]]
 then
 	echo "No file found"
