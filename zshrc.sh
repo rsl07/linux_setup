@@ -103,7 +103,9 @@ alias rc="nano $HOME/.bashrc"
 
 alias tr1="tree -L 1";alias tr2="tree -L 2";alias tr3="tree -L 3"
 
-alias lcl='phd; rm *.gz *.aux *.fdb_latexmk *.fls *.log *.out *.toc *.bbl *.blg *.lof *.lot' 						
+alias clm='cd $PHD;
+	rm *.gz *.aux *.fdb_latexmk *.fls *.log *.out *.toc *.bbl *.blg *.lof *.lot; 
+	rm *.bak; echo ; ls'
 
 alias lionel="python $HOME/Code/lionel/lionel.py"
 
