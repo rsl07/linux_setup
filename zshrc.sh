@@ -49,7 +49,7 @@ alias dsk="cd ~/Bureau"
 alias ddl="cd ~/Téléchargements"
 alias cod="cd ~/Code"
 alias lit="cd ~/Litterature"
-alias pro="cd ~/Projet"
+alias pro="cd ~/Projets"
 alias dat="cd ~/Data"
 alias med="cd /media/d51680/"
 alias usb="cd /media/d51680/usb_rsl"
@@ -108,6 +108,8 @@ alias clm='cd $PHD;
 	rm *.bak; echo ; ls'
 
 alias lionel="python $HOME/Code/lionel/lionel.py"
+
+alias pandoc ='pandoc -f markdown --pdf-engine=xelatex -V "monofont:DejaVu Sans Mono'
 
 
 
