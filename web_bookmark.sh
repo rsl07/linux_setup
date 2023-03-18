@@ -23,11 +23,11 @@ window_name=${window_name:1:$len}
 echo $search
 echo $window_name
 
-url="https://www.google.com/search?client=firefox-b-e&q="$search
+url="https://www.google.com/search?client=google-chrome-b-e&q="$search
 
 echo $url
 
-firefox --new-window "$url" & disown 
+google-chrome --new-window "$url" & disown 
 
 # wait for window to open
 sleep 0.5
@@ -61,7 +61,7 @@ url="https://www.icloud.com"
 
 echo $url
 
-exec firefox --new-window "$url" & disown 
+exec google-chrome --new-window "$url" & disown 
 
 exit
 
@@ -73,7 +73,18 @@ function github() {
 url=https://github.com/rsl07?tab=repositories
 echo $url
 
-exec firefox --new-window "$url" & disown 
+exec google-chrome --new-window "$url" & disown 
+
+exit
+
+}
+
+function prime-video() {
+
+url="https://www.primevideo.com/?_encoding=UTF8&language=fr_FR"
+echo $url
+
+exec google-chrome --new-window $url & disown 
 
 exit
 
@@ -85,7 +96,7 @@ function gitlab() {
 url=https://gitlab.pam-retd.fr/
 echo $url
 
-exec firefox --new-window "$url" & disown 
+exec google-chrome --new-window "$url" & disown 
 
 exit
 
@@ -97,7 +108,7 @@ function mail() {
 url=https://outlook.office.com/mail/inbox/
 echo $url
 
-exec firefox --new-window "$url" & disown 
+exec google-chrome --new-window "$url" & disown 
 
 exit
 
@@ -109,7 +120,7 @@ function veol() {
 url=https://www.myelectricnetwork.fr/group/guest/
 echo $url
 
-exec firefox --new-window "$url" & disown 
+exec google-chrome --new-window "$url" & disown 
 
 exit
 
@@ -121,7 +132,7 @@ url="https://pgi-ssl.edf.fr/gta/OpenhrCore/logon.jsp?Domaine=null"
 
 echo $url
 
-exec firefox --new-window "$url" & disown 
+exec google-chrome --new-window "$url" & disown 
 
 exit
 
@@ -133,7 +144,7 @@ url="https://web.whatsapp.com/"
 
 echo $url
 
-exec firefox --new-window "$url" & disown 
+exec google-chrome --new-window "$url" & disown 
 
 exit
 
@@ -146,7 +157,7 @@ url="https://www.ccas.fr/"
 
 echo $url
 
-exec firefox --new-window "$url" & disown 
+exec google-chrome --new-window "$url" & disown 
 
 exit
 
@@ -160,7 +171,7 @@ url="https://outlook.office.com/calendar/view/month"
 
 echo $url
 
-exec firefox --new-window "$url" & disown 
+exec google-chrome --new-window "$url" & disown 
 
 exit
 
@@ -172,7 +183,7 @@ url="https://app.grammarly.com/"
 
 echo $url
 
-exec firefox --new-window "$url" & disown 
+exec google-chrome --new-window "$url" & disown 
 
 exit
 
@@ -184,7 +195,7 @@ url="https://fr.overleaf.com/project"
 
 echo $url
 
-exec firefox --new-window "$url" & disown 
+exec google-chrome --new-window "$url" & disown 
 
 exit
 
@@ -213,7 +224,7 @@ url="https://www.linguee.fr/francais-anglais/search?source=auto&query="$search
 
 echo $url
 
-firefox --new-window "$url" & disown 
+google-chrome --new-window "$url" & disown 
 
 # wait for window to open
 sleep 0.5

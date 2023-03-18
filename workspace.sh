@@ -49,7 +49,7 @@ else
 		id_ws=$(xdotool search --name "\($name\)")
 
 		xdotool windowactivate $id_ws
-		xdotool windowsize $id_ws 100% 100%
+		xdotool windowsize $id_ws 110% 110%
 
 
 		if xdotool search --name "untitled -" | grep -q 
