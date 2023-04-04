@@ -44,13 +44,13 @@ else
 
 		xdg-open $file
 
-		sleep 0.5
+		sleep 0.2
 
 		id_ws=$(xdotool search --name "\($name\)")
 
-		xdotool windowactivate $id_ws
-		xdotool windowsize $id_ws 110% 110%
+		# xdotool windowactivate $id_ws
 
+		wmctrl -r :ACTIVE: -b toggle,maximized_vert,maximized_horz
 
 		if xdotool search --name "untitled -" | grep -q 
 		then 
