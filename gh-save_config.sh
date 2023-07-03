@@ -17,7 +17,7 @@ echo
 
 git add *
 git commit -m "quick_save"
-git push github_rsl07
+git push gh-rsl
 
 
 # Subl User Config Save
@@ -28,4 +28,4 @@ echo Sublime Text config save :
 cd $ST_USER
 git add *
 git commit -m "quick_save"
-git push github_rsl07
+git push gh-rsl
