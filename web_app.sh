@@ -1,15 +1,17 @@
 #!/bin/bash
 
-if [ wmctrl -l | grep -q " Gmail " ] | [ wmctrl -l | grep -q "Google Photos" ] | [ wmctrl -l | grep -q " Google Keep" ] | [ wmctrl -l | grep -q " Google Agenda" ] 
- then
-# 
+id_chrome=`cat $HOME/.pid_main_chrome`
+
+echo 
+
+if xdotool getwindowname $id_chrome
+then
+	echo "Already Launched"
+
 	id_focus=$(xdotool getwindowfocus)
-	id_chrome=$(xdotool search --name "Google Chrome")
 
 	echo $id_focus
 	echo $id_chrome
-
-	xdotool search --name "Google Chrome"
 	
 	if [ "$id_focus" -eq "$id_chrome" ]
 	then
@@ -20,21 +22,27 @@ if [ wmctrl -l | grep -q " Gmail " ] | [ wmctrl -l | grep -q "Google Photos" ] |
 
 	    echo "chrome opened but not focus"
 	    
+		xdotool windowsize $id_chrome 100% 100%
 		xdotool windowactivate $id_chrome
 
 	fi
 
-else 
+else
 
-	url1="https://mail.google.com/mail/u/0/?tab=um#inbox"
-	url2="https://photos.google.com/"
+	echo "Not Launched"
+
+	url1="chrome-extension://ndbaejgcaecffnhlmdghchfehkflgfkj/index.html"
+	url2="https://mail.google.com/mail/"
 	url3="https://keep.google.com/u/0/"
 	url4="https://calendar.google.com/calendar/u/0/r?tab=rc&pli=1"
-	url5="https://drive.google.com/drive/my-drive"
 
+	google-chrome --new-window $url1 $url2 $url3 $url4 & disown
 
-	exec google-chrome --new-window $url1 $url2 $url3 $url4 $url5 & disown
+	sleep 1
+	export id_chrome=$(xdotool search --name "Full Screen for Google Tasks - Google Chrome")
 
+	echo $id_chrome > $HOME/.pid_main_chrome
+
+	# google-chrome "https://mail.google.com/mail/" & google-chrome "https://keep.google.com/" & google-chrome "https://calendar.google.com/calendar/"
 
 fi
-
