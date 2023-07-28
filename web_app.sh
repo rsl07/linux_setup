@@ -1,11 +1,17 @@
 #!/bin/bash
 
 id_chrome=`cat $HOME/.pid_main_chrome`
+echo $id_chrome
 
-echo 
 
-if xdotool getwindowname $id_chrome
+
+name=$(xdotool getwindowname $id_chrome)
+echo $name
+
+
+if xdotool getwindowname $id_chrome && [ "$name" != "" ];
 then
+
 	echo "Already Launched"
 
 	id_focus=$(xdotool getwindowfocus)
@@ -26,23 +32,26 @@ then
 		xdotool windowactivate $id_chrome
 
 	fi
-
+s
 else
 
-	echo "Not Launched"
 
-	url1="chrome-extension://ndbaejgcaecffnhlmdghchfehkflgfkj/index.html"
-	url2="https://mail.google.com/mail/"
+
+	echo "Not Launched, proceed to launch another app"
+
+	url1="https://mail.google.com/mail/"
 	url3="https://keep.google.com/u/0/"
-	url4="https://calendar.google.com/calendar/u/0/r?tab=rc&pli=1"
+	url2="https://webmail.ens-paris-saclay.fr/imp/dynamic.php?page=mailbox#mbox:SU5CT1g"
 
 	google-chrome --new-window $url1 $url2 $url3 $url4 & disown
 
-	sleep 1
-	export id_chrome=$(xdotool search --name "Full Screen for Google Tasks - Google Chrome")
+	sleep 2
+
+	export id_chrome=$(xdotool getwindowfocus)
+
+	rm $HOME/.pid_main_chrome
 
 	echo $id_chrome > $HOME/.pid_main_chrome
 
-	# google-chrome "https://mail.google.com/mail/" & google-chrome "https://keep.google.com/" & google-chrome "https://calendar.google.com/calendar/"
 
 fi

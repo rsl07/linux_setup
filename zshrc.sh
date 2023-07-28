@@ -12,6 +12,7 @@ export DATA
 export DATA=$HOME/Data
 export CONF=$HOME/Conf
 export LINUX=$HOME/Config/linux
+export PROJ=$HOME/Projets
 
 export ST_PACK=$HOME/.config/sublime-text/Packages
 export ST_USER=$ST_PACK/User
@@ -22,10 +23,10 @@ export REDAC=$HOME/Projets/redaction/
 export PHD=$HOME/Code/manuscript
 export FIG=$HOME/Code/manuscript/figures
 export MVP=$HOME/Photos/mvp
+export DEFENCE=$HOME/Code/defence
 
 export SSD=/media/$USER/ssd-rsl
 
-export WINEPREFIX=/home/rsl/.local/share/wineprefixes/wine32
 
 # Python Env -------------------------------------------------------------------
 
@@ -55,7 +56,7 @@ alias dsk="cd ~/Bureau; ls"
 alias ddl="cd ~/Téléchargements; ls"
 alias cod="cd ~/Code; ls"
 alias lit="cd ~/Litterature; ls"
-alias pro="cd ~/Projet; ls"
+alias pro="cd ~/Projets; ls"
 alias dat="cd ~/Data; ls"
 alias med="cd /media/$USER/; ls"
 alias red="cd ~/Projets/redaction; ls"
@@ -74,6 +75,7 @@ alias cad='cd $CHARLES/calib_ad; ls'
 alias chm='cd $CHARLES/calib_hm; ls'
 alias tl="cd $LIONEL/test; ls"
 alias cal='cd $CHARLES/calib_hm_el_in; ls'
+alias def='cd $DEFENCE; ls'
 
 
 alias phd="cd $PHD; ls"
@@ -111,10 +113,16 @@ alias x=". $HOME/Config/linux/execute.sh"
 
 alias xdg="xdg-open"
 
+
+# applications ----------------------------------------------------------------
+
+alias eyedropper="(flatpak run com.github.finefindus.eyedropper &) && exit"
+
 # command ----------------------------------------------------------------------
 
 alias gh-save_config=". $LINUX/gh-save_config.sh"
 alias usb-save_doc=". $LINUX/usb-save_doc.sh"
+alias ssd-save=". $LINUX/ssd-save.sh"
 
 alias qpm="cd $PHD
 		   git add . ; 

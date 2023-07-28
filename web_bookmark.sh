@@ -2,7 +2,7 @@
 
 
 
-# Google Search ################################################################
+# Google Search ###############################################################
 
 
 function web() {
@@ -165,17 +165,6 @@ exit
 
 
 
-function calendar() {
-
-url="https://outlook.office.com/calendar/view/month"
-
-echo $url
-
-exec google-chrome --new-window "$url" & disown 
-
-exit
-
-}
 
 function grammarly() {
 

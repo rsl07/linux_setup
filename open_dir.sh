@@ -17,7 +17,9 @@ then
 
 else
 	
-	xdg-open $dir
+	nautilus -w $dir
+
+	exit
 
 fi
 

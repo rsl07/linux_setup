@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function cdd() {
+function dd() {
 
 
 dir=$(. $HOME/Config/linux/directory.sh $@)
@@ -16,7 +16,7 @@ then
 	echo $dir
 
 else
-	
+	echo "$dir"
 	cd $dir
 	ls
 

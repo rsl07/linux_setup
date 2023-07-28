@@ -4,7 +4,7 @@ DIR_WS=$HOME/Config/subl/
 setopt extendedglob
 
 
-file=$(find $DIR_WS -name "*$@*")
+file=$(find $DIR_WS -name "*$@*-workspace")
 
 if [[ "$file" == "" ]]
 then
@@ -31,33 +31,45 @@ else
 
 	echo opening sublime workspace : $name
 
-	if wmctrl -l | grep -q \($name\)
+	if wmctrl -l | grep \($name\)
 	then
 
 		id_ws=$(xdotool search --name "\($name\)")
+		id_focus=$(xdotool getwindowfocus)
 
-		xdotool windowactivate $id_ws
-		xdotool windowsize $id_ws 100% 100%
+
+		if [ "$id_focus" -eq "$id_ws" ];
+		then
+
+			echo "$name workspace opened and focus"
+
+			xdotool windowminimize $id_ws
+
+		else
+
+		    echo "$name workspace opened unfocused"
+		    
+		    xdotool windowactivate $id_ws
+
+		fi
 
 
 	else
 
 		xdg-open $file
 
-		sleep 0.2
+		sleep 2
 
-		id_ws=$(xdotool search --name "\($name\)")
+		id_ws=$(xdotool getwindow focus)
 
-		# xdotool windowactivate $id_ws
+		# wmctrl -r :ACTIVE: -b toggle,maximized_vert,maximized_horz
 
-		wmctrl -r :ACTIVE: -b toggle,maximized_vert,maximized_horz
+		# if xdotool search --name "untitled -" | grep -q 
+		# then 
 
-		if xdotool search --name "untitled -" | grep -q 
-		then 
+		# 	id_unt=$(xdotool search --name "untitled -")
 
-			id_unt=$(xdotool search --name "untitled -")
-
-			xdotool windowclose $id_unt
+		# 	xdotool windowclose $id_unt
 
 		fi
 

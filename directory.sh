@@ -15,6 +15,30 @@ pattern=${pattern:1:$len}
 
 # echo "${pattern//+/*}"
 
+# echo "${pattern: -1}"
 
-# Rercherche dans le scope et plus bas qui prends pas ne compte le HOME
-find $SCOPE -type d -name "*${pattern//+/*}*" 2>&1 | grep -v "$EXCLUDE_SCOPE"
+if [ "/" = "${pattern: -1}" ];
+then
+     # echo "pattern finishes with slash"
+     # echo "look for top directory"
+
+     # echo "pattern=$pattern"
+
+     pattern=$(echo $pattern | sed "s/\///")
+
+     # Rercherche dans le scope et plus bas qui prends pas ne compte le HOME
+     find $SCOPE -type d -path "*${pattern//+/*}" 2>&1 | grep -v "$EXCLUDE_SCOPE"
+
+
+else
+     # echo "pattern does not finish with slash"
+     # echo "looking for any directory"
+
+     # echo "pattern=$pattern"
+
+     # Rercherche dans le scope et plus bas qui prends pas ne compte le HOME
+     find $SCOPE -type d -path "*${pattern//+/*}*" 2>&1 | grep -v "$EXCLUDE_SCOPE"
+
+fi
+
+
