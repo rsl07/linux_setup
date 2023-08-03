@@ -41,7 +41,7 @@ else
 
 	url1="https://mail.google.com/mail/"
 	url3="https://keep.google.com/u/0/"
-	url2="https://webmail.ens-paris-saclay.fr/imp/dynamic.php?page=mailbox#mbox:SU5CT1g"
+	url2="https://agenda.ens-paris-saclay.fr/SOGo/so/aroussel/Mail/view#!/Mail/0/INBOX/3726"
 
 	google-chrome --new-window $url1 $url2 $url3 $url4 & disown
 

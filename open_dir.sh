@@ -17,7 +17,7 @@ then
 
 else
 	
-	nautilus -w $dir
+	nautilus -w $dir & disown
 
 	exit
 

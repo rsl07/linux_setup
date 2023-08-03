@@ -13,5 +13,9 @@ export SCOPE=(
 	$HOME/Projets $HOME/Litterature $HOME/Presentation
 			 )
 
-export EXCLUDE_SCOPE='.bin\|.pyc\|anaconda\|__pycache__\|charles\|.swp'
+# export EXCLUDE_SCOPE='.bin\|.pyc\|anaconda\|__pycache__\|charles\|.swp'
+
+export EXCLUDE_SCOPE='.bin\|.pyc\|anaconda\|__pycache__\|.swp'
+
+
 
