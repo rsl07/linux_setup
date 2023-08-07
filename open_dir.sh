@@ -19,6 +19,10 @@ else
 	
 	nautilus -w $dir & disown
 
+	sleep 1
+
+	$LINUX/left_view.sh
+
 	exit
 
 fi

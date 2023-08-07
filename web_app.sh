@@ -32,7 +32,7 @@ then
 		xdotool windowactivate $id_chrome
 
 	fi
-s
+
 else
 
 

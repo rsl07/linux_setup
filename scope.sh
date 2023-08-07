@@ -15,7 +15,7 @@ export SCOPE=(
 
 # export EXCLUDE_SCOPE='.bin\|.pyc\|anaconda\|__pycache__\|charles\|.swp'
 
-export EXCLUDE_SCOPE='.bin\|.pyc\|anaconda\|__pycache__\|.swp'
+export EXCLUDE_SCOPE='.bin\|.pyc\|anaconda\|__pycache__\|.swp\|.jedi'
 
 
 
