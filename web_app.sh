@@ -35,15 +35,13 @@ then
 
 else
 
-
-
 	echo "Not Launched, proceed to launch another app"
 
-	url1="https://mail.google.com/mail/"
-	url3="https://keep.google.com/u/0/"
-	url2="https://agenda.ens-paris-saclay.fr/SOGo/so/aroussel/Mail/view#!/Mail/0/INBOX/3726"
+	url1="https://teams.microsoft.com/"
+	url3="https://pgi-ssl.edf.fr/gta/OpenhrCore/logon.jsp?Domaine=null"
+	url2="https://outlook.office365.com/mail/"
 
-	google-chrome --new-window $url1 $url2 $url3 $url4 & disown
+	google-chrome --new-window $url1 $url2 $url3  & disown
 
 	sleep 2
 

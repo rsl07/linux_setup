@@ -1,0 +1,518 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"res",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"lay",
+				"Origami: Restore Saved Layout"
+			],
+			[
+				"view ",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packag",
+				"Package Control: Remove Package"
+			],
+			[
+				"markdown Editing",
+				"Preferences: MarkdownEditing Settings"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"markdo",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"resource ",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"remove pak",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control repo",
+				"Preferences: Package Control Settings"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"or",
+				"Origami: Restore Saved Layout"
+			],
+			[
+				"l",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"lat",
+				"LaTeXTools: Check system"
+			],
+			[
+				"latex",
+				"LaTeXTools: Check system"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"suvl",
+				"SublimeEnv: Reload Environment"
+			],
+			[
+				"reposi",
+				"Package Control: Remove Repository"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Remove Repository"
+			],
+			[
+				"view",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"sulime",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"code",
+				"CodeMap: Toggle Visibility"
+			],
+			[
+				"buld",
+				"Build With: Python3"
+			],
+			[
+				"sublime",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"codem",
+				"CodeMap: Toggle Visibility"
+			],
+			[
+				"viewe",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package control ",
+				"Package Control: Install Package"
+			],
+			[
+				"package control in",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"package control ch",
+				"Package Control: Add Channel"
+			],
+			[
+				"package con",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 412.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/d51680/Config/linux/scope.sh",
+		"/home/d51680/Config/linux/zshrc.sh",
+		"/home/d51680/Config/linux/main_folder.sh",
+		"/home/d51680/Config/linux/open_dir.sh",
+		"/home/d51680/Config/linux/todoist.sh",
+		"/home/d51680/Config/linux/web_app.sh",
+		"/home/d51680/Config/linux/file.sh",
+		"/home/d51680/.zshrc",
+		"/home/d51680/Config/linux/cdd.sh",
+		"/home/d51680/Config/linux/calendar.sh",
+		"/home/d51680/Config/linux/directory.sh",
+		"/home/d51680/Config/linux/left_view.sh",
+		"/home/d51680/Config/linux/workspace.sh",
+		"/home/d51680/Config/linux/web_bookmark.sh",
+		"/home/d51680/Config/linux/open_home.sh",
+		"/home/d51680/Config/linux/folder.sh",
+		"/home/d51680/Config/linux/right_view.sh",
+		"/home/d51680/toto.sh",
+		"/home/d51680/Config/linux/terminal.sh",
+		"/home/d51680/Code/lionel/module/structure.py",
+		"/home/d51680/.config/sublime-text/Packages/MaxPane/Default (Linux).sublime-keymap",
+		"/home/d51680/.config/sublime-text/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/d51680/Config/compile_defense.sh",
+		"/home/d51680/Config/linux/python_terminal.sh",
+		"/home/d51680/Config/linux/jabref.sh",
+		"/home/d51680/Config/linux/open_file.sh",
+		"/home/d51680/Config/linux/usb-save_doc.sh",
+		"/home/d51680/Config/linux/gh-save_config.sh",
+		"/home/d51680/Config/linux/launcher.sh",
+		"/home/d51680/Config/linux/main_terminal.sh",
+		"/usr/share/applications/org.gnome.Calendar.desktop",
+		"/usr/share/applications/gnome-camera-panel.desktop",
+		"/usr/share/applications/evolution-calendar.desktop",
+		"/home/d51680/Config/linux/zrc0.sh",
+		"/media/d51680/ssd-d51680/Save/xps/log_save/save_2023-07-04_11-18-49.txt",
+		"/media/d51680/ssd-d51680/log_save/save_2023-07-04_11-17-22.txt",
+		"/home/d51680/Config/linux/ssd_save.sh",
+		"/home/d51680/Config/linux/google_save.sh",
+		"/home/d51680/Config/linux/google-drive_save.sh",
+		"/run/user/1000/gvfs/google-drive:host=gmail.com,user=roussel.ant/0AIvoMBbYpl7HUk9PVA/1DE_E7gP-qicCJWZRPD6nToPTww4cvlWF/1eazVunIWSOdFL3C9BIS6gt9YmraJctQk",
+		"/home/d51680/cap_%d",
+		"/media/d51680/ssd-d51680/Config/linux.git/packed-refs",
+		"/home/d51680/Documents/edf/papte.md",
+		"/home/d51680/Presentation/2022-09_pitch90s.txt",
+		"/home/d51680/.profile",
+		"/home/d51680/.config/sublime-text/Packages/User/Markdown.sublime-settings",
+		"/home/d51680/.bashrc",
+		"/home/d51680/.config/sublime-text/Packages/ShellScript/Bash.sublime-syntax",
+		"/home/d51680/Config/linux/web_bookmark.sh",
+		"/home/d51680/Config/linux/execute.sh",
+		"/home/d51680/Config/linux/open_dir.sh",
+		"/home/d51680/Config/linux/open_file.sh",
+		"/home/d51680/Config/linux/file.sh",
+		"/home/d51680/Config/linux/web_app.sh",
+		"/home/d51680/Config/linux/usb-save_doc.sh",
+		"/home/d51680/Config/linux/scope.sh",
+		"/home/d51680/Config/linux/terminal.sh",
+		"/home/d51680/Config/linux/main_terminal.sh",
+		"/home/d51680/.zshrc",
+		"/home/d51680/Config/linux/launcher.sh",
+		"/home/d51680/Config/linux/directory.sh",
+		"/home/d51680/Documents/edf/papte.md",
+		"/home/d51680/Config/python/py_domymp.yml",
+		"/home/d51680/Projets/redaction/input_doc.note",
+		"/home/d51680/Config/linux/open_fil.sh",
+		"/media/d51680/usb_rsl/save_rsl/log_save/save_2023-02-26_18-58-34.txt",
+		"/home/d51680/Presentation/PR22/pitch.txt",
+		"/home/d51680/Archive/root_conf.txt",
+		"/media/d51680/usb_rsl/log_save/save_2023-02-26_13-15-09.txt",
+		"/media/d51680/usb_rsl/log_save/save_test.txt",
+		"/home/d51680/Config/linux/ghsave_config.sh",
+		"/home/d51680/Documents/presentation/PR22/pitch.txt",
+		"/home/d51680/Projets/redaction/doc.note",
+		"/home/d51680/Projets/redaction/doc.notes",
+		"/home/d51680/.config/sublime-text-3/Packages/Neon Color Scheme/Neon.sublime-color-scheme",
+		"/home/d51680/.config/sublime-text-3/Packages/Neon Color Scheme/packages.json",
+		"/home/d51680/Config/python/py_lionel.yml",
+		"/home/d51680/Config/linux/chrome.sh",
+		"/home/d51680/Téléchargements/requirements.txt",
+		"/home/d51680/py_lionel.yml",
+		"/home/d51680/.zrc0",
+		"/home/d51680/.bashrc",
+		"/home/d51680/Téléchargements/Anaconda3-2022.10-Linux-x86_64.sh",
+		"/home/d51680/Config/linux/workspace.sh",
+		"/home/d51680/Documents/t6b/taishan.md",
+		"/home/d51680/.config/sublime-text-3/Packages/User/Markdown.sublime-settings",
+		"/home/d51680/config/linux/open_fil.sh",
+		"/home/d51680/config/linux/file.sh",
+		"/home/d51680/config/linux/cdd.sh",
+		"/home/d51680/config/linux/open_dir.sh",
+		"/home/d51680/config/linux/scope.sh",
+		"/home/d51680/config/linux/directory.sh",
+		"/home/d51680/config/linux/main_terminal.sh",
+		"/home/d51680/config/linux/terminal.sh",
+		"/home/d51680/config/linux/workspace.sh",
+		"/home/d51680/config/linux/web_bookmark.sh",
+		"/home/d51680/config/linux/launcher.sh",
+		"/home/d51680/.config/sublime-text-3/Packages/User/MultiMarkdown.sublime-settings",
+		"/home/d51680/config/linux/save_github.sh",
+		"/home/d51680/config/linux/open_file.sh",
+		"/home/d51680/config/linux/git_save.sh",
+		"/home/d51680/.config/sublime-text-3/Packages/User/py_lionel.sublime-build",
+		"/home/d51680/Téléchargements/SublimeLinter.sublime-settings",
+		"/home/d51680/py_lionel.yaml",
+		"/home/d51680/code/lionel/lionel.py",
+		"/home/d51680/config/linux/launcher",
+		"/home/d51680/config/linux/web_app.sh",
+		"/home/d51680/config/linux/open.sh",
+		"/home/d51680/config/linux/finder.sh",
+		"/home/d51680/config/linux/draft_launfind.sh",
+		"/home/d51680/.rc0",
+		"/home/d51680/code/lionel/test/case1.py",
+		"/etc/bash.bashrc",
+		"/home/d51680/.config/sublime-text-3/Packages/Python 3/Python3.sublime-build",
+		"/home/d51680/config/web_app.sh",
+		"/home/d51680/config/web_bookmark.sh",
+		"/home/d51680/config/execute.sh",
+		"/home/d51680/config/open.sh",
+		"/home/d51680/config/scope.sh",
+		"/home/d51680/config/finder.sh",
+		"/home/d51680/config/terminal.sh",
+		"/home/d51680/config/launcher.sh",
+		"/home/d51680/config/main_terminal.sh",
+		"/home/d51680/Documents/environment_mac.yml",
+		"/usr/share/bash-completion/bash_completion",
+		"/home/d51680/code/latex/phd/phd.out",
+		"/home/d51680/code/latex/phd/3_mcre.tex",
+		"/home/d51680/config/finder (copie).sh"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 619.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 209.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "open_home.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"mai",
+				"main_folder.sh"
+			],
+			[
+				"op",
+				"open_dir.sh"
+			],
+			[
+				"sco",
+				"scope.sh"
+			],
+			[
+				"fol",
+				"folder.sh"
+			],
+			[
+				"r",
+				"right_view.sh"
+			],
+			[
+				"left",
+				"left_view.sh"
+			],
+			[
+				"termin",
+				"terminal.sh"
+			],
+			[
+				"od",
+				"open_dir.sh"
+			],
+			[
+				"cdd",
+				"cdd.sh"
+			],
+			[
+				"dir",
+				"directory.sh"
+			],
+			[
+				"web",
+				"web_app.sh"
+			],
+			[
+				"cal",
+				"calendar.sh"
+			],
+			[
+				"open",
+				"open_dir.sh"
+			],
+			[
+				"file",
+				"file.sh"
+			],
+			[
+				"wep",
+				"web_app.sh"
+			],
+			[
+				"todo",
+				"todoist.sh"
+			],
+			[
+				"work",
+				"workspace.sh"
+			],
+			[
+				"defau",
+				"~/.config/sublime-text/Packages/MaxPane/Default (Linux).sublime-keymap"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 388.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"test_wave"
+			]
+		],
+		"width": 594.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 170.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 
 dir=$(. $HOME/Config/linux/directory.sh $@)
@@ -19,9 +19,9 @@ else
 	
 	nautilus -w $dir & disown
 
-	sleep 1
+	sleep 0.3
 
-	$LINUX/left_view.sh
+	/home/rsl/Config/linux/left_view.sh
 
 	exit
 

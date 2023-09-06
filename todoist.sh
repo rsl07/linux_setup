@@ -1,31 +1,50 @@
 #!/bin/bash
 
-if wmctrl -l | grep "Todoist" | grep -v "Google"
+
+id_todoist=`cat $HOME/.pid_todoist`
+echo $id_todoist
+
+name=$(xdotool getwindowname $id_todoist)
+echo $name
+
+if xdotool getwindowname $id_todoist && [ "$name" != "" ];
 then
 
-	id_focus=$(xdotool getwindowfocus)
-	id_todoist=$(xdotool search --all --name --class --onlyvisible "Todoist")
+	echo "Already Launched"
 
+	id_focus=$(xdotool getwindowfocus)
+
+	echo $id_focus
 	echo $id_todoist
 	
-	if [ "$id_focus" -eq "$id_todoist" ];
+	if [ "$id_focus" -eq "$id_todoist" ]
 	then
-
-		echo "todoist opened and focus"
 
 		xdotool windowminimize $id_todoist
 
 	else
 
-	    echo "Todoist todoist opened unfocused"
+	    echo "chrome opened but not focus"
 	    
-	    xdotool windowactivate $id_todoist
+		xdotool windowsize $id_todoist 100% 100%
+		xdotool windowactivate $id_todoist
+
 	fi
 
-else 
-    echo "Todoist not opened"
+else
+    echo "Calendar not opened"
     
-    todoist
-	
+    
+	google-chrome --new-window "https://todoist.com/app/today" & disown
+
+	sleep 2
+
+	export id_todoist=$(xdotool getwindowfocus)
+
+	rm $HOME/.pid_todoist
+
+	echo $id_todoist > $HOME/.pid_todoist
+
+
 
 fi

@@ -35,7 +35,7 @@ else
     echo "Calendar not opened"
     
     
-	google-chrome --new-window "https://calendar.google.com/" & disown
+	google-chrome --new-window "https://outlook.office.com/calendar/view/month" & disown
 
 	sleep 2
 
