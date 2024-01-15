@@ -1,6 +1,23 @@
+# proxy parameters ============================================================
 
-# ZSH  ==========================================================================
+export PROXY="http://vip-users.proxy.edf.fr:3131"
+export http_proxy=$PROXY
+export https_proxy=$PROXY
+export HTTP_PROXY=$PROXY
+export HTTPS_PROXY=$PROXY
+export ftp_proxy=$PROXY
+export FTP_PROXY=$PROXY
+export no_proxy="localhost,edf.fr"
 
+
+# zsh conf  ============================================================
+
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -74,13 +91,12 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git 
-         zsh-syntax-highlighting 
-         zsh-autosuggestions
-         )
-
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
+
+
+
 
 # User configuration
 
@@ -111,8 +127,10 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
-# CONDA =======================================================================
+
+
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -127,7 +145,6 @@ else
     fi
 fi
 unset __conda_setup
-
 # <<< conda initialize <<<
 
 

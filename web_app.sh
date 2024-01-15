@@ -38,8 +38,8 @@ else
 	echo "Not Launched, proceed to launch another app"
 
 	url1="https://teams.microsoft.com/"
-	url3="https://pgi-ssl.edf.fr/gta/OpenhrCore/logon.jsp?Domaine=null"
 	url2="https://outlook.office365.com/mail/"
+	url3="https://www.notion.so/Inbox-49c3230eb0f04db0bc83e103257265f2"
 
 	google-chrome --new-window $url1 $url2 $url3  & disown
 

@@ -1,6 +1,7 @@
 #!/bin/zsh
 
-wdir="/home/d51680/Projets/site_calibration"
+wdir="/home/d51680/Projets/ac"
+
 
 
 
