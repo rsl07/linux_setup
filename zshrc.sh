@@ -17,6 +17,8 @@ export LINUX=$HOME/Config/linux
 export MVP=$HOME/Images/mvp
 export PROJ=$HOME/Projets
 
+export MNEMO=/data/rd/users/D51680
+
 export USB=/media/d51680/usb-rsl
 export SSD=/media/d51680/ssd-rsl
 
@@ -54,7 +56,10 @@ alias c='clear'
 # -----------------------------------------------------------------------------
 # Save
 
-alias gh-save_config=". $LINUX/gh-save_config.sh"
+alias save_github_config=". $LINUX/gh-save_config.sh"
+alias save_ssd_folders=". $LINUX/ssd-save.sh"
+alias save_mnemo=". $LINUX/mnemo-save.sh"
+
 alias usb-save_doc=". $LINUX/usb-save_doc.sh"
 
 

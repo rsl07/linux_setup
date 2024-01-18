@@ -1,13 +1,14 @@
 #!/bin/zsh
 # ssd-rsl save
 
+
 cd $HOME
 
 time=$(date +"%F_%H-%M-%S")
 
-SSD=/media/rsl/ssd-rsl
-SAVE=/media/rsl/ssd-rsl/Save/xps
-LOG=/media/rsl/ssd-rsl/Save/xps/log_save
+SSD=/media/$USER/ssd-rsl
+SAVE=/media/$USER/ssd-rsl/Save/calibre
+LOG=/media/$USER/ssd-rsl/Save/calibre/log_save
 
 if [ -d "$SSD" ];
 then
