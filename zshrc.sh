@@ -5,6 +5,7 @@ source $HOME/Config/linux/web_bookmark.sh
 source $HOME/Config/linux/scope.sh
 source $HOME/Config/linux/cdd.sh
 source $HOME/.ls_colors
+source $HOME/Config/linux/aster.sh
 
 
 ###############################################################################
@@ -41,6 +42,7 @@ alias ssd='cd $SSD; ls'
 alias lin='cd ~/Config/linux; ls'
 alias doc='cd ~/Documents; ls'
 alias mvp="cd ~/Images/mvp; ls"
+alias ast="cd ~/dev/codeaster/src"
 
 alias tr1="tree -L 1"
 alias tr2="tree -L 2"
@@ -268,7 +270,7 @@ export __NV_PRIME_RENDER_OFFLOAD=1
 export __GLX_VENDOR_LIBRARY_NAME=nvidia
 
 alias salome_meca="scibian-nvidia /home/d51680/Conteneurs/salome_meca"
-
+alias env_aster="scibian-nvidia /home/d51680/Conteneurs/salome_meca --shell"
 
 ###############################################################################
 # APPLICATION 
