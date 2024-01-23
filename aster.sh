@@ -31,7 +31,7 @@ cd dev/codeaster/src
 function compile_aster_mpi() {
 
 cd dev/codeaster/src
-
+ 
 /home/d51680/dev/codeaster/src/waf configure
 /home/d51680/dev/codeaster/src/waf install
 
