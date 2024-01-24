@@ -9,9 +9,11 @@ do
      pattern=$pattern"*$arg"
 done
 
-len=$((${#pattern}-1))
+pattern=$pattern"*"
 
-pattern=${pattern:1:$len}
+# len=$((${#pattern}-1))
+
+# pattern=${pattern:1:$len}
 
 # echo "${pattern//+/*}"
 
@@ -45,4 +47,4 @@ pattern=${pattern:1:$len}
 # Exclue les sous dossiers grace a un grep inversé
 
 
-find $SCOPE -type d -path "*${pattern//+/*}*" | grep -v "$EXCLUDE_SCOPE" | grep -v "$(find $SCOPE -type d -path "*${pattern//+/*}*/*")"
+find $SCOPE -type d -path "$pattern" -not -path "$pattern/*" | grep -v "$EXCLUDE_SCOPE"
