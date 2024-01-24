@@ -17,28 +17,32 @@ pattern=${pattern:1:$len}
 
 # echo "${pattern: -1}"
 
-if [ "/" = "${pattern: -1}" ];
-then
-     # echo "pattern finishes with slash"
-     # echo "look for top directory"
+# if [ "/" = "${pattern: -1}" ];
+# then
+#      # echo "pattern finishes with slash"
+#      # echo "look for top directory"
 
-     # echo "pattern=$pattern"
+#      # echo "pattern=$pattern"
 
-     pattern=$(echo $pattern | sed "s/\///")
+#      pattern=$(echo $pattern | sed "s/\///")
 
-     # Rercherche dans le scope et plus bas qui prends pas ne compte le HOME
-     find $SCOPE -type d -path "*${pattern//+/*}" 2>&1 | grep -v "$EXCLUDE_SCOPE"
-
-
-else
-     # echo "pattern does not finish with slash"
-     # echo "looking for any directory"
-
-     # echo "pattern=$pattern"
-
-     # Rercherche dans le scope et plus bas qui prends pas ne compte le HOME
-     find $SCOPE -type d -path "*${pattern//+/*}*" 2>&1 | grep -v "$EXCLUDE_SCOPE"
-
-fi
+#      # Rercherche dans le scope et plus bas qui prends pas ne compte le HOME
+#      find $SCOPE -type d -path "*${pattern//+/*}" 2>&1 | grep -v "$EXCLUDE_SCOPE"
 
 
+# else
+#      # echo "pattern does not finish with slash"
+#      # echo "looking for any directory"
+
+#      # echo "pattern=$pattern"
+#      # Rercherche dans le scope et plus bas qui prends pas ne compte le HOME
+#      find $SCOPE -type d -path "*${pattern//+/*}*" 2>&1 | grep -v "$EXCLUDE_SCOPE"
+
+# fi
+
+
+# -----------------------------------------------------------------------------
+# Exclue les sous dossiers grace a un grep inversé
+
+
+find $SCOPE -type d -path "*${pattern//+/*}*" | grep -v "$EXCLUDE_SCOPE" | grep -v "$(find $SCOPE -type d -path "*${pattern//+/*}*/*")"

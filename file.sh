@@ -16,7 +16,6 @@ len=$((${#pattern}-1))
 pattern=${pattern:1:$len}
 
 
-
 # Rercherche dans le scope et plus bas qui prends pas ne compte le HOME
 find $SCOPE -path "*${pattern//+/*}*" 2>&1 | grep -wv "$EXCLUDE_SCOPE"
 
