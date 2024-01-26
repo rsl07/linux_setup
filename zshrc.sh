@@ -6,6 +6,7 @@ source $HOME/Config/linux/scope.sh
 source $HOME/Config/linux/cdd.sh
 source $HOME/.ls_colors
 source $HOME/Config/linux/aster.sh
+source $HOME/Config/gevibus/local_test.sh
 
 
 ###############################################################################
@@ -48,7 +49,7 @@ alias tr1="tree -L 1"
 alias tr2="tree -L 2"
 alias tr3="tree -L 3"
 
-alias ll="ls -lh"
+alias ll="ls -rtlh"
 alias du="du -hc"
 alias xc="xclip -selection clipboard"
 alias xdg="xdg-open"
@@ -91,6 +92,15 @@ alias mvpa="eog $MVP/ac/* & disown"
 
 alias asc="cd $AC_RSL;ls"=
 alias pac="rsync -av $AC_RSL/ $AC_CHB/rsl/"
+
+
+###############################################################################
+# AC                            
+###############################################################################
+
+export GEVIBUS="$HOME/dev/smeca/salome-gevibus"
+
+alias gvb='cd $GEVIBUS'
 
 
 ###############################################################################
@@ -269,8 +279,9 @@ alias sens=/home/d51680/Projets/sensitivity_analysis/sensitivity.py
 export __NV_PRIME_RENDER_OFFLOAD=1
 export __GLX_VENDOR_LIBRARY_NAME=nvidia
 
-alias salome_meca="scibian-nvidia /home/d51680/Conteneurs/salome_meca"
-alias env_aster="scibian-nvidia /home/d51680/Conteneurs/salome_meca --shell"
+alias salome_meca="scibian-nvidia /home/d51680/Conteneurs/salome_meca-integr-for-test_pipeline-version2023-1-0"
+
+alias env_aster="scibian-nvidia /home/d51680/Conteneurs/salome_meca-integr-for-test_pipeline-version2023-1-0 --shell"
 
 ###############################################################################
 # APPLICATION 
