@@ -279,9 +279,9 @@ alias sens=/home/d51680/Projets/sensitivity_analysis/sensitivity.py
 export __NV_PRIME_RENDER_OFFLOAD=1
 export __GLX_VENDOR_LIBRARY_NAME=nvidia
 
-alias salome_meca="scibian-nvidia /home/d51680/Conteneurs/salome_meca-integr-for-test_pipeline-version2023-1-0"
+alias smeca_gui="scibian-nvidia /home/d51680/Conteneurs/salome_meca-integr-for-test_pipeline-version2023-1-0"
 
-alias env_aster="scibian-nvidia /home/d51680/Conteneurs/salome_meca-integr-for-test_pipeline-version2023-1-0 --shell"
+alias smeca_shell="scibian-nvidia /home/d51680/Conteneurs/salome_meca-integr-for-test_pipeline-version2023-1-0 --shell"
 
 ###############################################################################
 # APPLICATION 
@@ -309,4 +309,3 @@ export PATH="/usr/bin":"/sbin":$LIONEL:$CHARLES:$LIONEL/module/func:$PATH
 
 alias py_lionel="$PY_LIONEL/bin/python"
 
-alias salome_meca="/home/d51680/Conteneurs/salome_meca"
