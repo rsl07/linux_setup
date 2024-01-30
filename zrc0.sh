@@ -26,7 +26,7 @@ fi
 export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
+# load a random ls each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
@@ -132,19 +132,20 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
 
 
-# # >>> conda initialize >>>
-# # !! Contents within this block are managed by 'conda init' !!
-# __conda_setup="$('/home/d51680/Logiciel/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-# if [ $? -eq 0 ]; then
-#     eval "$__conda_setup"
-# else
-#     if [ -f "/home/d51680/Logiciel/anaconda3/etc/profile.d/conda.sh" ]; then
-#         . "/home/d51680/Logiciel/anaconda3/etc/profile.d/conda.sh"
-#     else
-#         export PATH="/home/d51680/Logiciel/anaconda3/bin:$PATH"
-#     fi
-# fi
-# unset __conda_setup
-# # <<< conda initialize <<<
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/d51680/Logiciel/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/d51680/Logiciel/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/d51680/Logiciel/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/d51680/Logiciel/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
 
 
+conda deactivate

@@ -6,8 +6,6 @@ source $HOME/Config/linux/scope.sh
 source $HOME/Config/linux/cdd.sh
 source $HOME/.ls_colors
 source $HOME/Config/linux/aster.sh
-source $HOME/Config/gevibus/local_test.sh
-
 
 ###############################################################################
 # DATA ARCHITECTURE                            
@@ -279,9 +277,18 @@ alias sens=/home/d51680/Projets/sensitivity_analysis/sensitivity.py
 export __NV_PRIME_RENDER_OFFLOAD=1
 export __GLX_VENDOR_LIBRARY_NAME=nvidia
 
-alias smeca_gui="scibian-nvidia /home/d51680/Conteneurs/salome_meca-integr-for-test_pipeline-version2023-1-0"
+alias smeca_gui="scibian-nvidia /home/d51680/Conteneurs/smeca2023-1-0"
 
-alias smeca_shell="scibian-nvidia /home/d51680/Conteneurs/salome_meca-integr-for-test_pipeline-version2023-1-0 --shell"
+alias smeca_shell="scibian-nvidia /home/d51680/Conteneurs/smeca2023-1-0 --shell"
+
+
+
+###############################################################################
+# GEVIBUS                            
+###############################################################################
+
+alias gvb_loc="~/Config/gevibus/local.sh"
+
 
 ###############################################################################
 # APPLICATION 
@@ -297,15 +304,19 @@ alias form="google-chrome --new-window 'https://forms.office.com/Pages/DesignPag
 # PATH                             
 ###############################################################################
 
-conda activate py_lionel
+# Not activated in singularity
+if [ -z "${SINGULARITY_CONTAINER}" ]; then
+    
+	conda activate py_lionel
 
-# Where import look for module (check with sys.path)
-export PYTHONPATH=$LIONEL:$LIONEL/module:$LIONEL/module/func
-export PYTHONPATH=$PYTHONPATH:$CHARLES:$CHARLES/calib_hm_el_in/
-export CONDA_ENV=/home/d51680/Logiciel/anaconda/envs
-export PYTHONWARNINGS="ignore"
-export PY_LIONEL="/home/d51680/Logiciel/anaconda3/envs/py_lionel"
-export PATH="/usr/bin":"/sbin":$LIONEL:$CHARLES:$LIONEL/module/func:$PATH
+	# Where import look for module (check with sys.path)
+	export PYTHONPATH=$LIONEL:$LIONEL/module:$LIONEL/module/func
+	export PYTHONPATH=$PYTHONPATH:$CHARLES:$CHARLES/calib_hm_el_in/
+	export CONDA_ENV=/home/d51680/Logiciel/anaconda/envs
+	export PYTHONWARNINGS="ignore"
+	export PY_LIONEL="/home/d51680/Logiciel/anaconda3/envs/py_lionel"
+	export PATH="/usr/bin":"/sbin":$LIONEL:$CHARLES:$LIONEL/module/func:$PATH
 
-alias py_lionel="$PY_LIONEL/bin/python"
+	alias py_lionel="$PY_LIONEL/bin/python"
 
+fi

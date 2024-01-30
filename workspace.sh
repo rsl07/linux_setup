@@ -71,7 +71,7 @@ else
 
 		# 	xdotool windowclose $id_unt
 
-		fi
+		
 
 
 	fi
