@@ -96,9 +96,9 @@ alias pac="rsync -av $AC_RSL/ $AC_CHB/rsl/"
 # AC                            
 ###############################################################################
 
-export GEVIBUS="$HOME/dev/smeca/salome-gevibus"
+export DIR_GEVIBUS="$HOME/dev/smeca/salome-gevibus"
 
-alias gvb='cd $GEVIBUS'
+alias gvb='cd $DIR_GEVIBUS'
 
 
 ###############################################################################
@@ -277,9 +277,9 @@ alias sens=/home/d51680/Projets/sensitivity_analysis/sensitivity.py
 export __NV_PRIME_RENDER_OFFLOAD=1
 export __GLX_VENDOR_LIBRARY_NAME=nvidia
 
-alias smeca_gui="scibian-nvidia /home/d51680/Conteneurs/smeca2023-1-0"
+alias salome-meca_gui="scibian-nvidia /home/d51680/Conteneurs/smeca2023-1-0"
 
-alias smeca_shell="scibian-nvidia /home/d51680/Conteneurs/smeca2023-1-0 --shell"
+alias salome-meca_shell="scibian-nvidia /home/d51680/Conteneurs/smeca2023-1-0 --shell"
 
 
 
@@ -287,7 +287,7 @@ alias smeca_shell="scibian-nvidia /home/d51680/Conteneurs/smeca2023-1-0 --shell"
 # GEVIBUS                            
 ###############################################################################
 
-alias gvb_loc="~/Config/gevibus/local.sh"
+alias gevibus_local="~/Config/gevibus/local.sh"
 
 
 ###############################################################################
