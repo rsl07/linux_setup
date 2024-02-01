@@ -5,7 +5,6 @@ source $HOME/Config/linux/web_bookmark.sh
 source $HOME/Config/linux/scope.sh
 source $HOME/Config/linux/cdd.sh
 source $HOME/.ls_colors
-source $HOME/Config/linux/aster.sh
 
 ###############################################################################
 # DATA ARCHITECTURE                            
@@ -41,7 +40,7 @@ alias ssd='cd $SSD; ls'
 alias lin='cd ~/Config/linux; ls'
 alias doc='cd ~/Documents; ls'
 alias mvp="cd ~/Images/mvp; ls"
-alias ast="cd ~/dev/codeaster/src"
+alias ca="cd ~/dev/codeaster/src"
 
 alias tr1="tree -L 1"
 alias tr2="tree -L 2"
@@ -277,10 +276,27 @@ alias sens=/home/d51680/Projets/sensitivity_analysis/sensitivity.py
 export __NV_PRIME_RENDER_OFFLOAD=1
 export __GLX_VENDOR_LIBRARY_NAME=nvidia
 
+source $HOME/Config/aster/*.sh
+
+
+
+# -----------------------------------------------------------------------------
+# Version Finale 
+
 alias salome-meca_gui="scibian-nvidia /home/d51680/Conteneurs/smeca2023-1-0"
 
-alias salome-meca_shell="scibian-nvidia /home/d51680/Conteneurs/smeca2023-1-0 --shell"
+alias salome-meca_shell="scibian-nvidia /home/d51680/Conteneurs/smeca2023-1-0 --shell";
 
+alias sms="salome-meca_shell"
+alias smg="salome-meca_gui"
+
+
+# -----------------------------------------------------------------------------
+# local aster dev and execution 
+
+alias salome-meca-dev_shell="scibian-nvidia /home/d51680/Conteneurs/smeca2022.1.0 --shell"
+
+alias smds='salome-meca-dev_shell'
 
 
 ###############################################################################
