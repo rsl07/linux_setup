@@ -276,27 +276,28 @@ alias sens=/home/d51680/Projets/sensitivity_analysis/sensitivity.py
 export __NV_PRIME_RENDER_OFFLOAD=1
 export __GLX_VENDOR_LIBRARY_NAME=nvidia
 
-source $HOME/Config/aster/*.sh
+source $HOME/Config/aster/compile.sh
+source $HOME/Config/aster/run.sh
 
 
 
 # -----------------------------------------------------------------------------
 # Version Finale 
 
-alias salome-meca_gui="scibian-nvidia /home/d51680/Conteneurs/smeca2023-1-0"
+alias salome-meca_gui="scibian-nvidia /home/d51680/Conteneurs/smeca2023.1.0"
 
-alias salome-meca_shell="scibian-nvidia /home/d51680/Conteneurs/smeca2023-1-0 --shell";
+alias salome-meca_shell="scibian-nvidia /home/d51680/Conteneurs/smeca2023.1.0 --shell";
 
 alias sms="salome-meca_shell"
 alias smg="salome-meca_gui"
 
 
-# -----------------------------------------------------------------------------
-# local aster dev and execution 
+# # # NO LONGER USE BECAUSE SM ENV 23 FINNALY OK -----------------------------------------------------------------------------
+# # local aster dev and execution 
 
-alias salome-meca-dev_shell="scibian-nvidia /home/d51680/Conteneurs/smeca2022.1.0 --shell"
+# alias salome-meca-dev_shell="scibian-nvidia /home/d51680/Conteneurs/smeca2022.1.0 --shell"
 
-alias smds='salome-meca-dev_shell'
+# alias smds='salome-meca-dev_shell'
 
 
 ###############################################################################
