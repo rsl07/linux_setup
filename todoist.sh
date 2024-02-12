@@ -35,7 +35,7 @@ else
     echo "Calendar not opened"
     
     
-	google-chrome --new-window "https://app.todoist.com/app/project/2322035221" "https://aster.retd.edf.fr/rex/" & disown
+	google-chrome --new-window "https://app.todoist.com/app/project/2322035221" "https://track.toggl.com/timer" & disown
 
 	sleep 2
 
