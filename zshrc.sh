@@ -82,7 +82,7 @@ alias clp='rm $HOME/.pid_*'
 ###############################################################################
  
 export AC_CHB="/data/rd/work/projets.002/cac.045/BIBLIOTHEQUE/4.ACCIDENTS/4.IFS/Prestations/2023_postdoc_IMSIA_Charbel_Habchi"
-export AC_RSL="/home/d51680/Projets/ac"
+export AC_RSL="/home/d51680/Projets/ac3d"
 
 alias mvpa="eog $MVP/ac/* & disown"
 
@@ -276,28 +276,21 @@ alias sens=/home/d51680/Projets/sensitivity_analysis/sensitivity.py
 export __NV_PRIME_RENDER_OFFLOAD=1
 export __GLX_VENDOR_LIBRARY_NAME=nvidia
 
+
+
 source $HOME/Config/aster/compile.sh
 source $HOME/Config/aster/run.sh
 
 
-
 # -----------------------------------------------------------------------------
-# Version Finale 
+# Environnement SALOME MECA
 
 alias salome-meca_gui="scibian-nvidia /home/d51680/Conteneurs/smeca2023.1.0"
 
-alias salome-meca_shell="scibian-nvidia /home/d51680/Conteneurs/smeca2023.1.0 --shell";
+alias salome-meca_shell="scibian-nvidia /home/d51680/Conteneurs/smeca2023.1.0 --shell"
 
 alias sms="salome-meca_shell"
 alias smg="salome-meca_gui"
-
-
-# # # NO LONGER USE BECAUSE SM ENV 23 FINNALY OK -----------------------------------------------------------------------------
-# # local aster dev and execution 
-
-# alias salome-meca-dev_shell="scibian-nvidia /home/d51680/Conteneurs/smeca2022.1.0 --shell"
-
-# alias smds='salome-meca-dev_shell'
 
 
 ###############################################################################
