@@ -156,7 +156,7 @@ alias lionel="$HOME/Code/lionel/lionel.py"
 # -----------------------------------------------------------------------------
 # charles
 
-export CHARLES=$HOME/Code/charles/
+export CHARLES=$HOME/Code/charles
 
 alias ch='cd $CHARLES; ls'
 alias cad='cd $CHARLES/calib_ad; ls'
@@ -291,6 +291,14 @@ alias salome-meca_shell="scibian-nvidia /home/d51680/Conteneurs/smeca2023.1.0 --
 
 alias sms="salome-meca_shell"
 alias smg="salome-meca_gui"
+
+
+# -----------------------------------------------------------------------------
+# Extract array from pickle
+
+alias read_pickle="/home/d51680/Config/python/read_pickle.py "
+
+
 
 
 ###############################################################################

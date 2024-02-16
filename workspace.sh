@@ -1,10 +1,29 @@
 #!/bin/zsh
 
-DIR_WS=$HOME/Config/subl/
+DIR_WS=/home/d51680/Config/subl/
 setopt extendedglob
 
 
-file=$(find $DIR_WS -name "*$@*-workspace")
+# file=$(find $DIR_WS -name "*$@*-workspace")
+# replaced by:
+
+unset pattern
+
+for arg in "$@"
+do
+     pattern=$pattern"*$arg"
+done
+
+len=$((${#pattern}-1))
+
+pattern=${pattern:1:$len}
+
+
+# Rercherche dans le scope et plus bas qui prends pas ne compte le HOME
+file=$(find $DIR_WS -type f -path "*${pattern//+/*}*" 2>&1 )
+
+
+
 
 if [[ "$file" == "" ]]
 then
@@ -77,6 +96,4 @@ else
 	fi
 
 fi
-
-
 
