@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-wdir="/home/d51680/Projets/ac"
+wdir="/home/d51680/Code/charles_bl7"
 
 
 

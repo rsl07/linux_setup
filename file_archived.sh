@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source $HOME/Config/linux/scope.sh
+source $HOME/Config/linux/scope_archive.sh
 
 unset pattern
 
@@ -15,7 +15,7 @@ pattern=${pattern:1:$len}
 
 
 # Rercherche dans le scope et plus bas qui prends pas ne compte le HOME
-find $SCOPE -type f -path "*${pattern//+/*}*" 2>&1 | grep -wv "$EXCLUDE_SCOPE"
+find $SCOPE_ARCHIVE -type f -path "*${pattern//+/*}*" 2>&1 | grep -wv "$EXCLUDE_SCOPE"
 
 # Recherche dans le $HOME 
 find $HOME -maxdepth 1 -type f -path "*${pattern//+/*}*" 2>&1 | grep -wv "$EXCLUDE_SCOPE"

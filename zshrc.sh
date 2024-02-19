@@ -73,6 +73,11 @@ alias x=". $HOME/Config/linux/execute.sh"
 alias of=". $HOME/Config/linux/open_file.sh"
 alias od=". $HOME/Config/linux/open_dir.sh"
 
+alias fa=". $HOME/Config/linux/file_archived.sh"
+alias da=". $HOME/Config/linux/directory_archived.sh"
+alias ofa=". $HOME/Config/linux/open_file_archived.sh"
+alias oda=". $HOME/Config/linux/open_dir_archived.sh"
+
 alias wsp="$HOME/Config/linux/workspace.sh"
 
 alias clp='rm $HOME/.pid_*'
@@ -157,6 +162,8 @@ alias lionel="$HOME/Code/lionel/lionel.py"
 # charles
 
 export CHARLES=$HOME/Code/charles
+export CHARLES_BL7=$HOME/Code/charles_bl7
+
 
 alias ch='cd $CHARLES; ls'
 alias cad='cd $CHARLES/calib_ad; ls'
@@ -170,6 +177,11 @@ alias charles="$HOME/Code/charles/calib_hm_el_in/charles.py"
 
 alias extract="$CHARLES/data_assembly/17-extraction.sh"
 
+
+# bl7
+alias chx='cd $CHARLES_BL7; ls'
+alias chxd='cd $CHARLES_BL7/charles/data_processing/; ls'
+alias chxs='cd $CHARLES_BL7/data_site; ls'
 
 
 # -----------------------------------------------------------------------------
