@@ -162,12 +162,12 @@ alias lionel="$HOME/Code/lionel/lionel.py"
 # charles
 
 export CHARLES=$HOME/Code/charles
-export CHARLES_BL7=$HOME/Code/charles_bl7
+export CHARLESX=$HOME/Code/charlesX
 
 
 alias ch='cd $CHARLES; ls'
 alias cad='cd $CHARLES/calib_ad; ls'
-alias chm='cd $CHARLES/calib_hm; ls'
+alias chm='cd $CHARLES/calib_hm; ls'k
 alias cal='cd $CHARLES/calib_hm_el_in; ls'
 
 
@@ -178,11 +178,14 @@ alias charles="$HOME/Code/charles/calib_hm_el_in/charles.py"
 alias extract="$CHARLES/data_assembly/17-extraction.sh"
 
 
-# bl7
-alias chx='cd $CHARLES_BL7; ls'
-alias chxd='cd $CHARLES_BL7/charles/data_processing/; ls'
-alias chxs='cd $CHARLES_BL7/data_site; ls'
+# charles bl7 executed 
+alias cx='cd $CHARLESX; ls' 
+alias cxd='cd $CHARLESX/charles/data_processing/     ; ls'
+alias cxdw='cd $CHARLESX/charles/data_processing/wdir; ls'
+alias cxs='cd $CHARLESX/data_site; ls'
 
+alias rcx='$CHARLESX/charles/data_processing/0_run.sh'
+alias ccx='$CHARLESX/charles/data_processing/0_clear-database.py'
 
 # -----------------------------------------------------------------------------
 # Manuscrit 
