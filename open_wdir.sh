@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-wdir="/home/d51680/Code/charles_bl7"
+wdir="/home/d51680/Code/charlesX/charles/data_processing"
 
 
 

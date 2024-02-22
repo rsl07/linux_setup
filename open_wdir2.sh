@@ -1,10 +1,11 @@
 #!/bin/zsh
 
-wdir="/home/d51680/Projets/site_calibration"
+wdir="/home/d51680/Code/charles/data_assembly"
 
 
 
-id_wdir=`cat $HOME/.pid_main_wdir`
+
+id_wdir=`cat $HOME/.pid_main_wdir2`
 echo $id_wdir
 
 name=$(xdotool getwindowname $id_wdir)
@@ -49,9 +50,9 @@ else
 
 	export id_wdir=$(xdotool getwindowfocus)
 
-	rm $HOME/.pid_main_wdir
+	rm $HOME/.pid_main_wdir2
 
-	echo $id_wdir > $HOME/.pid_main_wdir
+	echo $id_wdir > $HOME/.pid_main_wdir2
 
 
 fi
