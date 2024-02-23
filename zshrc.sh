@@ -180,12 +180,12 @@ alias extract="$CHARLES/data_assembly/17-extraction.sh"
 
 # charles bl7 executed 
 alias cx='cd $CHARLESX; ls' 
-alias cxd='cd $CHARLESX/charles/data_processing/     ; ls'
-alias cxdw='cd $CHARLESX/charles/data_processing/wdir; ls'
+alias cxd='cd $CHARLESX/charles/data/     ; ls'
+alias cxdw='cd $CHARLESX/charles/data_processed/wdir; ls'
 alias cxs='cd $CHARLESX/data_site; ls'
 
-alias rcx='$CHARLESX/charles/data_processing/0_run.sh'
-alias ccx='$CHARLESX/charles/data_processing/0_clear-database.py'
+alias rcx='$CHARLESX/charles/data/0_run.sh'
+alias ccx='$CHARLESX/charles/data/clear-database.py'
 
 # -----------------------------------------------------------------------------
 # Manuscrit 
