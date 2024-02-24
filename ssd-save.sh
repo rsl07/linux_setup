@@ -51,7 +51,7 @@ then
 
 	mv $LOG $SSD/log_save	
 
-	rsync -av --delete Documents Litterature Images Projets Notes Archive Presentation $SAVE/ >&1 | tee $SSD/log_save/save_$time.txt
+	rsync -av --delete Documents Litterature Images Projets Archive Presentation $SAVE/ >&1 | tee $SSD/log_save/save_$time.txt
 
 	mv $SSD/log_save $LOG 
 

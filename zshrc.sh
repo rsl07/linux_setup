@@ -185,7 +185,6 @@ alias cxdw='cd $CHARLESX/charles/data_processed/wdir; ls'
 alias cxs='cd $CHARLESX/data_site; ls'
 
 alias rcx='$CHARLESX/charles/data/0_run.sh'
-alias ccx='$CHARLESX/charles/data/clear-database.py'
 
 # -----------------------------------------------------------------------------
 # Manuscrit 
