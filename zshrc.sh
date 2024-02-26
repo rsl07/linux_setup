@@ -183,8 +183,9 @@ alias cx='cd $CHARLESX; ls'
 alias cxd='cd $CHARLESX/charles/data/     ; ls'
 alias cxdw='cd $CHARLESX/charles/data_processed/wdir; ls'
 alias cxs='cd $CHARLESX/data_site; ls'
+alias cxcb='cd $CHARLESX/charles/calib_blyth; ls' 
 
-alias rcx='$CHARLESX/charles/data/0_run.sh'
+alias rcx='$CHARLESX/run.sh'
 
 # -----------------------------------------------------------------------------
 # Manuscrit 
@@ -199,7 +200,6 @@ export REDAC=$HOME/Projets/redaction/
 alias phd="cd $PHD; ls"
 alias fig="cd $FIG; ls"
 alias bib="cd ~/Litterature/phd/bib; ls"
-
 
 
 alias clm='cd $PHD;

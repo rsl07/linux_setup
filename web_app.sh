@@ -39,9 +39,8 @@ else
 
 	url1="https://teams.microsoft.com/"
 	url2="https://outlook.office365.com/mail/"
-	url3="https://www.notion.so/Inbox-49c3230eb0f04db0bc83e103257265f2"
 
-	google-chrome --new-window $url1 $url2 $url3  & disown
+	google-chrome --new-window $url1 $url2  & disown
 
 	sleep 2
 

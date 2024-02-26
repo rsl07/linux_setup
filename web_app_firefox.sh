@@ -39,9 +39,8 @@ else
 
 	url1="https://mail.google.com/mail/u/0/#inbox"
 	url2="https://keep.google.com"
-	url3="https://www.notion.so/Inbox-49c3230eb0f04db0bc83e103257265f2"
 
-	firefox --new-instance $url1 $url2 $url3 & disown
+	firefox --new-instance $url1 $url2 & disown
 
 	# firefox --new-tab $url2  & disown
 

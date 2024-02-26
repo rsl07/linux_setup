@@ -3,8 +3,6 @@
 wdir="/home/d51680/Code/charles/data_assembly"
 
 
-
-
 id_wdir=`cat $HOME/.pid_main_wdir2`
 echo $id_wdir
 
