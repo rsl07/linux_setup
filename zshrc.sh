@@ -15,6 +15,8 @@ export CONF=$HOME/Conf
 export LINUX=$HOME/Config/linux
 export MVP=$HOME/Images/mvp
 export PROJ=$HOME/Projets
+export CODE=$HOME/Code
+export LIB=$HOME/Code/lib
 
 export MNEMO=/data/rd/users/D51680
 
@@ -40,6 +42,7 @@ alias ssd='cd $SSD; ls'
 alias lin='cd ~/Config/linux; ls'
 alias doc='cd ~/Documents; ls'
 alias mvp="cd ~/Images/mvp; ls"
+alias lib="cd $HOME/Code/lib"
 alias ca="cd ~/dev/codeaster/src"
 
 alias tr1="tree -L 1"
@@ -155,7 +158,7 @@ alias li='cd $LIONEL; ls'
 alias tl="cd $LIONEL/test; ls"
 
 
-alias lionel="$HOME/Code/lionel/lionel.py"
+alias lionel="$HOME/Code/lionel/run.py"
 
 
 # -----------------------------------------------------------------------------
@@ -342,12 +345,19 @@ if [ -z "${SINGULARITY_CONTAINER}" ]; then
 	conda activate py_lionel
 
 	# Where import look for module (check with sys.path)
-	export PYTHONPATH=$LIONEL:$LIONEL/module:$LIONEL/module/func
-	export PYTHONPATH=$PYTHONPATH:$CHARLES:$CHARLES/calib_hm_el_in/
+	# export PYTHONPATH=$LIONEL:$LIONEL/module:$LIONEL/module/func
+	# export PYTHONPATH=$PYTHONPATH:$CHARLES:$CHARLES/calib_hm_el_in/
+	# export CONDA_ENV=/home/d51680/Logiciel/anaconda/envs
+	# export PYTHONWARNINGS="ignore"
+	# export PY_LIONEL="/home/d51680/Logiciel/anaconda3/envs/py_lionel"
+	# export PATH="/usr/bin":"/sbin":$LIONEL:$CHARLES:$LIONEL/module/func:$PATH
+
+	export PATH=/usr/bin:/sbin:$LIB
+	export PYTHONPATH=$PYTHONPATH:$LIB:$CODE
+
 	export CONDA_ENV=/home/d51680/Logiciel/anaconda/envs
 	export PYTHONWARNINGS="ignore"
 	export PY_LIONEL="/home/d51680/Logiciel/anaconda3/envs/py_lionel"
-	export PATH="/usr/bin":"/sbin":$LIONEL:$CHARLES:$LIONEL/module/func:$PATH
 
 	alias py_lionel="$PY_LIONEL/bin/python"
 

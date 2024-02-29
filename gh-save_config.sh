@@ -29,3 +29,9 @@ cd $ST_USER
 git add *
 git commit -m "quick_save"
 git push gh-rsl
+
+
+cd $LIB
+git add *
+git commit -m "quick_save"
+git push github
