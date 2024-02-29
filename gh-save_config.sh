@@ -15,7 +15,7 @@ cp $HOME/.zrc0 zrc0.sh
 echo .zshrc and .rc0 from home loaded into linux config file 
 echo 
 
-git add *
+git add .
 git commit -m "quick_save"
 git push gh-rsl
 
@@ -26,12 +26,12 @@ echo
 echo Sublime Text config save :
 
 cd $ST_USER
-git add *
+git add .
 git commit -m "quick_save"
 git push gh-rsl
 
 
 cd $LIB
-git add *
+git add .
 git commit -m "quick_save"
 git push github
