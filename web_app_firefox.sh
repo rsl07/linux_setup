@@ -38,7 +38,7 @@ else
 	echo "Not Launched, proceed to launch another app"
 
 	url1="https://mail.google.com/mail/u/0/#inbox"
-	url2="https://keep.google.com"
+	url2="https://calendar.google.com/calendar/u/0/r"
 
 	firefox --new-instance $url1 $url2 & disown
 

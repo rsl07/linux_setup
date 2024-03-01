@@ -96,16 +96,19 @@ alias mvpa="eog $MVP/ac/* & disown"
 
 
 alias asc="cd $AC_RSL;ls"=
-alias pac="rsync -av $AC_RSL/ $AC_CHB/rsl/"
+alias pac="rsync -av $AC_RSL/ $AC_CHB/roussel/"
 
 
 ###############################################################################
-# AC                            
+# GVB                           
 ###############################################################################
 
 export DIR_GEVIBUS="$HOME/dev/smeca/salome-gevibus"
 
 alias gvb='cd $DIR_GEVIBUS'
+
+# doc, à faire dans le conteneur
+alias doc_gvb='/usr/bin/firefox file:///opt/salome_meca/V2023.1.0_scibian_10/modules/GEVIBUS_202310/share/doc/salome/gui/gevibus/html/index.html'
 
 
 ###############################################################################
