@@ -99,17 +99,6 @@ alias asc="cd $AC_RSL;ls"=
 alias pac="rsync -av $AC_RSL/ $AC_CHB/roussel/"
 
 
-###############################################################################
-# GVB                           
-###############################################################################
-
-export DIR_GEVIBUS="$HOME/dev/smeca/salome-gevibus"
-
-alias gvb='cd $DIR_GEVIBUS'
-
-# doc, à faire dans le conteneur
-alias doc_gvb='/usr/bin/firefox file:///opt/salome_meca/V2023.1.0_scibian_10/modules/GEVIBUS_202310/share/doc/salome/gui/gevibus/html/index.html'
-
 
 ###############################################################################
 # SUBLIME                            
@@ -320,12 +309,21 @@ alias read_pickle="/home/d51680/Config/python/read_pickle.py "
 
 
 
-
 ###############################################################################
 # GEVIBUS                            
 ###############################################################################
 
+export DIR_GEVIBUS="$HOME/dev/smeca/salome-gevibus"
+
+alias gvb='cd $DIR_GEVIBUS'
+
 alias gevibus_local="~/Config/gevibus/local.sh"
+
+alias doc_gvb="~/Config/gevibus/doc.sh"
+
+
+
+
 
 
 ###############################################################################
@@ -363,5 +361,15 @@ if [ -z "${SINGULARITY_CONTAINER}" ]; then
 	export PY_LIONEL="/home/d51680/Logiciel/anaconda3/envs/py_lionel"
 
 	alias py_lionel="$PY_LIONEL/bin/python"
+
+
+fi
+
+
+if [[ $LOCAL_DOC_GVB ]]; then
+
+	pkill -f firefox
+
+	/usr/bin/firefox file:///opt/salome_meca/V2023.1.0_scibian_10/modules/GEVIBUS_202310/share/doc/salome/gui/gevibus/html/index.html
 
 fi
