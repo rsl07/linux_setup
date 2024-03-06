@@ -9,6 +9,18 @@ export ftp_proxy=$PROXY
 export FTP_PROXY=$PROXY
 export no_proxy="localhost,edf.fr"
 
+function unset_proxy() {
+
+unset http_proxy
+unset https_proxy
+unset HTTP_PROXY
+unset HTTPS_PROXY
+unset ftp_proxy
+unset FTP_PROXY
+unset no_proxy
+
+}
+
 
 # zsh conf  ============================================================
 

@@ -1,3 +1,16 @@
+### SUMMARY ====================================================================
+#        				 (add altgr+² to find)
+### 1 DATA ARCHITECTURE
+### 2 SUBLIME
+### 3 APPLICATION
+### 4 PHD
+### 5 AC
+### 6 CRONOS
+### 7 ASTER
+### 8 GEVIBUS
+### 9 PATH
+#
+# ==============================================================================
 
 source ~/.zrc0
 
@@ -7,7 +20,7 @@ source $HOME/Config/linux/cdd.sh
 source $HOME/.ls_colors
 
 ###############################################################################
-# DATA ARCHITECTURE                            
+# 1¬ DATA ARCHITECTURE                            
 ###############################################################################
 
 export DATA=$HOME/Data
@@ -85,23 +98,9 @@ alias wsp="$HOME/Config/linux/workspace.sh"
 
 alias clp='rm $HOME/.pid_*'
 
-###############################################################################
-# AC                            
-###############################################################################
- 
-export AC_CHB="/data/rd/work/projets.002/cac.045/BIBLIOTHEQUE/4.ACCIDENTS/4.IFS/Prestations/2023_postdoc_IMSIA_Charbel_Habchi"
-export AC_RSL="/home/d51680/Projets/ac3d"
-
-alias mvpa="eog $MVP/ac/* & disown"
-
-
-alias asc="cd $AC_RSL;ls"=
-alias pac="rsync -av $AC_RSL/ $AC_CHB/roussel/"
-
-
 
 ###############################################################################
-# SUBLIME                            
+# 2¬ SUBLIME                            
 ###############################################################################
 
 export ST_PACK=$HOME/.config/sublime-text/Packages
@@ -113,29 +112,20 @@ alias snp='cd $ST_USER/snippet; ls'
 
 
 
-
 ###############################################################################
-# CRONOS                            
+# 3¬ APPLICATION 
 ###############################################################################
 
-export CR_HOME=d51680@cronos.hpc.edf.fr:/home/d51680
-export CR_WORK=d51680@cronos.hpc.edf.fr:/work
-export CR_SCRATCH=d51680@cronos.hpc.edf.fr:/scratch
+alias pandoc="pandoc -f markdown --pdf-engine=xelatex -V 'monofont:DejaVu Sans Mono'"
 
-export CR_WORK_POWX=$CR_WORK/rd/powerx
-export CR_CALIB=d51680@cronos.hpc.edf.fr:/scratch/rd/powerx/CHARLES
-export CR_TDMS=d51680@cronos.hpc.edf.fr:/scratch/rd/powerx/CHARLES/tdms
+alias jabref='/opt/jabref/bin/JabRef & disown'
 
-export CR_SCRATCH_POWX=$CR_SCRATCH/rd/powerx
-export CR_SCRATCH_USER=$CR_SCRATCH/users/d51680
+alias form="google-chrome --new-window 'https://forms.office.com/Pages/DesignPageV2.aspx' & disown"
 
-
-alias qcr='$CHARLES/data_assembly/push_cronos.sh'
-alias cr='ssh cronos'
 
 
 ###############################################################################
-# PHD                            
+# 4¬ PHD                            
 ###############################################################################
 
 alias mvphd="eog $MVP/phd/* & disown"
@@ -277,19 +267,53 @@ alias rsh=$CH_SITECAL/result_hydro.py
 
 alias sens=/home/d51680/Projets/sensitivity_analysis/sensitivity.py
 
+###############################################################################
+# 5¬ AC                            
+###############################################################################
+ 
+export AC_CHB="/data/rd/work/projets.002/cac.045/BIBLIOTHEQUE/4.ACCIDENTS/4.IFS/Prestations/2023_postdoc_IMSIA_Charbel_Habchi"
+export AC_RSL="/home/d51680/Projets/ac3d"
+
+alias mvpa="eog $MVP/ac/* & disown"
+
+
+alias asc="cd $AC_RSL;ls"=
+alias pac="rsync -av $AC_RSL/ $AC_CHB/roussel/"
+
+
 
 ###############################################################################
-# ASTER / SALOME_MECA 
+# 6¬ CRONOS                            
+###############################################################################
+
+export CR_HOME=d51680@cronos.hpc.edf.fr:/home/d51680
+export CR_WORK=d51680@cronos.hpc.edf.fr:/work
+export CR_SCRATCH=d51680@cronos.hpc.edf.fr:/scratch
+
+export CR_WORK_POWX=$CR_WORK/rd/powerx
+export CR_CALIB=d51680@cronos.hpc.edf.fr:/scratch/rd/powerx/CHARLES
+export CR_TDMS=d51680@cronos.hpc.edf.fr:/scratch/rd/powerx/CHARLES/tdms
+
+export CR_SCRATCH_POWX=$CR_SCRATCH/rd/powerx
+export CR_SCRATCH_USER=$CR_SCRATCH/users/d51680
+
+
+alias qcr='$CHARLES/data_assembly/push_cronos.sh'
+alias cr='ssh cronos'
+
+
+
+
+
+###############################################################################
+# 7¬ ASTER  
 ###############################################################################
 
 export __NV_PRIME_RENDER_OFFLOAD=1
 export __GLX_VENDOR_LIBRARY_NAME=nvidia
 
-
-
 source $HOME/Config/aster/compile.sh
 source $HOME/Config/aster/run.sh
-
 
 # -----------------------------------------------------------------------------
 # Environnement SALOME MECA
@@ -308,9 +332,15 @@ alias smg="salome-meca_gui"
 alias read_pickle="/home/d51680/Config/python/read_pickle.py "
 
 
+# -----------------------------------------------------------------------------
+# ddt debbuger
+
+alias sddt="export LOCAL_DDT=true; salome-meca_shell"
+
+
 
 ###############################################################################
-# GEVIBUS                            
+# 8¬ GEVIBUS                            
 ###############################################################################
 
 export DIR_GEVIBUS="$HOME/dev/smeca/salome-gevibus"
@@ -324,43 +354,23 @@ alias doc_gvb="~/Config/gevibus/doc.sh"
 
 
 
-
-
 ###############################################################################
-# APPLICATION 
+# 9¬ PATH                         
 ###############################################################################
 
-alias pandoc="pandoc -f markdown --pdf-engine=xelatex -V 'monofont:DejaVu Sans Mono'"
 
-alias jabref='/opt/jabref/bin/JabRef & disown'
-
-alias form="google-chrome --new-window 'https://forms.office.com/Pages/DesignPageV2.aspx' & disown"
-
-###############################################################################
-# PATH                             
-###############################################################################
-
-# Not activated in singularity
-if [ -z "${SINGULARITY_CONTAINER}" ]; then
+if [ -z "$ SINGULARITY_CONTAINER" ]; then
     
 	conda activate py_lionel
 
-	# Where import look for module (check with sys.path)
-	# export PYTHONPATH=$LIONEL:$LIONEL/module:$LIONEL/module/func
-	# export PYTHONPATH=$PYTHONPATH:$CHARLES:$CHARLES/calib_hm_el_in/
-	# export CONDA_ENV=/home/d51680/Logiciel/anaconda/envs
-	# export PYTHONWARNINGS="ignore"
-	# export PY_LIONEL="/home/d51680/Logiciel/anaconda3/envs/py_lionel"
-	# export PATH="/usr/bin":"/sbin":$LIONEL:$CHARLES:$LIONEL/module/func:$PATH
-
 	export PATH=/usr/bin:/sbin:$LIB
+
 	export PYTHONPATH=$PYTHONPATH:$LIB:$CODE
+	export PY_LIONEL="/home/d51680/Logiciel/anaconda3/envs/py_lionel"
+	alias py_lionel="$PY_LIONEL/bin/python"
 
 	export CONDA_ENV=/home/d51680/Logiciel/anaconda/envs
 	export PYTHONWARNINGS="ignore"
-	export PY_LIONEL="/home/d51680/Logiciel/anaconda3/envs/py_lionel"
-
-	alias py_lionel="$PY_LIONEL/bin/python"
 
 
 fi
@@ -371,5 +381,13 @@ if [[ $LOCAL_DOC_GVB ]]; then
 	pkill -f firefox
 
 	/usr/bin/firefox file:///opt/salome_meca/V2023.1.0_scibian_10/modules/GEVIBUS_202310/share/doc/salome/gui/gevibus/html/index.html
+
+fi
+
+if [[ $LOCAL_DDT ]]; then
+
+	unset_proxy
+
+	ddt & disown
 
 fi
