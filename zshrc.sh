@@ -335,8 +335,28 @@ alias read_pickle="/home/d51680/Config/python/read_pickle.py "
 # -----------------------------------------------------------------------------
 # ddt debbuger
 
-alias sddt="export LOCAL_DDT=true; salome-meca_shell"
+alias lddt="export LOCAL_DDT=true; salome-meca_shell"
 
+function dbg_ca() {
+
+	if [[ $DEBUG_ASTER ]]; then
+
+		unset_proxy
+
+		/home/d51680/Config/aster/debug_aster_mpi_ddt $DEBUG_FILE
+
+	else
+
+		export DEBUG_ASTER=true
+		export DEBUG_FILE=$(realpath $1)
+
+		echo "need aster compilation in debug mode\n"
+
+		salome-meca_shell
+
+	fi
+
+}
 
 
 ###############################################################################
@@ -389,5 +409,14 @@ if [[ $LOCAL_DDT ]]; then
 	unset_proxy
 
 	ddt & disown
+
+fi
+
+if [[ $DEBUG_ASTER ]]; then
+
+	unset_proxy
+
+	/home/d51680/Config/aster/debug_aster_mpi_ddt $DEBUG_FILE
+
 
 fi
