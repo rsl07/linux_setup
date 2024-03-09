@@ -236,7 +236,7 @@ alias bl3='cd /home/d51680/Data/blyth_ch3/'
 alias bl4='cd /home/d51680/Data/blyth_ch4/'
 
 
-alias seq='chd;./seq_visu.py 20180713_023000'
+alias seq='chd;./seq_visu.py'
 alias nfe='chd;./24-nf_evolution.py'
 alias dme='chd;./26-Dmean_evolution.py'
 
@@ -379,7 +379,7 @@ alias doc_gvb="~/Config/gevibus/doc.sh"
 ###############################################################################
 
 
-if [ -z "$ SINGULARITY_CONTAINER" ]; then
+if [ -z "$SINGULARITY_CONTAINER" ]; then
     
 	conda activate py_lionel
 
