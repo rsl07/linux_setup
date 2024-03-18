@@ -131,48 +131,6 @@ alias form="google-chrome --new-window 'https://forms.office.com/Pages/DesignPag
 alias mvphd="eog $MVP/phd/* & disown"
 
 # -----------------------------------------------------------------------------
-# lionel
-
-export LIONEL=$HOME/Code/lionel
-
-
-alias li='cd $LIONEL; ls'
-alias tl="cd $LIONEL/test; ls"
-
-
-alias lionel="$HOME/Code/lionel/run.py"
-
-
-# -----------------------------------------------------------------------------
-# charles
-
-export CHARLES=$HOME/Code/charles
-export CHARLESX=$HOME/Code/charlesX
-
-
-alias ch='cd $CHARLES; ls'
-alias cad='cd $CHARLES/calib_ad; ls'
-alias chm='cd $CHARLES/calib_hm; ls'k
-alias cal='cd $CHARLES/calib_hm_el_in; ls'
-
-
-alias charles_hm="$HOME/Code/charles/calib_hm/charles_hm.py"
-alias charles_ad="$HOME/Code/charles/calib_ad/charles_ad.py"
-alias charles="$HOME/Code/charles/calib_hm_el_in/charles.py"
-
-alias extract="$CHARLES/data_assembly/17-extraction.sh"
-
-
-# charles bl7 executed 
-alias cx='cd $CHARLESX; ls' 
-alias cxd='cd $CHARLESX/charles/data/     ; ls'
-alias cxdw='cd $CHARLESX/charles/data_processed/wdir; ls'
-alias cxs='cd $CHARLESX/data_site; ls'
-alias cxcb='cd $CHARLESX/charles/calib_blyth; ls' 
-
-alias rcx='$CHARLESX/run.sh'
-
-# -----------------------------------------------------------------------------
 # Manuscrit 
 
 export BIB=$HOME/Litterature/phd/bib
@@ -213,6 +171,34 @@ alias ssd-pphd="cd $PHD
 				git push ssd"
 
 
+# -----------------------------------------------------------------------------
+# lionel
+
+export LIONEL=$HOME/Code/lionel
+
+alias li='cd $LIONEL; ls'
+alias tl="cd $LIONEL/test; ls"
+
+alias lionel="$HOME/Code/lionel/run.py"
+
+
+# -----------------------------------------------------------------------------
+# charles
+
+export CHARLES=$HOME/Code/charles
+export CHARLESX=$HOME/Code/charlesX
+
+alias ch='cd $CHARLES; ls'
+alias cad='cd $CHARLES/calib_ad; ls'
+alias chm='cd $CHARLES/calib_hm; ls'k
+alias cal='cd $CHARLES/calib_hm_el_in; ls'
+
+alias charles_hm="$HOME/Code/charles/calib_hm/charles_hm.py"
+alias charles_ad="$HOME/Code/charles/calib_ad/charles_ad.py"
+alias charles="$HOME/Code/charles/calib_hm_el_in/charles.py"
+
+alias extract="$CHARLES/data_assembly/17-extraction.sh"
+
 
 # -----------------------------------------------------------------------------
 # Site data HPC analysis
@@ -235,37 +221,50 @@ alias bl2='cd $BLCH2; ls'
 alias bl3='cd /home/d51680/Data/blyth_ch3/'
 alias bl4='cd /home/d51680/Data/blyth_ch4/'
 
-
 alias seq='chd;./calib_visu.py'
 alias nfe='chd;./24-nf_evolution.py'
 alias dme='chd;./26-Dmean_evolution.py'
-
 
 
 # -----------------------------------------------------------------------------
 # Blyth Site Calibration
 
 export CH_SITECAL=/home/d51680/Code/charles/calib_blyth
+export CH_SD=/home/d51680/Code/charles/calib_blyth/data
 export MVPC=$MVP/site_calibration
 export MVPD=$MVP/site_defect
 export PR_SITECAL=/home/d51680/Projets/site_calibration
 
-alias prc='cd $PR_SITECAL'
-alias mvpc="eog $MVPC/*.png & disown"
-alias mvpd="eog $MVPD/*.png & disown"
-
+alias mvpc=" eog $MVPC/*.png & disown"
+alias mvpd=" eog $MVPD/*.png & disown"
 
 alias dwgs="evince /home/d51680/Litterature/eolien/blyth/sensors/A2-07-Instrumentation-Installation-as-built.pdf & disown"
 alias dwgf="evince /home/d51680/Litterature/eolien/blyth/foundation/BOD-107-05-BAM-DWG-00071_Drawing-GENERAL_ARRANGEMENT_LOCATION_A207.pdf & disown"
 alias ila="evince /home/d51680/Litterature/eolien/blyth/study/BOD-107-05-BAM-REP-00008-A-04_Report-Integrated_Load_Analysis.pdf & disown"
 
-alias chb='cd $CH_SITECAL;ls'
 
-alias charles=$CH_SITECAL/charles.py
-alias rsa=$CH_SITECAL/result_aero.py
-alias rsh=$CH_SITECAL/result_hydro.py
+alias chb='  cd $CH_SITECAL      ;ls'
+alias chbd=' cd $CH_SITECAL/data ; ls'
+alias prc='  cd $PR_SITECAL      ; ls'
 
-alias sens=/home/d51680/Projets/sensitivity_analysis/sensitivity.py
+
+alias charles=' $CH_SITECAL/charles.py'
+
+alias rch='     $CH_SITECAL/run_hydro-bfgs-3d.py'
+alias bch='     $CH_SITECAL/batch_hydro-bfgs-3d.py'
+
+# -----------------------------------------------------------------------------
+# CharlesX
+
+alias cx='   cd $CHARLESX                            ; ls' 
+alias cxd='  cd $CHARLESX/charles/data/              ; ls'
+alias cxdw=' cd $CHARLESX/charles/data_processed/wdir; ls'
+alias cxs='  cd $CHARLESX/data_site                  ; ls'
+alias cxcb=' cd $CHARLESX/charles/calib_blyth        ; ls' 
+
+alias rcx='$CHARLESX/run.sh'
+
+
 
 ###############################################################################
 # 5¬ AC                            
