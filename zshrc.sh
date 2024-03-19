@@ -248,10 +248,10 @@ alias chbd=' cd $CH_SITECAL/data ; ls'
 alias prc='  cd $PR_SITECAL      ; ls'
 
 
-alias charles=' $CH_SITECAL/charles.py'
+alias charles=$CH_SITECAL/charles.py
 
-alias rch='     $CH_SITECAL/run_hydro-bfgs-3d.py'
-alias bch='     $CH_SITECAL/batch_hydro-bfgs-3d.py'
+alias rch=$CH_SITECAL/run_hydro-bfgs-3d.py
+alias bch=$CH_SITECAL/batch_hydro.py
 
 # -----------------------------------------------------------------------------
 # CharlesX
