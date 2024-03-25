@@ -1,8 +1,6 @@
 #!/bin/zsh
 
-wdir="/home/d51680/Code/charlesX/charles/data"
-
-
+wdir="/home/d51680/Code/charles/calib_blyth"
 
 
 id_wdir=`cat $HOME/.pid_main_wdir`
