@@ -238,8 +238,8 @@ export PR_SITECAL=/home/d51680/Projets/site_calibration
 alias mvpc=" eog $MVPC/*.png & disown"
 alias mvpd=" eog $MVPD/*.png & disown"
 
-alias dwgs="evince /home/d51680/Litterature/wind-turbine/sensors/A2-07-Instrumentation-Installation-as-built.pdf & disown"
-alias dwgf="evince /home/d51680/Litterature/wind-turbine/foundation/BOD-107-05-BAM-DWG-00071_Drawing-GENERAL_ARRANGEMENT_LOCATION_A207.pdf & disown"
+alias dwgs="evince /home/d51680/Litterature/wind-turbine/blyth/sensors/A2-07-Instrumentation-Installation-as-built.pdf & disown"
+alias dwgf="evince /home/d51680/Litterature/wind-turbine/blyth/foundation/BOD-107-05-BAM-DWG-00071_Drawing-GENERAL_ARRANGEMENT_LOCATION_A207.pdf & disown"
 alias ila="evince /home/d51680/Litterature/eolien/blyth/study/BOD-107-05-BAM-REP-00008-A-04_Report-Integrated_Load_Analysis.pdf & disown"
 
 
