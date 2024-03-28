@@ -123,6 +123,8 @@ alias jabref='/opt/jabref/bin/JabRef & disown'
 alias form="google-chrome --new-window 'https://forms.office.com/Pages/DesignPageV2.aspx' & disown"
 
 
+alias ordo='open /home/d51680/Documents/2024_workload/ordo_Antoine_2024_1.xlsx'
+
 
 ###############################################################################
 # 4¬ PHD                            
