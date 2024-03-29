@@ -224,6 +224,10 @@ alias bl3='cd /home/d51680/Data/blyth_ch3/'
 alias bl4='cd /home/d51680/Data/blyth_ch4/'
 
 alias seq='chd;./calib_visu.py'
+alias seqh='chd;./calib_visu_hydro.py'
+alias seqa='chd;./calib_visu_aero.py'
+
+
 alias nfe='chd;./24-nf_evolution.py'
 alias dme='chd;./26-Dmean_evolution.py'
 
