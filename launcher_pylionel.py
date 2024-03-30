@@ -13,6 +13,7 @@ import matplotlib.pyplot as plt
 
 import code
 
-from rsl import *
+import rsl
+
 
 code.interact(local=locals())
