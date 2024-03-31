@@ -37,7 +37,7 @@ else
 
 	url="https://www.notion.so/Inbox-49c3230eb0f04db0bc83e103257265f2"
 
-	google-chrome --new-window $url  & disown
+	firefox --new-window $url  & disown
 
 	sleep 1
 
