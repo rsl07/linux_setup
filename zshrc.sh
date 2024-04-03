@@ -231,9 +231,6 @@ alias seqa='chd;./calib_visu_aero.py'
 alias nfe='chd;./24-nf_evolution.py'
 alias dme='chd;./26-Dmean_evolution.py'
 
-alias rch='chb; ./calib_hydro.py'
-
-
 # -----------------------------------------------------------------------------
 # Blyth Site Calibration
 
@@ -258,8 +255,12 @@ alias prc='  cd $PR_SITECAL      ; ls'
 
 alias charles=$CH_SITECAL/charles.py
 
+
 # alias rch=$CH_SITECAL/run_hydro-bfgs-3d.py
-alias bch=$CH_SITECAL/batch_hydro.py
+
+alias rch='$CH_SITECAL/calib_hydro.py'
+
+alias bch='$CH_SITECAL/batch_hydro.py'
 
 alias mpl="of Data blyth_ch4 multiplot"
 
