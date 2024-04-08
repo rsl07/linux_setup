@@ -259,7 +259,7 @@ alias charles=$CH_SITECAL/charles.py
 
 # alias rch=$CH_SITECAL/run_hydro-bfgs-3d.py
 
-alias rch='$CH_SITECAL/calib_hydro.py'
+alias rch='$CH_SITECAL/calib_hydro_modY.py'
 
 alias bch='$CH_SITECAL/batch_hydro.py'
 
