@@ -380,7 +380,7 @@ alias gvb='cd $DIR_GEVIBUS'
 
 alias gevibus_local="~/Config/gevibus/local.sh"
 
-alias doc_gvb="~/Config/gevibus/doc.sh"
+alias doc_gvb="timeout 1 ~/Config/gevibus/doc.sh; exit"			  # need to be kept alive
 
 
 
@@ -409,9 +409,9 @@ fi
 
 if [[ $LOCAL_DOC_GVB ]]; then
 
-	pkill -f firefox
+	pkill -f chromium
 
-	/usr/bin/firefox file:///opt/salome_meca/V2023.1.0_scibian_10/modules/GEVIBUS_202310/share/doc/salome/gui/gevibus/html/index.html
+	/usr/bin/chromium file:///opt/salome_meca/V2023.1.0_scibian_10/modules/GEVIBUS_202310/share/doc/salome/gui/gevibus/html/index.html & disown 
 
 fi
 
