@@ -30,14 +30,13 @@ echo $url
 google-chrome --new-window "$url" & disown 
 
 # wait for window to open
-sleep 0.5
+sleep 0.1
 
 
 id_focus=$(xdotool getwindowfocus)
 id_gg=$(xdotool search --name "$window_name")
 
 xdotool search --name "$window_name"
-
 
 if [ "$id_focus" != "$id_gg" ];
 then
@@ -47,6 +46,9 @@ then
 	xdotool windowactivate $id_gg
 
 fi
+
+wmctrl -r :ACTIVE: -b add,maximized_vert,maximized_horz
+
 
 exit
 
