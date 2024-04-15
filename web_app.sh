@@ -42,7 +42,11 @@ else
 
 	google-chrome --new-window $url1 $url2  & disown
 
-	sleep 2
+	sleep 0.1
+
+	wmctrl -r :ACTIVE: -b add,maximized_vert,maximized_horz
+
+	sleep 1
 
 	export id_chrome=$(xdotool getwindowfocus)
 

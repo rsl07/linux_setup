@@ -9,6 +9,7 @@ export SCOPE=(
 	$HOME/Code $HOME/Config $HOME/Data $HOME/Téléchargements
 
 	$HOME/Documents $HOME/Bureau $HOME/Images 
+	
 	$HOME/Projets $HOME/Litterature $HOME/Presentation
 			 )
 
