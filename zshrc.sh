@@ -251,19 +251,19 @@ alias ila="evince /home/d51680/Litterature/eolien/blyth/study/BOD-107-05-BAM-REP
 
 alias chb='  cd $CH_SITECAL      ;ls'
 alias chbd=' cd $CH_SITECAL/data ; ls'
+alias chbj=' cd $CH_SITECAL/jobs ; ls'
 alias prc='  cd $PR_SITECAL      ; ls'
 
 
 alias charles=$CH_SITECAL/charles.py
 
 
-# alias rch=$CH_SITECAL/run_hydro-bfgs-3d.py
+alias mpl="of Data blyth_ch4 multiplot"
 
 alias rch='$CH_SITECAL/calib_hydro_SSXi.py'
-
 alias bch='$CH_SITECAL/batch_hydro.py'
 
-alias mpl="of Data blyth_ch4 multiplot"
+alias bpl='$CH_SITECAL/plot_batch_result.py'
 
 # -----------------------------------------------------------------------------
 # CharlesX
