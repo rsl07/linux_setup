@@ -47,6 +47,7 @@ then
 
 fi
 
+sleep 0.1
 wmctrl -r :ACTIVE: -b add,maximized_vert,maximized_horz
 
 
