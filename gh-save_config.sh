@@ -3,6 +3,7 @@
 
 # Linux Config Save
 
+# Proxy for crontab 
 export PROXY="http://vip-users.proxy.edf.fr:3131"
 export http_proxy=$PROXY
 export https_proxy=$PROXY

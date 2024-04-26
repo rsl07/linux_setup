@@ -76,8 +76,6 @@ alias save_github_config=". $LINUX/gh-save_config.sh"
 alias save_ssd_folders=". $LINUX/ssd-save.sh"
 alias save_mnemo=". $LINUX/mnemo-save.sh"
 
-alias usb-save_doc=". $LINUX/usb-save_doc.sh"
-
 
 # -----------------------------------------------------------------------------
 # Navigation
