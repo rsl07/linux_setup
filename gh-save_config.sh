@@ -3,7 +3,14 @@
 
 # Linux Config Save
 
-echo $PROXY
+export PROXY="http://vip-users.proxy.edf.fr:3131"
+export http_proxy=$PROXY
+export https_proxy=$PROXY
+export HTTP_PROXY=$PROXY
+export HTTPS_PROXY=$PROXY
+export ftp_proxy=$PROXY
+export FTP_PROXY=$PROXY
+export no_proxy="localhost,edf.fr"
 
 echo linux config save :
 
