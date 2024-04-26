@@ -3,6 +3,8 @@
 
 # Linux Config Save
 
+echo $PROXY
+
 echo linux config save :
 
 cd $HOME/Config/linux/
