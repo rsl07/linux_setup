@@ -283,13 +283,20 @@ alias rcx='$CHARLESX/run.sh'
  
 export AC_CHB="/data/rd/work/projets.002/cac.045/BIBLIOTHEQUE/4.ACCIDENTS/4.IFS/Travaux R&D/IFS_AC_3D/Prestations/2023_postdoc_IMSIA_Charbel_Habchi"
 export AC_RSL="/home/d51680/Projets/ac3d"
+export AC_UU="$CODE/ac3d"
 
 alias mvpa="eog $MVP/ac/* & disown"
 
 
-alias asc="cd $AC_RSL;ls"=
-alias pac="rsync -av $AC_RSL/ $AC_CHB/roussel/"
+alias pac="cd $AC_RSL;ls"=
 
+alias sac="rsync -av $AC_RSL/ $AC_CHB/roussel/"
+
+alias uu=" cd $AC_UU"
+alias qpu="cd $AC_UU ;
+		   git add . ; 
+		   git commit -m 'quick push' ; 
+		   git push gitlab_rsl"
 
 
 ###############################################################################

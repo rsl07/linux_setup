@@ -38,9 +38,9 @@ else
 	echo "Not Launched, proceed to launch another app"
 
 	url1="https://calendar.notion.so/"
-    url2="https://mail.google.com/mail/u/0/#inbox"
+    # url2="https://mail.google.com/mail/u/0/#inbox"
 
-	firefox --new-instance $url1 $url2 & disown
+	firefox --new-instance $url1 & disown
 
 	# firefox --new-tab $url2  & disown
 
