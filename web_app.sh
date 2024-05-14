@@ -39,8 +39,10 @@ else
 
 	url1="https://teams.microsoft.com/"
 	url2="https://outlook.office365.com/mail/"
+	url3="https://gitlab.pleiade.edf.fr/"
+	url4="https://github.com/rsl07?tab=repositories"
 
-	google-chrome --new-window $url1 $url2  & disown
+	google-chrome --new-window $url1 $url2 $url3 $url4  & disown
 
 	sleep 0.1
 
