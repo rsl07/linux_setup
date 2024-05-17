@@ -288,16 +288,25 @@ export AC_UU="$CODE/ac3d"
 
 alias mvpa="eog $MVP/ac/* & disown"
 
-
 alias pac="cd $AC_RSL;ls"=
 
 alias sac="rsync -av $AC_RSL/ $AC_CHB/roussel/"
 
 alias uu=" cd $AC_UU"
+
 alias qpu="cd $AC_UU ;
+		   rm notes.pdf;
+		   pdfunite source/notes.pdf source/master.pdf notes.pdf;
+		   cp notes.pdf /home/d51680/Projets/ac3d/notes.pdf;
+
+		   cd source
+		   rm *.aux *.fdb* *.lof *.lot *.log *.out *.gz *.toc *.fls
+		   cd $AC_UU ;
+
 		   git add . ; 
 		   git commit -m 'quick push' ; 
-		   git push gitlab_rsl"
+		   git push gitlab_rsl;"
+
 
 
 ###############################################################################
