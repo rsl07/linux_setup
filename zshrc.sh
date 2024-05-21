@@ -300,7 +300,8 @@ alias qpu="cd $AC_UU ;
 		   cp notes.pdf /home/d51680/Projets/ac3d/notes.pdf;
 
 		   cd source
-		   rm *.aux *.fdb* *.lof *.lot *.log *.out *.gz *.toc *.fls
+		   rm *.aux;rm *.fdb*;rm *.lof;rm *.lot;rm *.log;rm *.out
+		   rm *.gz;rm *.toc;rm *.fls
 		   cd $AC_UU ;
 
 		   git add . ; 
