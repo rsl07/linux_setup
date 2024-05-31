@@ -217,6 +217,7 @@ alias dca='cd /home/d51680/Projets/site_analysis/data_calib;ls'
 alias tdms='cd /home/d51680/Projets/site_analysis/tdms;ls'
 
 alias chd='cd /home/d51680/Code/charles/data_assembly; ls'
+
 alias bl='cd /home/d51680/Data/blyth'
 alias bl2='cd $BLCH2; ls'
 alias bl3='cd /home/d51680/Data/blyth_ch3/'
