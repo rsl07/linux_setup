@@ -237,6 +237,7 @@ alias dme='chd;./26-Dmean_evolution.py'
 export CH_SITECAL=/home/d51680/Code/charles/calib_blyth
 export CH_SD=/home/d51680/Code/charles/calib_blyth/data
 export CH_SJ=/home/d51680/Code/charles/calib_blyth/jobs
+export CHARLES_JOBS=/home/d51680/Code/charles/calib_blyth/jobs
 export MVPC=$MVP/site_calibration
 export MVPD=$MVP/site_defect
 export PR_SITECAL=/home/d51680/Projets/site_calibration
