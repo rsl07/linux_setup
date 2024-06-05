@@ -255,7 +255,6 @@ alias chbd=' cd $CH_SITECAL/data ; ls'
 alias chbj=' cd $CH_SITECAL/jobs ; ls'
 alias prc='  cd $PR_SITECAL      ; ls'
 
-
 alias charles=$CH_SITECAL/charles.py
 
 
@@ -266,6 +265,7 @@ alias bch='$CH_SITECAL/batch_hydro.py'
 
 alias bpl='$CH_SITECAL/plot_batch_result.py'
 
+alias pl4='chb; ./_plot4_bat2-set3.py'
 
 # -----------------------------------------------------------------------------
 # CharlesX
