@@ -405,6 +405,10 @@ alias doc_gvb="timeout 1 ~/Config/gevibus/doc.sh; exit"
 
 
 
+# gvb_auto - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+alias gva='cd /home/d51680/Code/gvb_auto'
+
 
 ###############################################################################
 # 9¬ PATH                         

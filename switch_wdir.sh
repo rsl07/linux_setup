@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-wdir="/home/d51680/Code/charles/calib_blyth"
+wdir="/home/d51680/Code/gvb_auto"
 
 
 id_wdir=`cat $HOME/.pid_main_wdir`
