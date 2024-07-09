@@ -51,7 +51,7 @@ then
 
 	mv $LOG $MNEMO/log_save	
 
-	rsync -av --delete --exclude="*.git" Documents Litterature Images Projets Archive Presentation $SAVE/ >&1 | tee $MNEMO/log_save/save_$time.txt
+	rsync -av --delete --exclude="*.git" Documents Litterature Images Projets Archive Presentation Config $SAVE/ >&1 | tee $MNEMO/log_save/save_$time.txt
 
 	mv $MNEMO/log_save $LOG 
 
