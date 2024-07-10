@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-wdir="/home/d51680/Code/gvb_auto"
+wdir="/home/d51680/Code/gvb_cli"
 
 
 id_wdir=`cat $HOME/.pid_main_wdir`
