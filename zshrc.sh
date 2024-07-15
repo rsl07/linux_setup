@@ -56,7 +56,6 @@ alias lin='cd ~/Config/linux; ls'
 alias doc='cd ~/Documents; ls'
 alias mvp="cd ~/Images/mvp; ls"
 alias lib="cd $HOME/Code/lib"
-alias ca="cd ~/dev/codeaster/src"
 
 alias tr1="tree -L 1"
 alias tr2="tree -L 2"
@@ -343,8 +342,10 @@ export __NV_PRIME_RENDER_OFFLOAD=1
 export __GLX_VENDOR_LIBRARY_NAME=nvidia
 
 source $HOME/Config/aster/compile.sh
-
 source $HOME/Config/aster/run.sh
+
+alias as="cd ~/dev/codeaster/src"
+alias ast="cd ~/dev/codeaster/src/astest"
 
 # -----------------------------------------------------------------------------
 # Environnement SALOME MECA
