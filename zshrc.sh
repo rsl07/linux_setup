@@ -342,7 +342,7 @@ export __NV_PRIME_RENDER_OFFLOAD=1
 export __GLX_VENDOR_LIBRARY_NAME=nvidia
 
 source $HOME/Config/aster/compile.sh
-source $HOME/Config/aster/run.sh
+source $HOME/Config/aster/function.sh
 
 alias as="cd ~/dev/codeaster/src"
 alias ast="cd ~/dev/codeaster/src/astest"
@@ -356,6 +356,9 @@ alias salome-meca_shell="scibian-nvidia /home/d51680/Conteneurs/smeca2023.1.0 --
 
 alias sms="salome-meca_shell"
 alias smg="salome-meca_gui"
+
+
+alias run_aster="/home/d51680/dev/codeaster/install/mpi/bin/run_aster"
 
 
 # -----------------------------------------------------------------------------
