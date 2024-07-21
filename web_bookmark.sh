@@ -5,6 +5,18 @@
 # Google Search ###############################################################
 
 
+function ascom() {
+
+url="https://code-aster.org/doc/default/fr/index.php?man=commande"
+
+echo $url
+
+exec google-chrome --new-window "$url" & disown 
+
+exit
+
+}
+
 function web() {
 
 for arg in "$@"

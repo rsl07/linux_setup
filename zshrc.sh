@@ -56,6 +56,9 @@ alias lin='cd ~/Config/linux; ls'
 alias doc='cd ~/Documents; ls'
 alias mvp="cd ~/Images/mvp; ls"
 alias lib="cd $HOME/Code/lib"
+alias ast="cd ~/dev/codeaster/src"
+alias asd="cd ~/dev/codeaster/docaster"
+alias ot3='cd /home/d51680/Code/fa33896'
 
 alias tr1="tree -L 1"
 alias tr2="tree -L 2"
