@@ -41,8 +41,9 @@ else
 	url2="https://outlook.office365.com/mail/"
 	url3="https://gitlab.pleiade.edf.fr/rsl"
 	url4="https://github.com/rsl07?tab=repositories"
+	url5='https://aster.retd.edf.fr/rex/issue33896'
 
-	google-chrome --new-window $url1 $url2 $url3 $url4  & disown
+	google-chrome --new-window $url1 $url2 $url3 $url4 $url5 & disown
 
 	sleep 0.1
 
