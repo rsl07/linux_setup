@@ -346,6 +346,7 @@ export __NV_PRIME_RENDER_OFFLOAD=1
 export __GLX_VENDOR_LIBRARY_NAME=nvidia
 
 source $HOME/Config/aster/compile.sh
+source $HOME/Config/aster/debug.sh
 source $HOME/Config/aster/function.sh
 
 alias as="cd ~/dev/codeaster/src"
@@ -365,37 +366,6 @@ alias smg="salome-meca_gui"
 alias run_aster="/home/d51680/dev/codeaster/install/mpi/bin/run_aster"
 
 
-# -----------------------------------------------------------------------------
-# Extract array from pickle
-
-alias read_pickle="/home/d51680/Config/python/read_pickle.py "
-
-
-# -----------------------------------------------------------------------------
-# ddt debbuger
-
-alias lddt="export LOCAL_DDT=true; salome-meca_shell"
-
-function dbg_ca() {
-
-	if [[ $DEBUG_ASTER ]]; then
-
-		unset_proxy
-
-		/home/d51680/Config/aster/debug_aster_mpi_ddt $DEBUG_FILE
-
-	else
-
-		export DEBUG_ASTER=true
-		export DEBUG_FILE=$(realpath $1)
-
-		echo "need aster compilation in debug mode\n"
-
-		salome-meca_shell
-
-	fi
-
-}
 
 
 ###############################################################################
@@ -448,19 +418,3 @@ if [[ $LOCAL_DOC_GVB ]]; then
 
 fi
 
-if [[ $LOCAL_DDT ]]; then
-
-	unset_proxy
-
-	ddt & disown
-
-fi
-
-if [[ $DEBUG_ASTER ]]; then
-
-	unset_proxy
-
-	/home/d51680/Config/aster/debug_aster_mpi_ddt $DEBUG_FILE
-
-
-fi
