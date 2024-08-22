@@ -40,7 +40,7 @@ else
 	url1="https://calendar.notion.so/"
     # url2="https://mail.google.com/mail/u/0/#inbox"
 
-	firefox --new-instance $url1 & disown
+	firefox --new-window $url1 & disown
 
 	# firefox --new-tab $url2  & disown
 
