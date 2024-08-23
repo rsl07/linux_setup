@@ -1,14 +1,15 @@
 ### SUMMARY ====================================================================
 #        				 (add altgr+² to find)
-### 1 DATA ARCHITECTURE
-### 2 SUBLIME
-### 3 APPLICATION
-### 4 PHD
-### 5 AC
-### 6 CRONOS
-### 7 ASTER
-### 8 GEVIBUS
-### 9 PATH
+### DATA ARCHITECTURE
+### COMMAND
+### SUBLIME
+### APPLICATION
+### PHD
+### AC
+### CRONOS
+### ASTER
+### GEVIBUS
+### PATH
 #
 # ==============================================================================
 
@@ -20,7 +21,7 @@ source $HOME/Config/linux/cdd.sh
 source $HOME/.ls_colors
 
 ###############################################################################
-# 1¬ DATA ARCHITECTURE                            
+# ¬ DATA ARCHITECTURE                            
 ###############################################################################
 
 export DATA=$HOME/Data
@@ -61,6 +62,12 @@ alias asd="cd ~/dev/codeaster/docaster"
 alias ot2='cd /home/d51680/Code/fa33896_2'
 alias ot3='cd /home/d51680/Code/fa33896_3'
 
+
+
+###############################################################################
+# ¬ COMMAND                            
+###############################################################################
+
 alias tr1="tree -L 1"
 alias tr2="tree -L 2"
 alias tr3="tree -L 3"
@@ -70,6 +77,7 @@ alias du="du -hc"
 alias xc="xclip -selection clipboard"
 alias xdg="xdg-open"
 alias c='clear'
+alias txc="fc -ln -1 | xclip -selection clipboard"
 
 
 # -----------------------------------------------------------------------------
@@ -101,7 +109,7 @@ alias clp='rm $HOME/.pid_*'
 
 
 ###############################################################################
-# 2¬ SUBLIME                            
+# ¬ SUBLIME                            
 ###############################################################################
 
 export ST_PACK=$HOME/.config/sublime-text/Packages
@@ -114,7 +122,7 @@ alias snp='cd $ST_USER/snippet; ls'
 
 
 ###############################################################################
-# 3¬ APPLICATION 
+# ¬ APPLICATION 
 ###############################################################################
 
 alias pandoc="pandoc -f markdown --pdf-engine=xelatex -V 'monofont:DejaVu Sans Mono'"
@@ -129,7 +137,7 @@ alias ordo='firefox --new-window https://www.notion.so/Ordo-5eaaab45039745c18e42
 
 
 ###############################################################################
-# 4¬ PHD                            
+# ¬ PHD                            
 ###############################################################################
 
 alias mvphd="eog $MVP/phd/* & disown"
@@ -284,7 +292,7 @@ alias rcx='$CHARLESX/run.sh'
 
 
 ###############################################################################
-# 5¬ AC                            
+# ¬ AC                            
 ###############################################################################
  
 export AC_CHB="/data/rd/work/projets.002/cac.045/BIBLIOTHEQUE/4.ACCIDENTS/4.IFS/Travaux R&D/IFS_AC_3D/Prestations/2023_postdoc_IMSIA_Charbel_Habchi"
@@ -316,7 +324,7 @@ alias qpu="cd $AC_UU ;
 
 
 ###############################################################################
-# 6¬ CRONOS                            
+# ¬ CRONOS                            
 ###############################################################################
 
 export CR_HOME=d51680@cronos.hpc.edf.fr:/home/d51680
@@ -339,7 +347,7 @@ alias cr='ssh cronos'
 
 
 ###############################################################################
-# 7¬ ASTER  
+# ¬ ASTER  
 ###############################################################################
 
 export __NV_PRIME_RENDER_OFFLOAD=1
@@ -369,7 +377,7 @@ alias run_aster="/home/d51680/dev/codeaster/install/mpi/bin/run_aster"
 
 
 ###############################################################################
-# 8¬ GEVIBUS                            
+# ¬ GEVIBUS                            
 ###############################################################################
 
 export DIR_GEVIBUS="$HOME/dev/smeca/salome-gevibus"
@@ -389,7 +397,7 @@ alias gva='cd /home/d51680/Code/gvb_cli'
 
 
 ###############################################################################
-# 9¬ PATH                         
+# ¬ PATH                         
 ###############################################################################
 
 
