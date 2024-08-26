@@ -366,6 +366,9 @@ source $HOME/Config/aster/function.sh
 alias as="cd ~/dev/codeaster/src"
 alias ast="cd ~/dev/codeaster/src/astest"
 
+alias caf="compile_aster_fast"
+alias cad="compile_aster"
+
 # -----------------------------------------------------------------------------
 # Environnement SALOME MECA
 
