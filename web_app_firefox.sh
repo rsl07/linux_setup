@@ -37,10 +37,10 @@ else
 
 	echo "Not Launched, proceed to launch another app"
 
-	url1="https://calendar.notion.so/"
-    # url2="https://mail.google.com/mail/u/0/#inbox"
+    url1="https://chatgpt.com/"
+	url2="https://calendar.notion.so/"
 
-	firefox --new-window $url1 & disown
+	firefox --new-window $url1 $url2 & disown
 
 	# firefox --new-tab $url2  & disown
 
