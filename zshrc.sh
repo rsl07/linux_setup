@@ -367,7 +367,7 @@ alias as="cd ~/dev/codeaster/src"
 alias ast="cd ~/dev/codeaster/src/astest"
 
 alias caf="compile_aster_fast"
-alias cad="compile_aster"
+alias ca="compile_aster" 
 
 # -----------------------------------------------------------------------------
 # Environnement SALOME MECA
