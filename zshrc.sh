@@ -59,13 +59,20 @@ alias mvp="cd ~/Images/mvp; ls"
 alias lib="cd $HOME/Code/lib"
 alias ast="cd ~/dev/codeaster/src"
 alias asd="cd ~/dev/codeaster/docaster"
-alias ot2='cd /home/d51680/Code/fa33896_2'
-alias ot3='cd /home/d51680/Code/fa33896_3'
+
+
+# -----------------------------------------------------------------------------
+# Working Directories
+
+alias dfb="cd /home/d51680/Code/fa33896_2;
+		  echo 'DEFI_BASE_MODALE TEST FOLDER (ORTHO QZ FEATURE)\n';ls "
+
+
 
 
 
 ###############################################################################
-# ¬ COMMAND                            
+# ¬ COMMAND
 ###############################################################################
 
 alias tr1="tree -L 1"
