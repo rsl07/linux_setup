@@ -1,6 +1,7 @@
 #!/bin/zsh
 
-DIR_WS=/home/d51680/Config/subl/
+DIR_WS=/home/d51680/Code/
+DIR_CODE=/home/d51680/Config/subl
 setopt extendedglob
 
 
@@ -18,9 +19,21 @@ len=$((${#pattern}-1))
 
 pattern=${pattern:1:$len}
 
+# echo "INPUT PATTERN: $pattern"
+# echo "PATH PATTERN : *${pattern//+/*}*.sublime-worspace"
+
 
 # Rercherche dans le scope et plus bas qui prends pas ne compte le HOME
-file=$(find $DIR_WS -type f -path "*${pattern//+/*}*" 2>&1 )
+file=$(find $DIR_WS -type f -path "*${pattern//+/*}*.sublime-workspace" 2>&1 )
+
+
+if [[ "$file" == "" ]]
+then
+	file=$(find $DIR_CODE -type f -path "*${pattern//+/*}*.sublime-workspace" 2>&1 )
+
+fi
+
+echo "FILES FOR PATH PATTERN *${pattern//+/*}*.sublime-worspace:\n$file"
 
 
 
@@ -28,21 +41,13 @@ file=$(find $DIR_WS -type f -path "*${pattern//+/*}*" 2>&1 )
 if [[ "$file" == "" ]]
 then
 
-	echo "No file found"
+	echo "ERROR - NO FILE FOUND"
 
 
 elif echo $file | grep -n / | grep -q 2:/
 then
 
-	echo "two results or more:"
-	echo $file
-
-
-elif [[ $file != *.sublime-workspace ]]
-then 
-
-	echo "file found not a workspace"
-	echo $file
+	echo "ERROR - TWO RESULTS OR MORE"
 
 
 else 
@@ -60,13 +65,13 @@ else
 		if [ "$id_focus" -eq "$id_ws" ];
 		then
 
-			echo "$name workspace opened and focus"
+			echo "$name WORKSPACE OPENED AND FOCUS"
 
 			xdotool windowminimize $id_ws
 
 		else
 
-		    echo "$name workspace opened unfocused"
+		    echo "$name WORKSPACE OPENED AND UNFOCUSED"
 		    
 		    xdotool windowactivate $id_ws
 
@@ -79,7 +84,7 @@ else
 
 		sleep 2
 
-		id_ws=$(xdotool getwindow focus)
+		# id_ws=$(xdotool getwindow focus)
 
 		# wmctrl -r :ACTIVE: -b toggle,maximized_vert,maximized_horz
 

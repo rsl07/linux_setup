@@ -64,7 +64,7 @@ alias asd="cd ~/dev/codeaster/docaster"
 # -----------------------------------------------------------------------------
 # Working Directories
 
-alias dfb="cd /home/d51680/Code/fa33896_2;
+alias dfb="cd /home/d51680/Code/fa33896;
 		  echo 'DEFI_BASE_MODALE TEST FOLDER (ORTHO QZ FEATURE)\n';ls "
 
 
