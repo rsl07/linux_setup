@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-wdir="/home/d51680/Code/charles/calib_blyth/jobs"
+wdir="/home/d51680/Projets/ac3d"
 
 
 id_wdir=`cat $HOME/.pid_main_wdir2`

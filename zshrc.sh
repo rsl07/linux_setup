@@ -302,9 +302,9 @@ alias rcx='$CHARLESX/run.sh'
 
 
 ###############################################################################
-# ¬ AC                            
+# ¬ AC
 ###############################################################################
- 
+
 export AC_CHB="/data/rd/work/projets.002/cac.045/BIBLIOTHEQUE/4.ACCIDENTS/4.IFS/Travaux R&D/IFS_AC_3D/Prestations/2023_postdoc_IMSIA_Charbel_Habchi"
 export AC_RSL="/home/d51680/Projets/ac3d"
 export AC_UU="$CODE/ac3d"
