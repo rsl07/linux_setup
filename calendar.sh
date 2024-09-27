@@ -35,7 +35,11 @@ else
     echo "Calendar not opened"
     
     
-	google-chrome --new-window "https://outlook.office.com/calendar/view/month" "https://aster.retd.edf.fr/rex/" & disown
+   	url1="https://outlook.office.com/calendar/view/month"
+   	url2="https://calendar.notion.so/"
+   	url3="https://app.todoist.com/app/upcoming"
+
+	firefox $url1 $url2 $url3 & disown
 
 	sleep 2
 
