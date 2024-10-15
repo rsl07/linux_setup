@@ -37,7 +37,7 @@ else
 
 	url="https://www.notion.so/Inbox-49c3230eb0f04db0bc83e103257265f2"
 
-	firefox $url https://docs.google.com/drawings/d/1_6bLeRARPqkzOaIZ0hZbaFx3dTVdA-dUfEBxlLDWMm8/edit  & disown
+	firefox $url & disown
 
 	sleep 1
 
