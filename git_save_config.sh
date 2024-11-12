@@ -59,11 +59,11 @@ echo gitlab save config and lib folder
 
 cd /home/d51680/Config/ # _____________________________________________________
 
-cp /home/d51680/.zshrc /home/Config/user/.zshrc
-cp /home/d51680/.zrc0 /home/Config/user/.zrc0
-cp /home/d51680/.bashrc /home/Config/user/.bashrc
-cp /home/d51680/.condarc /home/Config/user/.condarc
-cp /home/d51680/.ls_colors /home/Config/user/.ls_colors
+cp /home/d51680/.zshrc /home/d51680/Config/user/.zshrc
+cp /home/d51680/.zrc0 /home/d51680/Config/user/.zrc0
+cp /home/d51680/.bashrc /home/d51680/Config/user/.bashrc
+cp /home/d51680/.condarc /home/d51680/Config/user/.condarc
+cp /home/d51680/.ls_colors /home/d51680/Config/user/.ls_colors
 
 git add .
 git commit -m "git_save_config.sh"
