@@ -372,7 +372,7 @@ alias gvb='cd $DIR_GEVIBUS'
 
 alias gevibus_local="~/Config/gevibus/local.sh"
 
- # need to be kept alive
+# need to be kept alive
 alias doc_gvb="timeout 1 ~/Config/gevibus/doc.sh; exit"			 
 
 
