@@ -67,14 +67,14 @@ cp /home/d51680/.ls_colors /home/d51680/Config/user/.ls_colors
 
 git add .
 git commit -m "git_save_config.sh"
-git push github
+git push gitlab
 
 
 cd /home/d51680/Code/lib # _____________________________________________________
 
 git add .
 git commit -m "git_save_config.sh"
-git push github
+git push gitlab
  
 
 
