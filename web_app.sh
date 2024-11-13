@@ -41,10 +41,10 @@ else
 	url2="https://outlook.office365.com/mail/"
 	url3="https://gitlab.pleiade.edf.fr/rsl"
 	url4="https://gitlab.pleiade.edf.fr/salomemeca/modules/salome-gevibus"
-	url5='https://aster.retd.edf.fr/rex/issue?status=4&@sort=-creation&@search_text=&@columns=priority%2Ctype%2Cid%2Ccreation%2Ctitle%2Ccreator%2Cproduit%2Cversion%2Cassignedto%2Cstatus&@dispname=Vos%20anomalies&@group=type&@filter=status%2Cassignedto&assignedto=792&@pagesize=50&@startwith=0&creator=792'
-	url6="https://github.com/rsl07?tab=repositories"
+	url5="https://gitlab.pleiade.edf.fr/codeaster/"
+	url6='https://aster.retd.edf.fr/rex/issue?status=4&@sort=-creation&@search_text=&@columns=priority%2Ctype%2Cid%2Ccreation%2Ctitle%2Ccreator%2Cproduit%2Cversion%2Cassignedto%2Cstatus&@dispname=Vos%20anomalies&@group=type&@filter=status%2Cassignedto&assignedto=792&@pagesize=50&@startwith=0&creator=792'
 
-	google-chrome --new-window $url1 $url2 $url3 $url4 $url5 $url6 & disown
+	google-chrome --new-window $url1 $url2 $url3 $url4 $url5 $url6 $url7 & disown
 
 	sleep 0.1
 

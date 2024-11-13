@@ -1,7 +1,11 @@
 #!/bin/zsh
 
-DIR_WS=/home/d51680/Code/
-DIR_CODE=/home/d51680/Config/subl
+#
+# Find workspace in Config and Code 
+# If None found look in old folder DIR_WS_OLD
+# basename find -> add '.'
+
+DIR_WS_OLD=/home/d51680/Config/subl
 setopt extendedglob
 
 
@@ -19,21 +23,22 @@ len=$((${#pattern}-1))
 
 pattern=${pattern:1:$len}
 
-# echo "INPUT PATTERN: $pattern"
-# echo "PATH PATTERN : *${pattern//+/*}*.sublime-worspace"
-
+echo "INPUT PATTERN: $pattern"
+echo "PATH PATTERN : *${pattern//+/*}*sublime-worspace"
 
 # Rercherche dans le scope et plus bas qui prends pas ne compte le HOME
-file=$(find $DIR_WS -type f -path "*${pattern//+/*}*.sublime-workspace" 2>&1 )
+
+file=$(find /home/d51680/Code/ /home/d51680/Config/ /home/d51680/dev/ -type f -path "*${pattern//+/*}*sublime-workspace" 2>&1 )
+
 
 
 if [[ "$file" == "" ]]
 then
-	file=$(find $DIR_CODE -type f -path "*${pattern//+/*}*.sublime-workspace" 2>&1 )
+	file=$(find $DIR_WS_OLD -type f -path "*${pattern//+/*}*sublime-workspace" 2>&1 )
 
 fi
 
-echo "FILES FOR PATH PATTERN *${pattern//+/*}*.sublime-worspace:\n$file"
+echo "FILES FOR PATH PATTERN *${pattern//+/*}*sublime-worspace:\n$file"
 
 
 
