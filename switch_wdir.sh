@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-wdir="/home/d51680/Code/ac3d"
+wdir="/home/d51680/Code/ac3d/mac4"
 
 
 id_wdir=`cat $HOME/.pid_main_wdir`
