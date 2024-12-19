@@ -24,4 +24,8 @@ X=$(( $SCREEN_WIDTH / 2 ))
 
 Y=$TOPMARGIN
 
-wmctrl -r :ACTIVE: -b add,maximized_vert && wmctrl -r :ACTIVE: -e 0,$X,$Y,$W,$H
+# wmctrl -r :ACTIVE: -b add,maximized_vert && wmctrl -r :ACTIVE: -e 0,$X,$Y,$W,$H
+
+wmctrl -r :ACTIVE: -b add,maximized_vert 
+
+wmctrl -r :ACTIVE: -e 0,3000,-1,1015,-1
