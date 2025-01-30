@@ -19,7 +19,7 @@ export no_proxy="localhost,edf.fr"
 ###############################################################################
 
 
-echo '$$$ linux config save' :
+echo '$$$ LINUX CONFIG GITHUB SAVE' :
 
 cd /home/d51680/Config/linux/ # _______________________________________________
 
@@ -54,7 +54,7 @@ git push github
 ###############################################################################
 
 
-echo '\n\n$$$ gitlab save lib folder'
+echo '\n\n$$$ LIB GITLAB SAVE'
 
 cd /home/d51680/Code/lib # _____________________________________________________
 
@@ -68,7 +68,7 @@ git push gitlab
 ###############################################################################
 
 
-echo '\n\n$$$ github save dotfiles folder'
+echo '\n\n$$$ DOTFILES GITHUB SAVE'
 
 cd /home/d51680/dotfiles # _____________________________________________________
 
