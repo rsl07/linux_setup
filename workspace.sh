@@ -24,7 +24,7 @@ len=$((${#pattern}-1))
 pattern=${pattern:1:$len}
 
 echo "INPUT PATTERN: $pattern"
-echo "PATH PATTERN : *${pattern//+/*}*sublime-worspace"
+echo "PATH PATTERN : *${pattern//+/*}*sublime-workspace"
 
 # Rercherche dans le scope et plus bas qui prends pas ne compte le HOME
 
@@ -38,7 +38,7 @@ then
 
 fi
 
-echo "FILES FOR PATH PATTERN *${pattern//+/*}*sublime-worspace:\n$file"
+echo "FILES FOR PATH PATTERN *${pattern//+/*}*sublime-workspace:\n$file"
 
 
 

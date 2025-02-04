@@ -29,6 +29,9 @@ then
 	W=$(( $SCREEN_WIDTH / 2 - $RIGHTMARGIN ))
 	H=$(( $SCREEN_HEIGHT - 2 * $TOPMARGIN ))
 
+
+	W=$(( $SCREEN_WIDTH / 2 ))
+
 	# echo $W
 
 	# X, change to move left or right:
@@ -36,7 +39,9 @@ then
 	# moving to the right half of the screen:
 	# X=$(( $SCREEN_WIDTH / 2 ))
 	# moving to the left:
-	X=-26; 
+	X=-65; 
+
+	W=1080
 
 	Y=$TOPMARGIN
 
@@ -78,7 +83,7 @@ else
 
 	wmctrl -r :ACTIVE: -b add,maximized_vert 
 
-	wmctrl -r :ACTIVE: -e 0,1895,-1,1010,-1
+	wmctrl -r :ACTIVE: -e 0,1860,-1,1080,-1
 
 
 

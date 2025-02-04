@@ -30,7 +30,6 @@ git push github
 
 cd /home/d51680/Config/linux/ # _______________________________________________
 
-
 git add .
 git commit -m "git_save_config.sh"
 git push github
