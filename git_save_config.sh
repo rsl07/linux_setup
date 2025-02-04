@@ -25,27 +25,27 @@ cd /home/d51680/Config/linux/ # _______________________________________________
 
 git add .
 git commit -m "git_save_config.sh"
-git push github
+git push 
 
 
 cd /home/d51680/Config/linux/ # _______________________________________________
 
 git add .
 git commit -m "git_save_config.sh"
-git push github
+git push 
 
 cd /home/d51680/.config/sublime-text/Packages/User # __________________________
 
 git add .
 git commit -m "git_save_config.sh"
-git push github
+git push 
 
 
 cd /home/d51680/Code/lib # ____________________________________________________
 
 git add .
 git commit -m "git_save_config.sh"
-git push github
+git push 
 
 
 ###############################################################################
@@ -60,7 +60,7 @@ cd /home/d51680/Code/lib # _____________________________________________________
 
 git add .
 git commit -m "git_save_config.sh"
-git push gitlab
+git push 
  
 
 ###############################################################################
@@ -74,6 +74,7 @@ cd /home/d51680/dotfiles # _____________________________________________________
 
 git add .
 git commit -m "git_save_config.sh"
-git push github
+git push 
 
 
+cd
