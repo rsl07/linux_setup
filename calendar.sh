@@ -36,10 +36,8 @@ else
     
     
    	url1="https://outlook.office.com/calendar/view/month"
-   	url2="https://calendar.notion.so/"
-   	url3="https://app.todoist.com/app/upcoming"
 
-	firefox $url1 $url2 $url3 & disown
+	google-chrome $url1 & disown
 
 	sleep 2
 

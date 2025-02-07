@@ -1,38 +1,39 @@
 #!/bin/bash
 
-id_chrome=`cat $HOME/.pid_main_chrome`
+echo ".pid_chrome_main : "
+id_chrome=`cat $HOME/.pid_chrome_main`
 echo $id_chrome
+echo
+
+echo "pid_chrome_main classname"
+class_chrome=$(xprop WM_CLASS -id $id_chrome )
+echo $class_chrome
+echo 
 
 
-
-name=$(xdotool getwindowname $id_chrome)
-echo $name
-
-
-if xdotool getwindowname $id_chrome && [ "$name" != "" ];
+if [[ $class_chrome == *"chrome_main"*"chrome"* ]];
 then
 
-	echo "Already Launched"
+	echo "chrome launched"
 
 	id_focus=$(xdotool getwindowfocus)
 
-	echo $id_focus
-	echo $id_chrome
-	
+
 	if [ "$id_focus" -eq "$id_chrome" ]
 	then
+
+	    echo "   chrome focus -> minimize"
 
 		xdotool windowminimize $id_chrome
 
 	else
 
-	    echo "chrome opened but not focus"
+	    echo "   chrome not focus -> focus"
 	    
-		xdotool windowsize $id_chrome 100% 100%
-		xdotool windowactivate $id_chrome
+	    xdotool windowactivate $id_chrome
 
 	fi
-
+	
 else
 
 	echo "Not Launched, proceed to launch another app"
@@ -42,21 +43,31 @@ else
 	url3="https://gitlab.pleiade.edf.fr/rsl"
 	url4="https://gitlab.pleiade.edf.fr/salomemeca/modules/salome-gevibus"
 	url5="https://gitlab.pleiade.edf.fr/codeaster/"
-	url6='https://aster.retd.edf.fr/rex/issue?status=4&@sort=-creation&@search_text=&@columns=priority%2Ctype%2Cid%2Ccreation%2Ctitle%2Ccreator%2Cproduit%2Cversion%2Cassignedto%2Cstatus&@dispname=Vos%20anomalies&@group=type&@filter=status%2Cassignedto&assignedto=792&@pagesize=50&@startwith=0&creator=792'
+	url6='https://aster.retd.edf.fr/rex/issue33896'
 
 	google-chrome --new-window $url1 $url2 $url3 $url4 $url5 $url6 $url7 & disown
 
-	sleep 0.1
+	# bring chrome main to the front ----------------------------------------
 
-	wmctrl -r :ACTIVE: -b add,maximized_vert,maximized_horz
+	sleep 0.5
 
-	sleep 1
+	wmctrl -l | grep "Google Chrome" | sort -r  
 
+	last_chrome=$(wmctrl -l | grep "Google Chome" | sort -r | head -n 1 | cut -d " " -f 1) 
+
+
+	echo "last chrome main opened: "$last_chrome
+    
+	wmctrl -i -a $last_chrome
+
+	# --------------------------------------------------------------------------
+	      
 	export id_chrome=$(xdotool getwindowfocus)
 
-	rm $HOME/.pid_main_chrome
+	xdotool set_window --classname "chrome_main" $id_chrome
 
-	echo $id_chrome > $HOME/.pid_main_chrome
-
+	echo $id_chrome > $HOME/.pid_chrome_main
 
 fi
+
+

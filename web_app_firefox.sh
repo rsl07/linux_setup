@@ -1,38 +1,39 @@
 #!/bin/bash
 
-id_firefox=`cat $HOME/.pid_main_firefox`
+echo ".pid_firefox_main : "
+id_firefox=`cat $HOME/.pid_firefox_main`
 echo $id_firefox
+echo
+
+echo "pid_firefox_main classname"
+class_firefox=$(xprop WM_CLASS -id $id_firefox )
+echo $class_firefox
+echo 
 
 
-
-name=$(xdotool getwindowname $id_firefox)
-echo $name
-
-
-if xdotool getwindowname $id_firefox && [ "$name" != "" ];
+if [[ $class_firefox == *"firefox_main"*"firefox"* ]];
 then
 
-	echo "Already Launched"
+	echo "firefox launched"
 
 	id_focus=$(xdotool getwindowfocus)
 
-	echo $id_focus
-	echo $id_firefox
-	
+
 	if [ "$id_focus" -eq "$id_firefox" ]
 	then
+
+	    echo "   firefox focus -> minimize"
 
 		xdotool windowminimize $id_firefox
 
 	else
 
-	    echo "firefox opened but not focus"
+	    echo "   firefox not focus -> focus"
 	    
-		xdotool windowsize $id_firefox 100% 100%
-		xdotool windowactivate $id_firefox
+	    xdotool windowactivate $id_firefox
 
 	fi
-
+	
 else
 
 	echo "Not Launched, proceed to launch another app"
@@ -40,19 +41,27 @@ else
     url1="https://chatgpt.com/"
 	url2="https://calendar.notion.so/"
 
-	firefox --new-window $url1 $url2 & disown
+	firefox --new-window $url1 & disown
 
-	# firefox --new-tab $url2  & disown
+	# bring firefox main to the front ----------------------------------------
 
-	# firefox --new-tab $url3  & disown
+	sleep 0.5
 
-	sleep 2
+	wmctrl -l | grep "Mozilla Firefox" | sort -r  
+
+	last_firefox=$(wmctrl -l | grep "Mozilla Firefox" | sort -r | head -n 1 | cut -d " " -f 1) 
+
+
+	echo "last firefox main opened: "$last_firefox
+    
+	wmctrl -i -a $last_firefox
+
+	# --------------------------------------------------------------------------
 	      
 	export id_firefox=$(xdotool getwindowfocus)
 
-	rm $HOME/.pid_main_firefox
+	xdotool set_window --classname "firefox_main" $id_firefox
 
-	echo $id_firefox > $HOME/.pid_main_firefox
-
+	echo $id_firefox > $HOME/.pid_firefox_main
 
 fi
