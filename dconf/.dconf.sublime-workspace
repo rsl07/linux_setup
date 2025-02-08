@@ -11,36 +11,145 @@
 			"file": "save.sh",
 			"settings":
 			{
-				"buffer_size": 969,
-				"encoding": "UTF-8",
+				"buffer_size": 1499,
 				"line_ending": "Unix"
 			},
 			"undo_stack":
 			[
-				[
-					124,
-					1,
-					"insert",
-					{
-						"characters": "ß"
-					},
-					"AQAAAKkBAAAAAAAAqgEAAAAAAAAAAAAA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACpAQAAAAAAAKkBAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					126,
-					1,
-					"left_delete",
-					null,
-					"AQAAAKkBAAAAAAAAqQEAAAAAAAACAAAAw58",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACqAQAAAAAAAKoBAAAAAAAAAAAAAAAA8L8"
-				]
 			]
 		}
 	],
 	"build_system": "",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional Builder with PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional Builder with XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional Builder with LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder with PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder with XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder with LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python 3/Python3.sublime-build",
+					""
+				],
+				[
+					"Packages/User/py_lionel.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/py_lionel.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/ShellScript/ShellScript.sublime-build",
+					""
+				],
+				[
+					"Packages/Bash Build System/Bash.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Bash Build System/Bash.sublime-build",
+				""
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
@@ -50,44 +159,12 @@
 		"selected_items":
 		[
 			[
-				"new wor",
-				"Worspsace Management: New Workspace"
-			],
-			[
-				"Save Proje",
-				"Project: Save As"
-			],
-			[
 				"new proj",
 				"Project And Worspsace Management: New Project"
 			],
 			[
-				"new pr",
-				"Project And Worspsace Management: New Project"
-			],
-			[
-				"edit proj",
-				"Project And Workspace Management: Edit Settings"
-			],
-			[
-				"ne",
-				"Project And Worspsace Management: New Workspace"
-			],
-			[
 				"new project",
 				"Project And Workspace Management: Create Project Files At Existing Folder"
-			],
-			[
-				"open ",
-				"PackageResourceViewer: Open Resource"
-			],
-			[
-				"open resou",
-				"PackageResourceViewer: Open Resource"
-			],
-			[
-				"open resour",
-				"PackageResourceViewer: Open Resource"
 			],
 			[
 				"work",
@@ -330,14 +407,12 @@
 	},
 	"file_history":
 	[
-		"/home/d51680/.config/sublime-text/Packages/Project And Workspace Management/ProjectAndWorkspaceManagement.py",
-		"/home/d51680/log0",
-		"/home/d51680/.config/sublime-text/Packages/Project And Workspace Management/ProjectAndWorkspaceManagement.sublime-commands",
-		"/home/d51680/Config/dconf/save.sh",
 		"/home/d51680/Config/aster/test.sh",
+		"/home/d51680/Config/linux/workspace.sh",
 		"/home/d51680/Config/aster/compile.sh",
-		"/home/d51680/test2.dconf",
 		"/home/d51680/.zshrc",
+		"/home/d51680/Config/linux/dconf/save.sh",
+		"/home/d51680/test2.dconf",
 		"/home/d51680/Config/aster/function.sh",
 		"/home/d51680/Config/linux/python_terminal.sh",
 		"/home/d51680/Config/linux/terminal_aster.sh",
@@ -348,7 +423,6 @@
 		"/home/d51680/Config/linux/todoist.sh",
 		"/home/d51680/Config/gevibus/run_local23.sh",
 		"/home/d51680/Config/aster/debug.sh",
-		"/home/d51680/Config/linux/workspace.sh",
 		"/home/d51680/Config/linux/switch_wdir.sh",
 		"/home/d51680/log.notion",
 		"/home/d51680/Config/ac3d/eog_result.sh",
@@ -457,7 +531,10 @@
 		"/home/d51680/.cache/.fr-0k0Gf7/script_gvb_1/gvb_script.py",
 		"/home/d51680/Config/linux/launcher_pylionel.py",
 		"/home/d51680/Config/linux/open_wdir.sh",
-		"/home/d51680/Config/linux/switch_smerge.sh"
+		"/home/d51680/Config/linux/switch_smerge.sh",
+		"/home/d51680/Images/mvp/mvp_data_hydro.sh",
+		"/home/d51680/Config/linux/zshrc.sh",
+		"/home/d51680/Images/mvp/mvps (copie).sh"
 	],
 	"find":
 	{
@@ -468,6 +545,17 @@
 		"height": 649.0,
 		"where_history":
 		[
+			"/home/d51680/Config/linux",
+			"/home/d51680/Config/",
+			"/home/d51680/Config/linux/",
+			"/home/rsl/Config/linux/",
+			"/home/d51680/Config/linux/*",
+			"/home/d51680/Config/linux",
+			"/home/d51680/config/linux",
+			"/home/d51680/config/linu",
+			"/home/d51680/code/lionel",
+			"code/lionel",
+			""
 		]
 	},
 	"find_state":
@@ -475,6 +563,134 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"\\$og/'",
+			"\\$og/",
+			"gnome3\\-keybind\\-backup/",
+			"ogn",
+			"'/org/gnome/",
+			"chrome",
+			"chrome_main",
+			"firefox",
+			"firefox_main",
+			"id_notion",
+			"last_notion",
+			"notion",
+			"main_firefox",
+			"wmctrl",
+			"todoist",
+			"firefox",
+			"chrome",
+			"firefox",
+			"firefox --",
+			"function",
+			"'",
+			"¬",
+			"prmpt_ex",
+			"singu",
+			"qpu",
+			"¬",
+			"mac4",
+			"PATH",
+			"ASTER",
+			"doc",
+			"d51680",
+			"source",
+			" -",
+			"DIR_WS",
+			"gh-rsl",
+			"SING",
+			"vel",
+			"firefox",
+			"run",
+			"color",
+			"proxy",
+			"dfb",
+			"H09548",
+			"H09148",
+			"removeColinearVectors",
+			"svd",
+			"proxy",
+			"ca",
+			"doc",
+			"sms",
+			"\"\n",
+			"smeca",
+			"salome_meca",
+			"main",
+			"aster",
+			"LOCAL_DDT",
+			"ddt",
+			"DEBUG_ASTER",
+			"push",
+			"ast",
+			"aster",
+			"SINGULARITY_CONTAINER",
+			"exit",
+			"\nalias tr3=\"tree -L 3\"",
+			"LOCAL_EXEC",
+			"LOCAL_EXEC_GEVIBUS",
+			"web",
+			"ac3d",
+			"LOCAL_DOC_GVB",
+			"web",
+			"¬",
+			"LS",
+			"maximize",
+			"web",
+			"disown",
+			"doc",
+			"id_manuscript",
+			"rch",
+			"google\\-chrome",
+			"google-chrome",
+			"ordo",
+			"LIB",
+			"PATH",
+			"lionel",
+			"rch",
+			"alias seq",
+			"toggle",
+			"_compilation",
+			"function",
+			"nvidia",
+			"¬",
+			"5¬",
+			"¬",
+			"¬\n",
+			"¬",
+			"2¬",
+			"¬",
+			"(?# ¬)",
+			"¬",
+			"²",
+			"4¬",
+			"$",
+			"%",
+			"~",
+			"function",
+			"LOCAL_DOC",
+			"LOCAL_EXEC",
+			"gvb",
+			"Code",
+			"\\$CODE",
+			"$CODE",
+			"PATH7",
+			"PATH",
+			"chrime",
+			"chrome",
+			"main_chrome",
+			"Notes",
+			"0_",
+			"pid_main_wdir",
+			"_BL7",
+			"cx",
+			"dd",
+			"alias dd",
+			"alias f",
+			"calib_hm_el_in",
+			"CHARLES",
+			"PATH",
+			"error"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -482,6 +698,67 @@
 		"regex": true,
 		"replace_history":
 		[
+			"'/org/gnome/",
+			"",
+			"og",
+			"$ogn/'",
+			"todoist",
+			"chrome",
+			"chrome_main",
+			"id_firefox",
+			"last_firefox",
+			"firefox",
+			"firefox_main",
+			"notion",
+			"todoist",
+			"firefox",
+			"chrome",
+			" ",
+			"",
+			"poc31",
+			"article",
+			"github",
+			"second",
+			"id_smerge",
+			"firefox",
+			"notion",
+			"pid_main_wdir2",
+			"X",
+			"$MNEMO",
+			"mnemo",
+			"MNEMO",
+			"/$USER/",
+			"id_manuscript",
+			".pid_manuscript",
+			"ndc_ac",
+			"firefox",
+			"site_analysis",
+			"wdir",
+			"/d51680/",
+			"_todoist",
+			"left",
+			"folder",
+			"nautilus",
+			"id_calendar",
+			"_calendar",
+			"todoist",
+			"Todoist",
+			"calendar",
+			"ssd",
+			"rsl",
+			"SAVE",
+			"ssd",
+			"SSD",
+			"rsl",
+			"google-chrome",
+			"firefox",
+			"id_chrome",
+			"/logiciel",
+			"/Logiciel",
+			"firefox",
+			"/home/d51680/config/",
+			"pattern",
+			"lib"
 		],
 		"reverse": false,
 		"scrollbar_highlights": true,
@@ -503,21 +780,36 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 969,
+						"buffer_size": 1499,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								150,
-								150
+								562,
+								562
 							]
 						],
 						"settings":
 						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								},
+								{
+									"characters": "\\",
+									"selector": "text.tex.latex"
+								}
+							],
 							"git_gutter_is_enabled": true,
-							"lsp_uri": "file:///home/d51680/Config/dconf/save.sh",
+							"lsp_uri": "file:///home/d51680/Config/linux/dconf/save.sh",
 							"rainbow_checked": true,
 							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
 							"tab_size": 2,
@@ -573,11 +865,31 @@
 	{
 		"height": 0.0
 	},
+	"output.Terminus":
+	{
+		"height": 239.0
+	},
 	"output.diagnostics":
 	{
 		"height": 0.0
 	},
+	"output.exec":
+	{
+		"height": 402.0
+	},
 	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 339.0
+	},
+	"output.markdown":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
 	{
 		"height": 0.0
 	},
@@ -594,6 +906,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"work",
+				"linux/workspace.sh"
+			],
 			[
 				"web ",
 				"linux/web_app.sh"
@@ -885,10 +1201,6 @@
 			[
 				"widr",
 				"linux/open_wdir.sh"
-			],
-			[
-				"work",
-				"linux/workspace.sh"
 			],
 			[
 				"wor",

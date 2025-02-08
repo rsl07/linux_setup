@@ -32,7 +32,7 @@ echo "PATH PATTERN : *${pattern//+/*}*sublime-workspace"
 
 # Rercherche dans le scope et plus bas qui prends pas ne compte le HOME
 
-file=$(find /home/d51680/Code/ /home/d51680/Config/linux /home/d51680/Config/aster /home/d51680/Config/gevibus /home/d51680/Config/dconf -type f -path "*${pattern//+/*}*sublime-workspace" 2>&1 )
+file=$(find /home/d51680/Code/ /home/d51680/Config/linux /home/d51680/Config/aster /home/d51680/Config/gevibus -type f -path "*${pattern//+/*}*sublime-workspace" 2>&1 )
 
 
 
