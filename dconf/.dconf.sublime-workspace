@@ -1,0 +1,1000 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "save.sh",
+			"settings":
+			{
+				"buffer_size": 969,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					124,
+					1,
+					"insert",
+					{
+						"characters": "ß"
+					},
+					"AQAAAKkBAAAAAAAAqgEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACpAQAAAAAAAKkBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					126,
+					1,
+					"left_delete",
+					null,
+					"AQAAAKkBAAAAAAAAqQEAAAAAAAACAAAAw58",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACqAQAAAAAAAKoBAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"new wor",
+				"Worspsace Management: New Workspace"
+			],
+			[
+				"Save Proje",
+				"Project: Save As"
+			],
+			[
+				"new proj",
+				"Project And Worspsace Management: New Project"
+			],
+			[
+				"new pr",
+				"Project And Worspsace Management: New Project"
+			],
+			[
+				"edit proj",
+				"Project And Workspace Management: Edit Settings"
+			],
+			[
+				"ne",
+				"Project And Worspsace Management: New Workspace"
+			],
+			[
+				"new project",
+				"Project And Workspace Management: Create Project Files At Existing Folder"
+			],
+			[
+				"open ",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"open resou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"open resour",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"work",
+				"Project And Workspace Management: Edit Settings"
+			],
+			[
+				"packga lis",
+				"Package Control: List Packages"
+			],
+			[
+				"Outline",
+				"Browse Mode: Outline (Left)"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"max",
+				"Maximize/Unmaximize editor"
+			],
+			[
+				"auto ",
+				"AutoFoldCode: Open Settings"
+			],
+			[
+				"git ",
+				"Git: Toggle Annotations"
+			],
+			[
+				"git",
+				"Git: Toggle Annotations"
+			],
+			[
+				"distraction",
+				"DistractionFreeWindow: Toggle Mode"
+			],
+			[
+				"shell",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"markdown ch",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"code",
+				"CodeMap: Toggle Visibility"
+			],
+			[
+				"fort",
+				"Set Syntax: Fortran (Modern)"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"gitgutter set",
+				"Preferences: GitGutter Settings"
+			],
+			[
+				"annotat",
+				"GitGutter: Show Line Annotation"
+			],
+			[
+				"git hoo",
+				"GitGutter: Show Line Annotation"
+			],
+			[
+				"git settings",
+				"Preferences: GitGutter Settings"
+			],
+			[
+				"git mer",
+				"Sublime Merge: Open Repository"
+			],
+			[
+				"origa",
+				"Origami: Restore Saved Layout"
+			],
+			[
+				"res",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"lay",
+				"Origami: Restore Saved Layout"
+			],
+			[
+				"view ",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packag",
+				"Package Control: Remove Package"
+			],
+			[
+				"markdown Editing",
+				"Preferences: MarkdownEditing Settings"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"markdo",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"resource ",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"remove pak",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control repo",
+				"Preferences: Package Control Settings"
+			],
+			[
+				"or",
+				"Origami: Restore Saved Layout"
+			],
+			[
+				"l",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"lat",
+				"LaTeXTools: Check system"
+			],
+			[
+				"latex",
+				"LaTeXTools: Check system"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"suvl",
+				"SublimeEnv: Reload Environment"
+			],
+			[
+				"reposi",
+				"Package Control: Remove Repository"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Remove Repository"
+			],
+			[
+				"view",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"sulime",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"buld",
+				"Build With: Python3"
+			],
+			[
+				"sublime",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"codem",
+				"CodeMap: Toggle Visibility"
+			],
+			[
+				"viewe",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package control ",
+				"Package Control: Install Package"
+			],
+			[
+				"package control in",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"package control ch",
+				"Package Control: Add Channel"
+			],
+			[
+				"package con",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 412.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/d51680/.config/sublime-text/Packages/Project And Workspace Management/ProjectAndWorkspaceManagement.py",
+		"/home/d51680/log0",
+		"/home/d51680/.config/sublime-text/Packages/Project And Workspace Management/ProjectAndWorkspaceManagement.sublime-commands",
+		"/home/d51680/Config/dconf/save.sh",
+		"/home/d51680/Config/aster/test.sh",
+		"/home/d51680/Config/aster/compile.sh",
+		"/home/d51680/test2.dconf",
+		"/home/d51680/.zshrc",
+		"/home/d51680/Config/aster/function.sh",
+		"/home/d51680/Config/linux/python_terminal.sh",
+		"/home/d51680/Config/linux/terminal_aster.sh",
+		"/home/d51680/Config/linux/eog_mvp_aster.sh",
+		"/home/d51680/Config/linux/web_app.sh",
+		"/home/d51680/Config/linux/notion.sh",
+		"/home/d51680/Config/linux/web_app_firefox.sh",
+		"/home/d51680/Config/linux/todoist.sh",
+		"/home/d51680/Config/gevibus/run_local23.sh",
+		"/home/d51680/Config/aster/debug.sh",
+		"/home/d51680/Config/linux/workspace.sh",
+		"/home/d51680/Config/linux/switch_wdir.sh",
+		"/home/d51680/log.notion",
+		"/home/d51680/Config/ac3d/eog_result.sh",
+		"/home/d51680/Config/linux/eog_screenshot.sh",
+		"/home/d51680/Config/ac3d/eo_mvp_aster.sh",
+		"/home/d51680/Code/fa33896/script_corus_svd.py",
+		"/home/d51680/Code/fa33896/test2.log",
+		"/home/d51680/Code/fa33896/test1.log",
+		"/home/d51680/Code/fa33896/test0.log",
+		"/home/d51680/test0.log",
+		"/home/d51680/Code/fa33896/dev.log",
+		"/home/d51680/Code/wesc25/abstract_wesc25.tex",
+		"/home/d51680/Code/wesc25/abstract_admos.tex",
+		"/home/d51680/Code/fa33896/result_test/sdll123d.mess",
+		"/home/d51680/Config/gevibus/compile23.sh",
+		"/home/d51680/Code/fa33896/result_test/sdll123d.code",
+		"/home/d51680/Code/fa33896/result_test/sdll123e.mess",
+		"/home/d51680/Code/fa33896/result_test/sdll123e.code",
+		"/home/d51680/Code/fa33896/result_test/CTestTestfile.cmake",
+		"/home/d51680/Code/fa33896/result_test/mac3c15c.mess",
+		"/home/d51680/Config/ac3d/command.sh",
+		"/home/d51680/Config/linux/left_view.sh",
+		"/home/d51680/Config/linux/right_view.sh",
+		"/home/d51680/Config/linux/git_save_config.sh",
+		"/home/d51680/Config/ac3d/path.sh",
+		"/home/d51680/.bashrc",
+		"/home/d51680/Config/linux/main_terminal.sh",
+		"/home/d51680/Config/linux/open_home.sh",
+		"/home/d51680/Config/linux/mnemo-save.sh",
+		"/home/d51680/Projets/gv_nonlin/notes.md",
+		"/home/d51680/Config/python/read_pickle.py",
+		"/home/d51680/Config/linux/open_images.sh",
+		"/home/d51680/Config/linux/read_ss.sh",
+		"/home/d51680/Config/linux/directory.sh",
+		"/home/d51680/.config/sublime-text/Packages/User/bash.sublime-build",
+		"/home/d51680/.config/sublime-text/Packages/User/Bash.sublime-settings",
+		"/home/d51680/Archive/index.rst",
+		"/home/d51680/dotfiles/p10k/.p10k.zsh",
+		"/home/d51680/Config/linux/web_bookmark.sh",
+		"/home/d51680/dotfiles/p10k/.p10k",
+		"/home/d51680/.config/terminator/config",
+		"/home/d51680/.p10k.zsh",
+		"/home/d51680/.pandoc/templates/eisvogel.latex",
+		"/home/d51680/.oh-my-zsh/README.md",
+		"/home/d51680/.conda/environments.txt",
+		"/home/d51680/.condarc",
+		"/home/d51680/.gitconfig",
+		"/home/d51680/.git-credentials",
+		"/home/d51680/.zrc0",
+		"/home/d51680/dotfiles/zsh/.zshrc",
+		"/home/d51680/Projets/il_2025/IL ERMES collision.zip",
+		"/home/d51680/.ls_colors",
+		"/home/d51680/Code/ac3d/.gitignore",
+		"/home/d51680/Config/linux/main_folder.sh",
+		"/home/d51680/Code/charles/data_assembly/seq_visu.py",
+		"/home/d51680/Config/gevibus/doc.sh",
+		"/home/d51680/Projets/ac3d/cas_simple_PM.tex",
+		"/home/d51680/Config/linux/open_dir.sh",
+		"/home/d51680/Config/gevibus/compile24.sh",
+		"/home/d51680/Config/gevibus/run_local24.sh",
+		"/home/d51680/Config/gevibus/compile.sh",
+		"/home/d51680/.gitignore",
+		"/home/d51680/Config/gevibus/CMakeLists.txt",
+		"/home/d51680/dev/codeaster/devtools/etc/env_stable.sh",
+		"/home/d51680/smeca/salome-gevibus/build",
+		"/data/rd/work/echanges.004/TO_ANTOINE/cs_user_parameters.c",
+		"/home/d51680/Config/linux/calendar.sh",
+		"/data/rd/users/D51680/Save/calibre/Config/ac3d/path.sh",
+		"/home/d51680/md.sublime-build",
+		"/home/d51680/Logiciel/anaconda3/share/man/man3/MPI_ARGV_NULL.3",
+		"/home/d51680/Config/linux/switch_wdir2.sh",
+		"/home/d51680/Config/linux/file.sh",
+		"/home/d51680/Config/aster/debug_aster_mpi_ddt",
+		"/home/d51680/Projets/ortho_base/TdG_EPR2_MC/CalcBaseRed_TdG_LA_BP_HMP_GSS.comm",
+		"/home/d51680/Projets/ortho_base/test_fa33958_2.txt",
+		"/home/d51680/Projets/ortho_base/script_corus_svd.py",
+		"/home/d51680/Projets/ortho_base/TdG_EPR2_MC/Maillages_TdG_LA_BP_HMP_GSS.py",
+		"/home/d51680/.local/share/Trash/files/Archive/Config_calibre/linux/firefox.sh",
+		"/home/d51680/dev/codeaster/src/build/mpi/debug/catalo/fort.1",
+		"/home/d51680/code_aster/Cata/Commands/defi_base_modale.py",
+		"/home/d51680/dev/codeaster/src/waf",
+		"/home/d51680/Config/linux/second_terminal.sh",
+		"/home/d51680/dev/codeaster/docaster/doc_build.sh",
+		"/home/d51680/Config/linux/aster_terminal.sh",
+		"/home/d51680/Config/gevibus/local.sh",
+		"/home/d51680/Config/gevibus/test.sh",
+		"/home/d51680/Archive/Code/old_27-plt.py",
+		"/home/d51680/Code/gvb_auto/pour_antoine/calc_distrib.export",
+		"/home/d51680/Images/mvp/mvpac.sh",
+		"/home/d51680/Config/linux/switch_wdir3.sh",
+		"/home/d51680/Config/aster/run.sh",
+		"/home/d51680/Config/linux/switch_wdir4.sh",
+		"/home/d51680/notes.md",
+		"/home/d51680/Config/linux/open_wdir2.sh",
+		"/home/d51680/Config/linux/open_wdir3.sh",
+		"/home/d51680/Code/manuscript/master.tex",
+		"/home/d51680/Config/linux/zrc0.sh",
+		"/home/d51680/Config/linux/gh-save_config.sh",
+		"/home/d51680/Code/ac3d/README.md",
+		"/home/d51680/Config/gitlab/recovery.txt",
+		"/home/d51680/Config/gitlab/access_token.txt",
+		"/home/d51680/test.txt",
+		"/home/d51680/Config/python/py_lionel.yml",
+		"/home/d51680/Config/linux/scope.sh",
+		"/home/d51680/.cache/.fr-IBFEYa/script_gvb_1/lisez_moi.txt",
+		"/home/d51680/.cache/.fr-0k0Gf7/script_gvb_1/gvb_script.py",
+		"/home/d51680/Config/linux/launcher_pylionel.py",
+		"/home/d51680/Config/linux/open_wdir.sh",
+		"/home/d51680/Config/linux/switch_smerge.sh"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 649.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "save.sh",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 969,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"lsp_uri": "file:///home/d51680/Config/dconf/save.sh",
+							"rainbow_checked": true,
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 209.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.LSP Log Panel":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.diagnostics":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": ".dconf.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"web ",
+				"linux/web_app.sh"
+			],
+			[
+				"todo",
+				"linux/todoist.sh"
+			],
+			[
+				"fire",
+				"linux/web_app_firefox.sh"
+			],
+			[
+				"we",
+				"linux/web_app.sh"
+			],
+			[
+				"notion",
+				"linux/notion.sh"
+			],
+			[
+				"web app",
+				"linux/web_app.sh"
+			],
+			[
+				"cale",
+				"linux/calendar.sh"
+			],
+			[
+				"noti",
+				"linux/notion.sh"
+			],
+			[
+				"firef",
+				"linux/web_app_firefox.sh"
+			],
+			[
+				"eotg",
+				"linux/eog_mvp_aster.sh"
+			],
+			[
+				"eog ",
+				"linux/eog_screenshot.sh"
+			],
+			[
+				"eog",
+				"ac3d/eog_result.sh"
+			],
+			[
+				"pyth",
+				"linux/python_terminal.sh"
+			],
+			[
+				"gevi",
+				"gevibus/compile23.sh"
+			],
+			[
+				"wdir",
+				"linux/switch_wdir.sh"
+			],
+			[
+				"orks",
+				"linux/workspace.sh"
+			],
+			[
+				"save",
+				"linux/git_save_config.sh"
+			],
+			[
+				"open",
+				"linux/open_images.sh"
+			],
+			[
+				"eo",
+				"linux/eog_screenshot.sh"
+			],
+			[
+				"left",
+				"linux/left_view.sh"
+			],
+			[
+				"aster",
+				"aster/compile.sh"
+			],
+			[
+				"lef",
+				"linux/left_view.sh"
+			],
+			[
+				"ope",
+				"linux/open_home.sh"
+			],
+			[
+				"right",
+				"linux/right_view.sh"
+			],
+			[
+				"dire",
+				"linux/directory.sh"
+			],
+			[
+				"web",
+				"linux/web_app.sh"
+			],
+			[
+				"gith",
+				"linux/git_save_config.sh"
+			],
+			[
+				"comm",
+				"ac3d/command.sh"
+			],
+			[
+				"wd",
+				"linux/switch_wdir.sh"
+			],
+			[
+				"read",
+				"linux/read_ss.sh"
+			],
+			[
+				"ac3d",
+				"ac3d/eog_result.sh"
+			],
+			[
+				"swi",
+				"linux/switch_wdir.sh"
+			],
+			[
+				"main",
+				"linux/main_folder.sh"
+			],
+			[
+				"main te",
+				"linux/main_terminal.sh"
+			],
+			[
+				"ter",
+				"linux/main_terminal.sh"
+			],
+			[
+				"gevus",
+				"gevibus/doc.sh"
+			],
+			[
+				"dri",
+				"linux/switch_wdir.sh"
+			],
+			[
+				"dir",
+				"linux/open_dir.sh"
+			],
+			[
+				"ac3s",
+				"ac3d/path.sh"
+			],
+			[
+				"wep",
+				"linux/web_app.sh"
+			],
+			[
+				"run",
+				"gevibus/run_local23.sh"
+			],
+			[
+				"23",
+				"gevibus/compile23.sh"
+			],
+			[
+				"comp",
+				"gevibus/compile.sh"
+			],
+			[
+				"com",
+				"aster/compile.sh"
+			],
+			[
+				"sa",
+				"linux/gh-save_config.sh"
+			],
+			[
+				"Cma",
+				"gevibus/CMakeLists.txt"
+			],
+			[
+				"co",
+				"aster/compile.sh"
+			],
+			[
+				"",
+				"linux/web_app.sh"
+			],
+			[
+				"not",
+				"linux/notion.sh"
+			],
+			[
+				"cal",
+				"linux/calendar.sh"
+			],
+			[
+				"web_a",
+				"linux/web_app.sh"
+			],
+			[
+				"wdir2",
+				"linux/switch_wdir2.sh"
+			],
+			[
+				"file",
+				"linux/file.sh"
+			],
+			[
+				"firefox",
+				"linux/web_app_firefox.sh"
+			],
+			[
+				"main ter",
+				"linux/main_terminal.sh"
+			],
+			[
+				"mn",
+				"linux/mnemo-save.sh"
+			],
+			[
+				"local",
+				"gevibus/local.sh"
+			],
+			[
+				"wdi",
+				"linux/switch_wdir.sh"
+			],
+			[
+				"wdir3",
+				"linux/switch_wdir3.sh"
+			],
+			[
+				"fior",
+				"linux/web_app_firefox.sh"
+			],
+			[
+				"zrc",
+				"linux/zrc0.sh"
+			],
+			[
+				"gh",
+				"linux/gh-save_config.sh"
+			],
+			[
+				"loca",
+				"gevibus/local.sh"
+			],
+			[
+				"lo",
+				"gevibus/local.sh"
+			],
+			[
+				"debu",
+				"aster/debug_aster_mpi_ddt"
+			],
+			[
+				"zr",
+				"linux/zrc0.sh"
+			],
+			[
+				"calen",
+				"linux/calendar.sh"
+			],
+			[
+				"gfi",
+				"linux/gh-save_config.sh"
+			],
+			[
+				"app",
+				"linux/web_app_firefox.sh"
+			],
+			[
+				"righ",
+				"linux/right_view.sh"
+			],
+			[
+				"cle",
+				"linux/clear_pid.sh"
+			],
+			[
+				"web.",
+				"linux/web_app.sh"
+			],
+			[
+				"widr",
+				"linux/open_wdir.sh"
+			],
+			[
+				"work",
+				"linux/workspace.sh"
+			],
+			[
+				"wor",
+				"linux/workspace.sh"
+			],
+			[
+				"direc",
+				"linux/directory.sh"
+			],
+			[
+				"op",
+				"linux/open_file.sh"
+			],
+			[
+				"sco",
+				"linux/scope.sh"
+			],
+			[
+				"f",
+				"linux/file.sh"
+			],
+			[
+				"as",
+				"aster/run.sh"
+			],
+			[
+				"fi",
+				"linux/file.sh"
+			],
+			[
+				"pyt",
+				"python_terminal.sh"
+			],
+			[
+				"z",
+				"zrc0.sh"
+			],
+			[
+				"tod",
+				"todoist.sh"
+			],
+			[
+				"mai",
+				"linux/main_terminal.sh"
+			],
+			[
+				"fol",
+				"folder.sh"
+			],
+			[
+				"r",
+				"right_view.sh"
+			],
+			[
+				"termin",
+				"terminal.sh"
+			],
+			[
+				"od",
+				"open_dir.sh"
+			],
+			[
+				"cdd",
+				"cdd.sh"
+			],
+			[
+				"defau",
+				"~/.config/sublime-text/Packages/MaxPane/Default (Linux).sublime-keymap"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 374.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"test_wave"
+			]
+		],
+		"width": 594.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"lsp_show_inlay_hints": false
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
