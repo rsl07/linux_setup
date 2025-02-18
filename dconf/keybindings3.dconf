@@ -44,7 +44,7 @@ name='super+a : calendar'
 
 [custom-keybindings/custom16]
 binding='F10'
-command='pwd'
+command='/home/d51680/Config/linux/workspace.sh fa33896 call stack'
 name='F10'
 
 [custom-keybindings/custom17]
