@@ -49,7 +49,7 @@ name='F10'
 
 [custom-keybindings/custom17]
 binding='F12'
-command='evince /home/d51680/Litterature/rsl-phd/2023_phd_roussel.pdf'
+command='/home/d51680/Config/linux/workspace.sh fa33896 table de groupe'
 name='F12'
 
 [custom-keybindings/custom18]

@@ -11,6 +11,14 @@ export SCOPE=(
 	$HOME/Documents $HOME/Bureau $HOME/Images 
 	
 	$HOME/Projets $HOME/Litterature $HOME/Presentation
+
+	$HOME/dev/codeaster/src/bibfor
+
+	$HOME/dev/codeaster/src/code_aster/CodeCommands
+	$HOME/dev/codeaster/src/code_aster/MacroCommands
+	$HOME/dev/codeaster/src/code_aster/Messages
+	$HOME/dev/codeaster/src/code_aster/Cata
+
 			 )
 
 # export EXCLUDE_SCOPE='.bin\|.pyc\|anaconda\|__pycache__\|charles\|.swp'

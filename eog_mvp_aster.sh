@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/zsh
 
-eog /home/d51680/Images/mvp/aster/*.png & disown 
+eog /home/d51680/Images/mvp/aster/*(.png|.jpg) & disown
 
 sleep 0.5
 
