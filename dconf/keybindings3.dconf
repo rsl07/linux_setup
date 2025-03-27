@@ -1,6 +1,6 @@
 [/]
 control-center=['<Alt>r']
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom8/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom9/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom10/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom11/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom13/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom12/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom14/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom16/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom17/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom18/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom19/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom20/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom21/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom22/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom23/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom24/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom25/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom26/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom15/']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom8/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom9/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom10/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom11/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom13/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom12/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom14/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom16/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom17/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom18/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom19/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom20/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom21/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom22/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom23/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom24/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom25/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom26/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom15/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom27/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom28/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom29/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom30/']
 
 [custom-keybindings/custom0]
 binding='F1'
@@ -13,7 +13,7 @@ command='/home/d51680/Config/linux/workspace.sh fa33896 w2'
 name='wsp fa33896 w2'
 
 [custom-keybindings/custom10]
-binding='F3'
+binding=''
 command='/home/d51680/Config/linux/workspace.sh fa33896 w4'
 name='wsp fa33896 w4'
 
@@ -24,12 +24,12 @@ name='wsp fa33896 astest'
 
 [custom-keybindings/custom12]
 binding='F6'
-command='/home/d51680/Config/linux/workspace.sh fa33896 test resu'
+command='/home/d51680/Config/linux/workspace.sh gevibus_main'
 name='F6'
 
 [custom-keybindings/custom13]
 binding='F7'
-command='/home/d51680/Config/linux/workspace.sh fa33896 test_debug'
+command='/home/d51680/Config/linux/workspace.sh gvb_cli'
 name='F7'
 
 [custom-keybindings/custom14]
@@ -102,10 +102,30 @@ binding='<Super>e'
 command='/home/d51680/Config/linux/todoist.sh'
 name='chrome todoist'
 
+[custom-keybindings/custom27]
+binding='<Super>t'
+command='/home/d51680/Config/linux/web_loc.sh'
+name='web loc'
+
+[custom-keybindings/custom28]
+binding='<Shift>F12'
+command='/home/d51680/Config/linux/workspace.sh tdg result'
+name='maj F12'
+
+[custom-keybindings/custom29]
+binding='<Control>F12'
+command='/home/d51680/Config/linux/workspace.sh tdg matrice'
+name='ctrl F12'
+
 [custom-keybindings/custom3]
 binding='<Control>space'
 command='/home/d51680/Config/linux/main_terminal.sh'
 name='terminal main'
+
+[custom-keybindings/custom30]
+binding='<Shift><Control>2'
+command='eog Images/mvp/otn_qz/'
+name='mvp maj+ctrl+2'
 
 [custom-keybindings/custom4]
 binding='<Shift><Control>space'

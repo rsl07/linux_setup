@@ -19,6 +19,8 @@ export SCOPE=(
 	$HOME/dev/codeaster/src/code_aster/Messages
 	$HOME/dev/codeaster/src/code_aster/Cata
 
+	$HOME/dev/smeca/salome-gevibus/gevibus/
+
 			 )
 
 # export EXCLUDE_SCOPE='.bin\|.pyc\|anaconda\|__pycache__\|charles\|.swp'
