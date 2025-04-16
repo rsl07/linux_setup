@@ -7,7 +7,7 @@ if [[ "$search" != "" ]]
 then
 	
     	#set up dual screen
-		terminator --geometry=960x1200+1920+0 -T "terminal"
+		terminator --geometry=960x1200+1000+0 -T "terminal"
 		
 
 

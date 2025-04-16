@@ -1,10 +1,12 @@
 #!/bin/bash
 
-if wmctrl -l | grep -q "aster terminal"
+if wmctrl -l | grep -q  "aster terminal (smeca --shell)"
 then
 
 	id_focus=$(xdotool getwindowfocus)
-	id_terminal=$(xdotool search --name "aster terminal")
+	id_terminal=$(xdotool search --name "smeca --shell")
+
+	echo $id_terminal
 	
 	if [ "$id_focus" -eq "$id_terminal" ];
 	then
@@ -17,13 +19,13 @@ then
 
 	    echo "aster terminal opened"
 	    
-	    wmctrl -a "aster terminal"
+	    wmctrl -a "aster terminal (smeca --shell)"
 	fi
 
 else 
     echo "aster terminal not opened"
     
-    terminator --geometry=960x1200+1800+0 -T "aster terminal" -p aster
+    terminator --geometry=960x1200+1000+0 -T "aster terminal (smeca --shell)" -p aster
 	
 
 fi

@@ -23,7 +23,7 @@ then
 else 
     echo "main terminal not opened"
     
-    terminator --geometry=960x1200+1440+0 -T "rsl main terminal"
+    terminator --geometry=960x1200+0+0 -T "rsl main terminal"
 	
 	#set up dual screen home
 	#terminator --geometry=960x1200+2880+0 -T "main terminal"

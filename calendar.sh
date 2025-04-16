@@ -38,11 +38,10 @@ else
 
 	echo "Not Launched, proceed to launch another app"
 
-	url1="https://outlook.office365.com/calendar/view/month"
-	url2="https://pgi-ssl.edf.fr/gta/OpenhrCore/logon.jsp?Domaine=null"
-	url3="https://www.notion.so/Ordo-5eaaab45039745c18e42e1a418a9e78f"
-	url4='https://calendar.notion.so/event/NzYyMjQ4ZjRiMWMwNDE0YjgyODQzOTBlZTk5MDkxYzkvZWUyMTY3ZTViYTdkYmUxMjI2ZDU2MjFmOTY2MTBkNjE2YTRlOWUyYjliNWNhM2NkZTk2MzMxY2ZkOTYwMWMxNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29tLzFlZTBjZjY4LTg3MDAtNDYxMi04MzhmLWEwNzUyNjhiMTZhZQ'
-
+	url1="https://gitlab.pleiade.edf.fr/rsl"
+	url2="https://gitlab.pleiade.edf.fr/salomemeca/modules/salome-gevibus"
+	url3="https://gitlab.pleiade.edf.fr/codeaster/"
+	url4='https://aster.retd.edf.fr/rex/issue33896'
 
 	google-chrome --new-window $url1 $url2 $url3 $url4 & disown
 

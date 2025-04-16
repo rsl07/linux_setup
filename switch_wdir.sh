@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-wdir="/home/d51680/Code/gvb_cli2/gvb_cli_HA"
+wdir="/home/d51680/dev/smeca/salome-gevibus/"
 
 
 id_wdir=`cat $HOME/.pid_main_wdir`

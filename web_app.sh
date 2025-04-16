@@ -40,12 +40,14 @@ else
 
 	url1="https://teams.microsoft.com/"
 	url2="https://outlook.office365.com/mail/"
-	url3="https://gitlab.pleiade.edf.fr/rsl"
-	url4="https://gitlab.pleiade.edf.fr/salomemeca/modules/salome-gevibus"
-	url5="https://gitlab.pleiade.edf.fr/codeaster/"
-	url6='https://aster.retd.edf.fr/rex/issue33896'
+	url3="https://outlook.office365.com/calendar/view/month"
+	url4='https://calendar.notion.so/event/NzYyMjQ4ZjRiMWMwNDE0YjgyODQzOTBlZTk5MDkxYzkvZWUyMTY3ZTViYTdkYmUxMjI2ZDU2MjFmOTY2MTBkNjE2YTRlOWUyYjliNWNhM2NkZTk2MzMxY2ZkOTYwMWMxNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29tLzFlZTBjZjY4LTg3MDAtNDYxMi04MzhmLWEwNzUyNjhiMTZhZQ'
+	url5="https://www.notion.so/Ordo-5eaaab45039745c18e42e1a418a9e78f"
+	url6="https://pgi-ssl.edf.fr/gta/OpenhrCore/logon.jsp?Domaine=null"
 
-	google-chrome --new-window $url1 $url2 $url3 $url4 $url5 $url6 $url7 & disown
+
+
+	google-chrome --new-window $url1 $url2 $url3 $url4 $url5 $url6 & disown
 
 	# bring chrome main to the front ----------------------------------------
 
