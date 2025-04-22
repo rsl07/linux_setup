@@ -30,7 +30,7 @@ else
 	
 	if [[ $N_scr == 3 ]]
 	then 
-    	terminator --geometry=960x200+500+600 -T "rsl launcher" -p "launcher"
+    	terminator --geometry=960x200+500+700 -T "rsl launcher" -p "launcher"
 
 
 	elif [[ $N_scr == 2 ]]

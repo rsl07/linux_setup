@@ -4,8 +4,8 @@ custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybin
 
 [custom-keybindings/custom0]
 binding='F1'
-command='/home/d51680/Config/linux/workspace.sh fa33896 DEFI'
-name='wsp fa33896 defi'
+command='/home/d51680/Config/linux/workspace.sh fa33896 w1'
+name='wsp fa33896 w1'
 
 [custom-keybindings/custom1]
 binding='F2'
@@ -13,14 +13,14 @@ command='/home/d51680/Config/linux/workspace.sh fa33896 w2'
 name='wsp fa33896 w2'
 
 [custom-keybindings/custom10]
-binding=''
-command='/home/d51680/Config/linux/workspace.sh fa33896 w4'
-name='wsp fa33896 w4'
+binding='F3'
+command='/home/d51680/Config/linux/workspace.sh fa33896 w3'
+name='wsp fa33896 w3'
 
 [custom-keybindings/custom11]
 binding='F4'
-command='/home/d51680/Config/linux/workspace.sh fa33896 ASTEST'
-name='wsp fa33896 astest'
+command='/home/d51680/Config/linux/workspace.sh fa33896 w4'
+name='wsp fa33896 w4'
 
 [custom-keybindings/custom12]
 binding='F6'
@@ -124,7 +124,7 @@ name='terminal main'
 
 [custom-keybindings/custom30]
 binding='<Shift><Control>2'
-command='eog Images/mvp/otn_qz/'
+command='eog /home/d51680/Projets/vault_edf/otnqz/mvp'
 name='mvp maj+ctrl+2'
 
 [custom-keybindings/custom31]

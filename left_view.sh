@@ -83,7 +83,7 @@ else
 
 	wmctrl -r :ACTIVE: -b add,maximized_vert 
 
-	wmctrl -r :ACTIVE: -e 0,1860,-1,1080,-1
+	wmctrl -r :ACTIVE: -e 0,900,-1,1080,-1
 
 
 
