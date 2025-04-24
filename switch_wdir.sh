@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-wdir="/home/d51680/Code/fa33896/"
+wdir="/home/d51680/Code/fa33896/valid_tdg"
 
 
 id_wdir=`cat $HOME/.pid_main_wdir`

@@ -1,25 +1,25 @@
 [/]
 control-center=['<Alt>r']
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom8/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom9/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom10/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom11/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom13/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom12/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom14/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom16/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom17/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom18/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom19/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom20/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom21/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom22/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom23/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom24/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom25/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom26/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom15/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom27/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom28/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom29/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom30/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom31/']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom8/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom9/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom10/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom11/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom13/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom12/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom14/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom16/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom17/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom18/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom19/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom20/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom21/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom22/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom23/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom24/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom25/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom26/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom15/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom27/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom28/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom29/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom30/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom31/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom32/']
 
 [custom-keybindings/custom0]
 binding='F1'
-command='/home/d51680/Config/linux/workspace.sh fa33896 w1'
+command='/home/d51680/Config/linux/workspace.sh fa33896 w1_'
 name='wsp fa33896 w1'
 
 [custom-keybindings/custom1]
 binding='F2'
-command='/home/d51680/Config/linux/workspace.sh fa33896 w2'
+command='/home/d51680/Config/linux/workspace.sh fa33896 w2_'
 name='wsp fa33896 w2'
 
 [custom-keybindings/custom10]
 binding='F3'
-command='/home/d51680/Config/linux/workspace.sh fa33896 w3'
+command='/home/d51680/Config/linux/workspace.sh fa33896 w3_'
 name='wsp fa33896 w3'
 
 [custom-keybindings/custom11]
 binding='F4'
-command='/home/d51680/Config/linux/workspace.sh fa33896 w4'
+command='/home/d51680/Config/linux/workspace.sh fa33896 w4_'
 name='wsp fa33896 w4'
 
 [custom-keybindings/custom12]
@@ -131,6 +131,11 @@ name='mvp maj+ctrl+2'
 binding='<Shift><Control><Alt>space'
 command='/home/d51680/Config/linux/terminal_smeca.sh'
 name='terminal smeca'
+
+[custom-keybindings/custom32]
+binding='<Shift>F4'
+command='/home/d51680/Config/linux/workspace.sh fa33896 w4s'
+name='wsp fa33896 w4'
 
 [custom-keybindings/custom4]
 binding='<Shift><Control>space'
