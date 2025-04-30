@@ -43,7 +43,7 @@ then
 	echo "NO MVP FILE FOR PATH PATTERN *${pattern//+/*}*/mvp"
 
 
-elif echo $file | grep -n / | grep -q 2:/
+elif echo $file | grep -n / | grep -q 2:/w
 then
 
 	echo "ERROR - TWO RESULTS OR MORE"

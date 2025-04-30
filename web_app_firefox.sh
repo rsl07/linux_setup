@@ -38,10 +38,21 @@ else
 
 	echo "Not Launched, proceed to launch another app"
 
-    url1="https://chatgpt.com/"
-	url2="https://calendar.notion.so/"
+	url1="https://drive.google.com/drive/my-drive"
+    url2="https://chatgpt.com/"
+    url3="https://keep.google.com/#label/work"
+    url4="https://docs.google.com/spreadsheets/d/1xs4z-0pM75A4Y1bEdmqoGgf3p9cLk3sQ/edit?gid=429176068#gid=429176068"
 
 	firefox --new-window $url1 & disown
+	sleep 0.5
+
+	firefox --new-tab	 $url2 & disown
+	sleep 0.2
+	
+	firefox --new-tab	 $url3 & disown
+	sleep 0.2
+
+	firefox --new-tab	 $url4 & disown
 
 	# bring firefox main to the front ----------------------------------------
 
