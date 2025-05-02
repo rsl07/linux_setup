@@ -38,7 +38,7 @@ else
 
 	echo "Not Launched, proceed to launch another app"
 
-	url="https://www.notion.so/Inbox-49c3230eb0f04db0bc83e103257265f2"
+	url="https://www.notion.so/Dev-5649a5cb169d445dba5876f674519780"
 
 	firefox --new-window $url & disown
 
