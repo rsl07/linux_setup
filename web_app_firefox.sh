@@ -38,21 +38,25 @@ else
 
 	echo "Not Launched, proceed to launch another app"
 
-	url1="https://drive.google.com/drive/my-drive"
-    url2="https://chatgpt.com/"
-    url3="https://keep.google.com/#label/work"
-    url4="https://docs.google.com/spreadsheets/d/1xs4z-0pM75A4Y1bEdmqoGgf3p9cLk3sQ/edit?gid=429176068#gid=429176068"
+	url_drv="https://drive.google.com/drive/my-drive"
+	url_agd="https://calendar.google.com/calendar/u/0/r?pli=1"
+    url_gpt="https://chatgpt.com/"
+    url_kee="https://keep.google.com/#label/work"
+    url_ord="https://docs.google.com/spreadsheets/d/1xs4z-0pM75A4Y1bEdmqoGgf3p9cLk3sQ/edit?gid=429176068#gid=429176068"
 
-	firefox --new-window $url1 & disown
+	firefox --new-window $url_drv & disown
 	sleep 0.5
 
-	firefox --new-tab	 $url2 & disown
-	sleep 0.2
-	
-	firefox --new-tab	 $url3 & disown
+	firefox --new-tab    $url_agd & disown
 	sleep 0.2
 
-	firefox --new-tab	 $url4 & disown
+	firefox --new-tab	 $url_gpt & disown
+	sleep 0.2
+	
+	firefox --new-tab	 $url_kee & disown
+	sleep 0.2
+
+	firefox --new-tab	 $url_ord & disown
 
 	# bring firefox main to the front ----------------------------------------
 

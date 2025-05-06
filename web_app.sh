@@ -40,7 +40,7 @@ else
 
 	url1="https://teams.microsoft.com/"
 	url2="https://outlook.office365.com/mail/"
-	url3="https://outlook.office365.com/calendar/view/month"
+	url3="https://outlook.office365.com/calendar/view/month"''
 	url6="https://pgi-ssl.edf.fr/gta/OpenhrCore/logon.jsp?Domaine=null"
 
 
